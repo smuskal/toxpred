@@ -290,10 +290,22 @@ those are filtered out rather than inherited from.
 
 ## Citing
 
-The method:
+This package and the work behind it:
+
+> Muskal SM, Kishore P, Tyagi P. Toxicity by Consortium Revisited: Structural Neighbors and
+> Cross-Family Reach. Eidogen-Sertanty, Inc., Oceanside, CA. Manuscript in
+> preparation, 2026. Software: https://github.com/smuskal/toxpred
+
+The method it returns to:
 
 > Muskal SM, Jha SK, Kishore MP, Tyagi P. A simple and readily integratable
 > approach to toxicity prediction. *J Chem Inf Comput Sci* 2003;43:1673-1678.
+
+The manuscript rebuilds that 2003 consortium method on public data twenty three
+years on, extends it unchanged to 28 further toxicity endpoints, and adds
+cross-family reach as a second signal computed from two-dimensional structure
+alone. Every figure in this README is taken from it. A preprint link will replace
+this note once it is posted.
 
 The data and the retrieval index carry their own citations, listed above.
 
