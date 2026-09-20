@@ -9,6 +9,9 @@ chemistry reaches in the crystallographic record.
 
 Nothing here needs a protein structure, a docking run or a conformer ensemble.
 
+Interactive predictions and a route to contribute data are at
+[toxpred.ai](https://toxpred.ai).
+
 ---
 
 ## What it does
