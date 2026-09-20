@@ -317,10 +317,16 @@ toxpred contribute --input mydata.csv --out contribution.json --format fingerpri
 `mydata.csv` needs a `smiles` column. Every other column is treated as an
 endpoint measurement. Two formats:
 
-| | what leaves your machine | carries |
-|---|---|---|
-| `counts` (default) | four integers per compound: protein families reached, proteins reached, indexed ligands matched, safety panel proteins reached | cross-family reach |
-| `fingerprint` | the folded Morgan fingerprint | both signals |
+| | what leaves your machine | carries | worth, mean AUC over 28 endpoints |
+|---|---|---|---|
+| `counts` (default) | four integers per compound: protein families reached, proteins reached, indexed ligands matched, safety panel proteins reached | cross-family reach | 0.740, against 0.724 for molecular size alone |
+| `fingerprint` | the folded Morgan fingerprint | both signals | 0.755, against 0.722 for molecular size alone |
+
+The four integers keep about half of what the full reverse screen is worth over
+molecular size, 0.016 of 0.033, and they do it on 23 of the 28 endpoints. Both
+rows add the contributed record to a model already holding heavy atom count,
+cLogP and molecular weight; the `counts` row coarsens those three, since an exact
+molecular weight is close to an identifier on its own.
 
 **Nothing is uploaded.** The command writes a file you read before sending it
 anywhere.
