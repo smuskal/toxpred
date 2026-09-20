@@ -27,25 +27,11 @@ from __future__ import annotations
 import collections
 from pathlib import Path
 
-# Two checkpoints, and they are not the same one.
-#
-# PAPER_MODEL is what the preprint's numbers were screened with. DEFAULT_MODEL
-# is the newest checkpoint published at pharmcast.ai/models, which is what this
-# package can actually download. While they differ, reach reports say so.
-#
-# Measured on all 34,198 compounds of the study set, the two agree on rank
-# (Spearman 0.95 on families reached, 0.97 on matches) and disagree per
-# compound (they give the same families count for 43 percent of compounds).
-# The study's conclusions hold either way: percent inhibiting CYP3A4 by
-# families reached runs 3.1, 7.9, 16.0, 23.0, 26.2, 51.0 on the paper's
-# checkpoint and 2.5, 8.1, 16.4, 22.7, 26.6, 51.0 on the published one, and
-# the reverse screen's gain over size is +0.036 against +0.033.
-#
-# When v11 is published, set DEFAULT_MODEL to PAPER_MODEL and delete this note.
-PAPER_MODEL = "pharmcast_scp_v11.pt"
-DEFAULT_MODEL = "pharmcast_scp_v10.pt"
+# The published PharmCast checkpoint. This is what the package downloads and
+# what every number in this repository was produced with. Change it here only.
+MODEL = "pharmcast_scp_v10.pt"
 MODELS_BASE = "https://pharmcast.ai/models"
-MODEL_URL = "%s/%s" % (MODELS_BASE, DEFAULT_MODEL)
+MODEL_URL = "%s/%s" % (MODELS_BASE, MODEL)
 SUMS_URL = "%s/SHA256SUMS" % MODELS_BASE
 
 

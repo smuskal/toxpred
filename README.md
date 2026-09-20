@@ -139,24 +139,10 @@ both, then works offline:
 | the PharmCast checkpoint | `pharmcast.ai/models` | its published `SHA256SUMS` |
 | the Reverse Screen index | `reversescreen.ai` download API | the per-file SHA-256 in its manifest |
 
-**Which checkpoint.** This package downloads `pharmcast_scp_v10.pt`, the newest
-one published at `pharmcast.ai/models`. The study behind this package was
-screened with `pharmcast_scp_v11.pt`, which is not published yet, so reach
-reports print the checkpoint they ran and say when it is not the study's.
-
-Measured on all 34,198 compounds of the study set, the two rank compounds the
-same way and count differently per compound: Spearman 0.953 on families
-reached and 0.973 on matches, with identical family counts for 43 percent of
-compounds. The findings are the same on either one. Percent inhibiting CYP3A4
-by families reached:
-
-    families reached      0    1-3    4-7   8-11  12-15    16+
-    v11, the study      3.1%   7.9%  16.0%  23.0%  26.2%  51.0%
-    v10, published      2.5%   8.1%  16.4%  22.7%  26.6%  51.0%
-
-and the reverse screen's gain in AUC over molecular size alone is +0.036 on the
-study's checkpoint against +0.033 on the published one, helping on 28 and 27 of
-28 endpoints.
+**Which checkpoint.** This package downloads `pharmcast_scp_v10.pt`, the
+checkpoint published at `pharmcast.ai/models`, and every reach number in this
+repository was produced with it. Reach reports print the checkpoint they ran
+beside the index version, so a number can always be traced to what made it.
 
 **When the index is fetched.** Not on a plain `toxpred fetch`, which pulls only
 the toxicity data. It is fetched by `toxpred fetch --with-reach`, and by the
@@ -191,8 +177,7 @@ rather than failing.
 #### Verified from a clean machine
 
 This path was tested from an empty virtual environment, installing only from
-the public repositories, and it reproduces the reach numbers above exactly,
-which are `pharmcast_scp_v10.pt` numbers:
+the public repositories, and it reproduces the numbers above exactly:
 
 ```bash
 python -m venv env && source env/bin/activate
