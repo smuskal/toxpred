@@ -116,26 +116,58 @@ clinical toxicity.
 This is measured with no access to how many assay panels a compound has been
 through, which is the confound that makes measured promiscuity hard to read.
 
-### This part needs PharmCast
+### This part runs locally on PharmCast
 
 The published index stores a pharmacophore fingerprint per ligand, so a query
-has to be fingerprinted the same way to be comparable. That is a separate open
-package:
+has to be fingerprinted the same way to be comparable. PharmCast does that, it
+is open, and it runs on your own machine. CPU only; the network is small enough
+that a GPU buys nothing.
 
-- **https://pharmcast.ai**
 - **https://github.com/smuskal/pharmcast**
+- **https://pharmcast.ai**
 
 ```bash
 pip install git+https://github.com/smuskal/pharmcast.git
-toxpred fetch --with-reach     # adds the Reverse Screen index, checksum verified
+toxpred score --smiles "CC(=O)Oc1ccccc1C(=O)O" --reach
 ```
 
-The index itself is published openly and rebuilt weekly at
-**https://reversescreen.ai**. `toxpred fetch --with-reach` pulls the current
-release through its download API and verifies every file against the published
-SHA-256.
+That is the whole setup. On first use toxpred pulls two more things and verifies
+both, then works offline:
 
-Everything else in this package works without PharmCast installed.
+| what | from | verified against |
+|---|---|---|
+| the PharmCast checkpoint | `pharmcast.ai/models` | its published `SHA256SUMS` |
+| the Reverse Screen index | `reversescreen.ai` download API | the per-file SHA-256 in its manifest |
+
+```
+CROSS-FAMILY REACH, index version 2026-09-20
+  query                                          matches   targets  best sim
+  CC(=O)Oc1ccccc1C(=O)O                               10        36     0.707
+```
+
+Every fingerprint operation is PharmCast's own: `read_pfp` for the index,
+`PharmCast.words_batch` for the queries, `pharmtan_matrix` for the comparison.
+None of the packing or bit ordering is reimplemented here, so the query and the
+index cannot drift apart.
+
+Group the targets into families your own way with `--family-map`, a two column
+accession and family file. Without one, reach is reported as distinct targets,
+which needs nothing but the index.
+
+Everything else in this package works without PharmCast installed, and says so
+rather than failing.
+
+#### Verified from a clean machine
+
+This path was tested from an empty virtual environment, installing only from
+the public repositories, and it reproduces the numbers above exactly:
+
+```bash
+python -m venv env && source env/bin/activate
+pip install git+https://github.com/smuskal/pharmcast.git
+pip install git+https://github.com/smuskal/toxpred.git
+toxpred score --smiles "CC(=O)Oc1ccccc1C(=O)O" --reach
+```
 
 ---
 
