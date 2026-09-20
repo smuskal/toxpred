@@ -11,7 +11,10 @@ requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Steven M. Muskal" }]
 keywords = ["toxicity", "cheminformatics", "read-across", "reverse screening"]
-dependencies = ["numpy>=1.26", "pandas>=2.0", "requests>=2.31", "tqdm>=4.66"]
+# rdkit>=2025.09 is a correctness floor: aromaticity perception changed
+# between 2024.3 and 2025.09, which moves every Morgan fingerprint.
+dependencies = ["numpy>=2.2", "pandas>=2.0", "requests>=2.31",
+                "tqdm>=4.66", "rdkit>=2025.09"]
 
 [project.optional-dependencies]
 reach = ["pharmcast @ git+https://github.com/smuskal/pharmcast.git"]

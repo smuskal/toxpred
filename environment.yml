@@ -6,9 +6,12 @@ name: toxpred
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - rdkit>=2024.03.1
-  - numpy>=1.26
+  # RDKit changed aromaticity perception between 2024.3 and 2025.09. That
+  # changes the Morgan block, so a build below 2025.09 reproduces none of the
+  # numbers in this repository. The floor is a correctness floor, not taste.
+  - python=3.10
+  - rdkit>=2025.09
+  - numpy>=2.2
   - pandas>=2.0
   - requests>=2.31
   - tqdm>=4.66
