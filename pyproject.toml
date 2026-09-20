@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toxpred"
+version = "0.1.0"
+description = "Toxicity prediction from structural neighbors and cross-family reach"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Steven M. Muskal" }]
+keywords = ["toxicity", "cheminformatics", "read-across", "reverse screening"]
+dependencies = ["numpy>=1.26", "pandas>=2.0", "requests>=2.31", "tqdm>=4.66"]
+
+[project.optional-dependencies]
+reach = ["pharmcast @ git+https://github.com/smuskal/pharmcast.git"]
+
+[project.urls]
+Homepage = "https://github.com/smuskal/toxpred"
+PharmCast = "https://pharmcast.ai"
+"Reverse Screen" = "https://reversescreen.ai"
+
+[project.scripts]
+toxpred = "toxpred.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

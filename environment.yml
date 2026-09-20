@@ -1,0 +1,17 @@
+# Self-contained environment. Creates an env named "toxpred" and touches nothing else.
+#   conda env create -f environment.yml
+#   conda activate toxpred
+#   pip install -e .
+name: toxpred
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdkit>=2024.03.1
+  - numpy>=1.26
+  - pandas>=2.0
+  - requests>=2.31
+  - tqdm>=4.66
+  - pip
+  - pip:
+      - -e .
