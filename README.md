@@ -291,9 +291,18 @@ those are filtered out rather than inherited from.
 ## Contributing data back
 
 The reference set is the model. It gets better when it gets bigger, and it only
-gets bigger if people add to it. A toxicity pool is filled with compounds that
-failed, which is usually chemistry an organisation has already written off, so
-the cost of contributing is lowest exactly where the value is highest.
+gets bigger if people add to it.
+
+**Toxicity findings are the least sensitive data a discovery organisation holds.**
+When a compound shows toxicity, the usual consequence is that it gets
+deprioritised or the program is terminated. Nobody prosecutes a composition of
+matter claim on chemistry they have stopped working on, and nobody advances it.
+So the data most worth pooling is the data an organisation has the least reason
+to protect, and a finding that cost one company a program can stop three others
+repeating it.
+
+That is the whole argument for a shared reference set, and it is why this package
+writes to the index as well as reading from it.
 
 ```bash
 toxpred contribute --input mydata.csv --out contribution.json
@@ -311,12 +320,13 @@ endpoint measurement. Two formats:
 **Nothing is uploaded.** The command writes a file you read before sending it
 anywhere.
 
-`counts` releases no structural descriptor, and no published method recovers a
-structure from it. `fingerprint` is the only format that carries both signals,
-but published work reverse-engineers a fraction of structures from folded
-fingerprints, around 11% of one company's proprietary compounds at 1024 bits
-([Le et al., *Chem Sci* 2020](https://doi.org/10.1039/D0SC03115A)), so it suits
-chemistry you have abandoned rather than a live series.
+`counts` releases no structural descriptor and no published method recovers a
+structure from it, so it is usable for chemistry still in play. `fingerprint`
+carries both signals and is the better contribution where the chemistry is
+settled, which for toxicity findings it usually is. For completeness: published
+work reverse-engineers a fraction of structures from folded fingerprints, around
+11% of one company's proprietary compounds at 1024 bits
+([Le et al., *Chem Sci* 2020](https://doi.org/10.1039/D0SC03115A)).
 
 ---
 

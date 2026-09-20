@@ -1,15 +1,17 @@
 """Turn a file of molecules and measurements into a record others can pool.
 
-A toxicity pool is filled with compounds that failed. That chemistry has usually
-been written off, so contributing it costs little, and it is the chemistry a
-shared reference set most needs. This writes the contribution in one of two
+Toxicity findings are the least sensitive data a discovery organisation holds.
+A compound that shows toxicity is usually deprioritised or its program
+terminated, so it is chemistry nobody will prosecute a claim on or advance, and
+a finding that cost one company a program can stop three others repeating it.
+That is the data a shared reference set most needs, and it is the data its owner
+has the least reason to hold back. This writes the contribution in one of two
 forms.
 
     fingerprint   the Morgan fingerprint and the endpoint values. Carries both
-                  signals: structural neighbours and cross-family reach. Note
-                  that published work recovers a fraction of structures from
-                  folded fingerprints, so use this for chemistry you have
-                  abandoned, not for a live series.
+                  signals, structural neighbours and cross-family reach, and is
+                  the better contribution once the chemistry is settled, which
+                  for a toxicity finding it usually is.
 
     counts        four integers per compound, computed locally against the
                   public Reverse Screen index: protein families reached,
@@ -108,16 +110,18 @@ def build(input_path, out_path, fmt="counts", home=None, cutoff=0.5,
         version, model = _counts(records, cache_dir(home), cutoff, family_map)
         meta.update(index_version=version, fingerprint=model,
                     similarity_cutoff=cutoff,
-                    note="four integers per compound; not a structural "
-                         "descriptor and no structure is included")
+                    note="four integers per compound. Not a structural "
+                         "descriptor and no structure is included, so this "
+                         "format is usable for chemistry still in play.")
         payload = records
     else:
         payload = _fingerprints(records, radius, nbits)
         meta.update(fingerprint="Morgan", radius=radius, bits=nbits,
                     n_compounds=len(payload),
-                    note="published work recovers a fraction of structures "
-                         "from folded fingerprints; intended for chemistry "
-                         "that has been abandoned")
+                    note="carries both signals. Published work recovers a "
+                         "fraction of structures from folded fingerprints, so "
+                         "this format suits settled chemistry, which a toxicity "
+                         "finding usually is.")
 
     endpoints = sorted({k for r in payload for k in r["endpoints"]})
     meta["endpoints"] = endpoints
