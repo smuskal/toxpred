@@ -76,6 +76,20 @@ class Consortium:
     def __len__(self):
         return len(self.reference)
 
+    @property
+    def fingerprint(self) -> str:
+        """A short hash of the reference set actually in use.
+
+        Quote it beside any number this produces. Two runs that agree on this
+        string were answering from the same reference set; two that do not were
+        not, however similar the rest of the setup looked.
+        """
+        import hashlib
+        h = hashlib.sha256()
+        for smi, val in zip(self.reference.smiles, self.values):
+            h.update(("%s\t%s\n" % (smi, val)).encode())
+        return h.hexdigest()[:12]
+
     def predict(self, smiles, cutoff: float = 0.5, min_members: int = 1,
                 keep_neighbors: int = 0):
         """-> list of Prediction, one per query, in order."""

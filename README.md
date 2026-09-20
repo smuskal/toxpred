@@ -184,6 +184,50 @@ endpoint there is little left to sort, and hepatotoxicity moves only from 50 in
 
 ---
 
+## Where the numbers come from
+
+**No data ships with this repository.** It is 2.3 MB of source and three
+figures. Everything else is fetched once, on `toxpred fetch`, into `~/.toxpred`
+and then used locally. After that first fetch, scoring makes no network call at
+all.
+
+In a consortium method the reference set *is* the model, so two people with
+different reference sets get different answers. That has to be visible rather
+than inferred, so every fetch is written down:
+
+```bash
+toxpred provenance
+```
+
+```
+catmos_reference
+   from    https://raw.githubusercontent.com/NIEHS/OPERA/master/OPERA_Data.zip
+   file    catmos_experimental.csv, 1,705,787 bytes
+   sha256  21db78b60b573681c276ec157d15a7ba382cba55dfcc9e39131a96a4496f3ddc
+   fetched 2026-09-20T16:29:42Z
+   note    11989 experimental rows of 50660 records
+```
+
+and every score prints the fingerprint of the reference set it actually used:
+
+```
+acute toxicity reference set: 11472 compounds, fingerprint 8216f99c4ee5
+```
+
+**Quote that fingerprint beside any number.** Two runs that agree on it were
+answering from the same reference set. Two that do not were not, however alike
+the rest of the setup looked.
+
+One source is worth knowing about. The Reverse Screen index and the PharmCast
+checkpoint are both released with published checksums, and toxpred verifies
+them and refuses a mismatch. TOXRIC is a fixed figshare file id, so it is
+stable. **CATMoS arrives inside `OPERA_Data.zip`, which tracks its repository's
+default branch and carries no upstream version tag**, so if that file is
+rebuilt your reference set can change. The manifest records the checksum of
+what you actually received, which is what makes the change detectable.
+
+---
+
 ## Data sources, all public
 
 | source | what | where |

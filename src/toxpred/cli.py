@@ -58,13 +58,36 @@ def cmd_endpoints(args):
         print("  %s" % name)
 
 
+def cmd_provenance(args):
+    import json
+    home = D.cache_dir(args.home)
+    man = D.read_manifest(home)
+    if not man:
+        print("nothing fetched yet; run `toxpred fetch`")
+        return
+    print("cache: %s\n" % home)
+    for key in sorted(man):
+        r = man[key]
+        print("%s" % key)
+        print("   from    %s" % r["url"])
+        print("   file    %s, %s bytes" % (r["file"], format(r["bytes"], ",")))
+        print("   sha256  %s" % r["sha256"])
+        print("   fetched %s" % r["fetched"])
+        if r.get("note"):
+            print("   note    %s" % r["note"])
+        print()
+    print(json.dumps({k: v["sha256"][:12] for k, v in man.items()},
+                     indent=1, sort_keys=True))
+
+
 def cmd_score(args):
     home = D.cache_dir(args.home)
     smiles = _read_smiles(args)
     print("cache: %s" % home)
 
     light = TrafficLight.from_catmos(D.fetch_catmos(home))
-    print("acute toxicity reference set: %d compounds\n" % len(light))
+    print("acute toxicity reference set: %d compounds, fingerprint %s\n"
+          % (len(light), light.fingerprint))
     calls = light.predict(smiles, cutoff=args.cutoff,
                           min_members=args.min_members,
                           keep_neighbors=args.show_neighbors)
@@ -146,6 +169,10 @@ def main(argv=None):
 
     e = sub.add_parser("endpoints", help="list the endpoints available")
     e.set_defaults(func=cmd_endpoints)
+
+    pv = sub.add_parser("provenance",
+                        help="what was downloaded, from where, and its checksum")
+    pv.set_defaults(func=cmd_provenance)
 
     s = sub.add_parser("score", help="score one or more molecules")
     s.add_argument("--smiles")

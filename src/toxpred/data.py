@@ -16,8 +16,11 @@ Everything lands under a cache directory you control, by default
 from __future__ import annotations
 
 import csv
+import hashlib
+import json
 import os
 import re
+import time
 import zipfile
 from pathlib import Path
 
@@ -42,6 +45,42 @@ def cache_dir(path: str | os.PathLike | None = None) -> Path:
     d = Path(path or os.environ.get("TOXPRED_HOME", Path.home() / ".toxpred"))
     d.mkdir(parents=True, exist_ok=True)
     return d
+
+
+MANIFEST = "MANIFEST.json"
+
+
+def sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as fh:
+        for chunk in iter(lambda: fh.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def record(home: Path, key: str, url: str, path: Path, note: str = "") -> dict:
+    """Write down exactly what was fetched, so a number can be traced to it.
+
+    The reference set IS the model here. Two people with different reference
+    sets will get different answers, and this is what lets them find out.
+    """
+    m = read_manifest(home)
+    m[key] = dict(url=url, file=path.name, bytes=path.stat().st_size,
+                  sha256=sha256(path), fetched=time.strftime("%Y-%m-%dT%H:%M:%SZ",
+                                                             time.gmtime()),
+                  note=note)
+    (home / MANIFEST).write_text(json.dumps(m, indent=1, sort_keys=True))
+    return m[key]
+
+
+def read_manifest(home: Path) -> dict:
+    p = Path(home) / MANIFEST
+    if p.exists():
+        try:
+            return json.loads(p.read_text())
+        except Exception:
+            return {}
+    return {}
 
 
 def _download(url: str, dest: Path, desc: str = "") -> Path:
@@ -91,6 +130,9 @@ def fetch_catmos(home: Path) -> Path:
     if out.exists():
         return out
     zpath = _download(OPERA_DATA, home / "OPERA_Data.zip", "OPERA data")
+    record(home, "catmos_source", OPERA_DATA, zpath,
+           "OPERA_Data.zip tracks the repository's default branch and is not "
+           "version tagged upstream; the checksum here is what you actually got")
     sdf = home / CATMOS_MEMBER
     if not sdf.exists():
         with zipfile.ZipFile(zpath) as z:
@@ -107,7 +149,10 @@ def fetch_catmos(home: Path) -> Path:
                 continue
             w.writerow([rec.get(k, "") for k in CATMOS_FIELDS])
             kept += 1
-    print("  CATMoS: %d records read, %d experimental rows kept" % (n, kept))
+    r = record(home, "catmos_reference", OPERA_DATA, out,
+               "%d experimental rows of %d records" % (kept, n))
+    print("  CATMoS: %d records read, %d experimental rows kept, sha256 %s"
+          % (n, kept, r["sha256"][:12]))
     return out
 
 
@@ -117,6 +162,9 @@ def fetch_toxric(home: Path) -> Path:
     if out.exists() and any(out.glob("**/*.csv")):
         return out
     z = _download(TOXRIC_30, home / "toxric_30_datasets.zip", "TOXRIC")
+    r = record(home, "toxric", TOXRIC_30, z,
+               "figshare file id is fixed, so this download is stable")
+    print("  TOXRIC: sha256 %s" % r["sha256"][:12])
     with zipfile.ZipFile(z) as zf:
         zf.extractall(out)
     return out
@@ -148,6 +196,9 @@ def fetch_reverse_screen(home: Path) -> dict:
         kind = ("index" if "index_" in name
                 else "sites" if "sites_" in name else "targets")
         got[kind] = p
+        record(home, "reverse_screen_" + kind, "%s/%s" % (REVERSE_SCREEN_API, name),
+               p, "published version %s, checksum verified against the manifest"
+               % man["version"])
     got["version"] = man["version"]
     print("  reverse screen index version %s, checksums verified"
           % man["version"])
