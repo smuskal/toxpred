@@ -67,8 +67,9 @@ always reported.
 ![Accuracy against coverage](docs/consortium_sweeps.png)
 
 Growing the reference set is the one move that does not cost anything. Panel C:
-from 171 to 8,599 reference compounds, accuracy holds between 85 and 92 percent
-while the share of compounds answered rises from 3 to 47 percent. **A bigger
+from 127 to 5,953 voting compounds, meaning those carrying a measured LD50,
+accuracy holds between 85.4 and 92.1 percent while the share of compounds
+answered rises from 3 to 47 percent. **A bigger
 shared reference set buys reach, not accuracy**, which is why pooling is worth
 something to everyone who contributes.
 
@@ -293,8 +294,8 @@ those are filtered out rather than inherited from.
 **The reference set is the model, and everyone who adds to it gets the benefit
 back immediately.** There is no training step. A compound you add is available
 to every query the next time one is run, including your own. Growing the
-reference set from 171 to 8,599 compounds took the share of compounds the method
-will answer for from 3% to 47%, with accuracy unchanged. Each contribution
+reference set from 127 to 5,953 voting compounds took the share of compounds the
+method will answer for from 3% to 47%, with accuracy unchanged. Each contribution
 widens the region of chemistry where anyone gets an answer instead of a decline.
 
 **Toxicity findings are also the least sensitive data a discovery organisation
