@@ -290,10 +290,15 @@ those are filtered out rather than inherited from.
 
 ## Contributing data back
 
-The reference set is the model. It gets better when it gets bigger, and it only
-gets bigger if people add to it.
+**The reference set is the model, and everyone who adds to it gets the benefit
+back immediately.** There is no training step. A compound you add is available
+to every query the next time one is run, including your own. Growing the
+reference set from 171 to 8,599 compounds took the share of compounds the method
+will answer for from 3% to 47%, with accuracy unchanged. Each contribution
+widens the region of chemistry where anyone gets an answer instead of a decline.
 
-**Toxicity findings are the least sensitive data a discovery organisation holds.**
+**Toxicity findings are also the least sensitive data a discovery organisation
+holds.**
 When a compound shows toxicity, the usual consequence is that it gets
 deprioritised or the program is terminated. Nobody prosecutes a composition of
 matter claim on chemistry they have stopped working on, and nobody advances it.
