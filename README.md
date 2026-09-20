@@ -292,9 +292,9 @@ those are filtered out rather than inherited from.
 
 This package and the work behind it:
 
-> Muskal SM, Jha SK, Kishore P, Tyagi P. Toxicity by Consortium Revisited: Structural
-> Neighbors and Cross-Family Reach. Manuscript in
-> preparation, 2026. Software: https://github.com/smuskal/toxpred
+> Muskal SM, Jha SK, Kishore P, Tyagi P. Toxicity by Consortium Revisited:
+> Structural Neighbors and Cross-Family Reach. Manuscript in preparation, 2026.
+> Software: https://github.com/smuskal/toxpred
 
 The method it returns to:
 
