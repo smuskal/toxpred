@@ -155,6 +155,21 @@ def _report_reach(home, smiles, args):
           "fingerprint:\n  https://reversescreen.ai and https://pharmcast.ai")
 
 
+def cmd_contribute(args):
+    from .contribute import build
+    meta = build(args.input, args.out, fmt=args.format, home=args.home,
+                 cutoff=args.reach_cutoff, family_map=args.family_map)
+    print("wrote %s" % meta["written_to"])
+    print("  format      %s" % meta["format"])
+    print("  compounds   %d" % meta["n_compounds"])
+    print("  endpoints   %s" % (", ".join(meta["endpoints"]) or "none found"))
+    if meta.get("index_version"):
+        print("  index       %s, fingerprint %s"
+              % (meta["index_version"], meta["fingerprint"]))
+    print("\n%s" % meta["note"])
+    print("\nNothing was uploaded. Read the file before you send it anywhere.")
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(
         prog="toxpred",
@@ -191,6 +206,22 @@ def main(argv=None):
     s.add_argument("--family-map", default=None,
                    help="optional accession,family file to group targets")
     s.set_defaults(func=cmd_score)
+
+    c = sub.add_parser("contribute",
+                       help="turn your molecules and measurements into a "
+                            "poolable record")
+    c.add_argument("--input", required=True,
+                   help="CSV or TSV with a smiles column; every other column "
+                        "is treated as an endpoint measurement")
+    c.add_argument("--out", required=True, help="file to write")
+    c.add_argument("--format", default="counts", choices=["counts",
+                                                          "fingerprint"],
+                   help="counts releases four integers and no structure; "
+                        "fingerprint carries both signals but published work "
+                        "recovers a fraction of structures from it")
+    c.add_argument("--reach-cutoff", type=float, default=0.5)
+    c.add_argument("--family-map", default=None)
+    c.set_defaults(func=cmd_contribute)
 
     a = ap.parse_args(argv)
     return a.func(a)

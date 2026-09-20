@@ -288,6 +288,38 @@ those are filtered out rather than inherited from.
 
 ---
 
+## Contributing data back
+
+The reference set is the model. It gets better when it gets bigger, and it only
+gets bigger if people add to it. A toxicity pool is filled with compounds that
+failed, which is usually chemistry an organisation has already written off, so
+the cost of contributing is lowest exactly where the value is highest.
+
+```bash
+toxpred contribute --input mydata.csv --out contribution.json
+toxpred contribute --input mydata.csv --out contribution.json --format fingerprint
+```
+
+`mydata.csv` needs a `smiles` column. Every other column is treated as an
+endpoint measurement. Two formats:
+
+| | what leaves your machine | carries |
+|---|---|---|
+| `counts` (default) | four integers per compound: protein families reached, proteins reached, indexed ligands matched, safety panel proteins reached | cross-family reach |
+| `fingerprint` | the folded Morgan fingerprint | both signals |
+
+**Nothing is uploaded.** The command writes a file you read before sending it
+anywhere.
+
+`counts` releases no structural descriptor, and no published method recovers a
+structure from it. `fingerprint` is the only format that carries both signals,
+but published work reverse-engineers a fraction of structures from folded
+fingerprints, around 11% of one company's proprietary compounds at 1024 bits
+([Le et al., *Chem Sci* 2020](https://doi.org/10.1039/D0SC03115A)), so it suits
+chemistry you have abandoned rather than a live series.
+
+---
+
 ## Citing
 
 This package and the work behind it:
