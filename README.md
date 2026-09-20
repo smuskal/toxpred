@@ -139,6 +139,18 @@ both, then works offline:
 | the PharmCast checkpoint | `pharmcast.ai/models` | its published `SHA256SUMS` |
 | the Reverse Screen index | `reversescreen.ai` download API | the per-file SHA-256 in its manifest |
 
+**When the index is fetched.** Not on a plain `toxpred fetch`, which pulls only
+the toxicity data. It is fetched by `toxpred fetch --with-reach`, and by the
+first `toxpred score --reach` if you skipped that. Either way the download API
+is asked for its manifest at the moment you run it, and the published filenames
+carry the release date, so **a new release is a new filename and is downloaded**.
+An older copy sitting in the cache is never used in its place. The version in
+use is printed on every reach report and written into `toxpred provenance`.
+
+Requests to both sites identify themselves as `toxpred/<version>` with a link
+back to this repository, so a run of this package is distinguishable in their
+logs from someone downloading the index by hand.
+
 ```
 CROSS-FAMILY REACH, index version 2026-09-20
   query                                          matches   targets  best sim
@@ -171,16 +183,26 @@ toxpred score --smiles "CC(=O)Oc1ccccc1C(=O)O" --reach
 
 ---
 
-## What it is good for, and what it is not
+## Triaging a library
 
-Used to triage a virtual library, the score sets aside a tenth of it. Out of
-every 100 compounds in that tenth, far more carry the liability than in the
-library it came from: **6 times more androgen receptor ligands, 3 times more
-CYP2D6 inhibitors, 3 times more clinically toxic compounds**.
+You have a virtual library. Nothing in it has been measured, and you want to
+know which compounds to look at hardest before spending anything on them.
 
-It earns its place on rare outcomes. Where half a library already carries an
-endpoint there is little left to sort, and hepatotoxicity moves only from 50 in
-100 to 75 in 100. A filter cannot enrich what is already everywhere.
+Score all of them, rank them by score, and take the worst tenth. That is the
+whole operation. The claim is about what ends up in that tenth.
+
+**How that claim was measured.** On compounds that had been measured, held out
+of the reference set so the method never saw their labels. Score them, take the
+worst tenth, then reveal the labels and count. Against the rate in the full set,
+the worst tenth holds **6 times as many androgen receptor ligands, 3 times as
+many CYP2D6 inhibitors, and 3 times as many clinically toxic compounds**. In
+use the labels are not there to reveal, which is the point; the enrichment
+measured on compounds with known answers is what you are relying on when you
+apply it to compounds without.
+
+The enrichment is largest where the outcome is rare, and that is where a filter
+is worth running. Hepatotoxicity is carried by half of its reference set, and
+the worst tenth holds 75 in 100 against 50 in 100 across the whole set.
 
 ---
 

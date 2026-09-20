@@ -59,7 +59,8 @@ def fetch_model(home: Path) -> Path:
 
     home = Path(home)
     dest = home / Path(MODEL_URL).name
-    sums = requests.get(SUMS_URL, timeout=120).text
+    from .data import _headers
+    sums = requests.get(SUMS_URL, timeout=120, headers=_headers()).text
     want = None
     for line in sums.splitlines():
         parts = line.split()
@@ -67,7 +68,8 @@ def fetch_model(home: Path) -> Path:
             want = parts[0]
             break
     if not dest.exists():
-        with requests.get(MODEL_URL, stream=True, timeout=1200) as r:
+        with requests.get(MODEL_URL, stream=True, timeout=1200,
+                          headers=_headers()) as r:
             r.raise_for_status()
             with open(dest, "wb") as fh:
                 for chunk in r.iter_content(1 << 20):

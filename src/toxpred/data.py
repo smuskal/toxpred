@@ -49,6 +49,17 @@ def cache_dir(path: str | os.PathLike | None = None) -> Path:
 
 MANIFEST = "MANIFEST.json"
 
+# Identify ourselves on every request. A publisher reading their logs can then
+# tell a toxpred run from a browser or a scraper, and see which version asked.
+USER_AGENT = "toxpred/%s (+https://github.com/smuskal/toxpred)"
+
+
+def _headers() -> dict:
+    from . import __version__
+    return {"User-Agent": USER_AGENT % __version__,
+            "X-Toxpred-Version": __version__,
+            "X-Toxpred-Purpose": "consortium-toxicity-prediction"}
+
 
 def sha256(path: Path) -> str:
     h = hashlib.sha256()
@@ -90,7 +101,8 @@ def _download(url: str, dest: Path, desc: str = "") -> Path:
     tmp = dest.with_suffix(dest.suffix + ".part")
     import sys as _sys
     show = _sys.stdout.isatty()
-    with requests.get(url, stream=True, timeout=600) as r:
+    with requests.get(url, stream=True, timeout=600,
+                      headers=_headers()) as r:
         r.raise_for_status()
         total = int(r.headers.get("content-length", 0))
         done = 0
@@ -171,13 +183,18 @@ def fetch_toxric(home: Path) -> Path:
 
 
 def reverse_screen_manifest() -> dict:
-    r = requests.get(REVERSE_SCREEN_API, timeout=120)
+    r = requests.get(REVERSE_SCREEN_API, timeout=120, headers=_headers())
     r.raise_for_status()
     return r.json()
 
 
 def fetch_reverse_screen(home: Path) -> dict:
-    """The published index, its ligand and site tables, checksum verified."""
+    """The CURRENT published index, its site and target tables, checksum verified.
+
+    The manifest is read fresh on every call and the published filenames carry
+    the release date, so a new release is a new filename and is downloaded. An
+    older copy already in the cache is never silently reused in its place.
+    """
     import hashlib
     man = reverse_screen_manifest()
     want = {}
