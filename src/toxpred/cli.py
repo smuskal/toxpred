@@ -138,7 +138,13 @@ def _report_reach(home, smiles, args):
     except PharmCastMissing as e:
         print("\nCROSS-FAMILY REACH: skipped\n%s" % e)
         return
-    print("\nCROSS-FAMILY REACH, index version %s" % files["version"])
+    from .reach import PAPER_MODEL
+    print("\nCROSS-FAMILY REACH, index version %s, fingerprint %s"
+          % (files["version"], model.name))
+    if model.name != PAPER_MODEL:
+        print("  Note: the study's numbers were screened with %s, which is not "
+              "published yet.\n  Rankings agree closely; per compound counts "
+              "differ." % PAPER_MODEL)
     head = "  %-44s %9s %9s %9s" % ("query", "matches", "targets", "best sim")
     if fam:
         head += " %9s" % "families"

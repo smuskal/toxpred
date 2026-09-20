@@ -27,8 +27,26 @@ from __future__ import annotations
 import collections
 from pathlib import Path
 
-MODEL_URL = "https://pharmcast.ai/models/pharmcast_scp_v10.pt"
-SUMS_URL = "https://pharmcast.ai/models/SHA256SUMS"
+# Two checkpoints, and they are not the same one.
+#
+# PAPER_MODEL is what the preprint's numbers were screened with. DEFAULT_MODEL
+# is the newest checkpoint published at pharmcast.ai/models, which is what this
+# package can actually download. While they differ, reach reports say so.
+#
+# Measured on all 34,198 compounds of the study set, the two agree on rank
+# (Spearman 0.95 on families reached, 0.97 on matches) and disagree per
+# compound (they give the same families count for 43 percent of compounds).
+# The study's conclusions hold either way: percent inhibiting CYP3A4 by
+# families reached runs 3.1, 7.9, 16.0, 23.0, 26.2, 51.0 on the paper's
+# checkpoint and 2.5, 8.1, 16.4, 22.7, 26.6, 51.0 on the published one, and
+# the reverse screen's gain over size is +0.036 against +0.033.
+#
+# When v11 is published, set DEFAULT_MODEL to PAPER_MODEL and delete this note.
+PAPER_MODEL = "pharmcast_scp_v11.pt"
+DEFAULT_MODEL = "pharmcast_scp_v10.pt"
+MODELS_BASE = "https://pharmcast.ai/models"
+MODEL_URL = "%s/%s" % (MODELS_BASE, DEFAULT_MODEL)
+SUMS_URL = "%s/SHA256SUMS" % MODELS_BASE
 
 
 class PharmCastMissing(RuntimeError):
@@ -62,11 +80,20 @@ def fetch_model(home: Path) -> Path:
     from .data import _headers
     sums = requests.get(SUMS_URL, timeout=120, headers=_headers()).text
     want = None
+    published = []
     for line in sums.splitlines():
         parts = line.split()
-        if len(parts) >= 2 and parts[-1].lstrip("*./").endswith(dest.name):
+        if len(parts) < 2 or line.lstrip().startswith("#"):
+            continue
+        name = parts[-1].lstrip("*./")
+        published.append(name)
+        if name.endswith(dest.name):
             want = parts[0]
-            break
+    if want is None and not dest.exists():
+        raise RuntimeError(
+            "%s is not listed in %s, so it cannot be verified.\n"
+            "Published right now: %s"
+            % (dest.name, SUMS_URL, ", ".join(published) or "nothing"))
     if not dest.exists():
         with requests.get(MODEL_URL, stream=True, timeout=1200,
                           headers=_headers()) as r:
