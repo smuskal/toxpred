@@ -94,9 +94,28 @@ toxpred score --smiles "..." --endpoints "CYP450_CYP3A4" "Hepatotoxicity_Hepatot
 
 ![Twenty-eight endpoints](docs/endpoints.png)
 
-Two of them, the estrogen receptor assay and cardiotoxicity at 30 micromolar,
-are so imbalanced that inheriting labels cannot beat always answering the same
-way. They are shown that way rather than left out.
+**Panel A** is the same trade as above, one gray line per endpoint. Accuracy
+gains are mostly spent by a required similarity of about 0.6; the share of
+compounds answered for keeps falling to 8.6% at 0.90 and never levels off, so
+the axis runs to zero rather than cutting that curve off.
+
+**Panel B** gives two rates per endpoint at the strictest match that still
+answers one compound in five: of the compounds measured toxic, the share called
+toxic, and of those measured harmless, the share called harmless. Endpoints are
+ordered by the mean of the two.
+
+Those two rates are reported instead of a single percent correct on purpose.
+These labels are lopsided, 87 to 13 on CYP2D6, and that ratio reflects which
+compounds were tested and reported rather than anything about chemistry. A
+percent correct computed on such data mostly records the lopsidedness, and a
+method that answered the same way every time would score well on it. The catch
+and pass rates do not move with the ratio, so they say what the method does.
+
+Read together they show where it is weak and in which direction. On the estrogen
+receptor assay it calls 36.8% of measured actives active while correctly passing
+93.2% of inactives: conservative, missing actives rather than raising false
+alarms. Cardiotoxicity at 30 micromolar runs the other way, 83.9% of actives
+caught and 55.0% of inactives passed.
 
 ---
 
