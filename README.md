@@ -99,25 +99,22 @@ gains are mostly spent by a required similarity of about 0.6; the share of
 compounds answered for keeps falling to 8.6% at 0.90 and never levels off, so
 the axis runs to zero rather than cutting that curve off.
 
-**Panel B** places each endpoint by what it lets through against what it catches,
-at the strictest match that still answers one compound in five, colored by
-Matthews correlation. Position tells you which way an endpoint fails. The lower
-right is a conservative call, missing actives while raising few false alarms;
-the upper left is the reverse. Open circles carry 20 or fewer measured toxic
-compounds and are too thin to rank.
+**Panel B** ranks the 28 endpoints by the Matthews correlation between the call
+and the measurement, with the share of measured toxic compounds caught and the
+share of measured harmless compounds passed printed beside each bar. Gray bars
+rest on 20 or fewer measured toxic compounds and are too thin to rank.
 
 Percent correct is not reported, and no majority-class comparison is drawn. These
 labels are lopsided, 87 to 13 on CYP2D6, and that ratio records which compounds
 someone chose to test and publish rather than anything about chemistry. Matthews
-correlation uses all four cells of the table, so no answering strategy inflates
-it, and its zero means no relationship rather than a rate that happens to match
-the reporting.
+correlation draws on all four cells of the table, so no answering strategy
+inflates it, and its zero means no relationship rather than a rate that happens
+to match the reporting.
 
-Read it for where the tool earns its place. Eye corrosion and CYP1A2 sit in the
-top right at 1.000 and 0.909. The estrogen receptor assay sits low and right at
-0.346: it calls 36.8% of measured actives active while passing 93.2% of
-inactives, which is conservative rather than wrong, and worth knowing before you
-rely on it.
+Read it for where the tool earns its place. Eye corrosion and CYP1A2 sit at 1.00
+and 0.91. The estrogen receptor assay sits at 0.35: it catches 37% of measured
+actives while passing 93% of inactives, which is conservative rather than wrong,
+and worth knowing before you rely on it.
 
 ---
 
