@@ -130,7 +130,8 @@ toxic.
 
 ![Reaching more families](docs/breadth.png)
 
-A compound whose matches reach no family inhibits CYP3A4 3 percent of the time.
+A compound whose matches reach no family inhibits CYP3A4 2.5 percent of the
+time.
 One reaching sixteen or more inhibits it 51 percent of the time. The same
 ordering holds for the other cytochromes, for nuclear receptor binding and for
 clinical toxicity.
@@ -298,15 +299,16 @@ those are filtered out rather than inherited from.
 back immediately.** There is no training step. A compound you add is available
 to every query the next time one is run, including your own. Growing the
 reference set from 127 to 5,953 voting compounds took the share of compounds the
-method will answer for from 3% to 47%, with accuracy unchanged. Each contribution
+method will answer for from 3.3% to 46.5%, with accuracy rising from 85.4% to
+92.1%. Each contribution
 widens the region of chemistry where anyone gets an answer instead of a decline.
 
-**Toxicity findings are also the least sensitive data a discovery organisation
+**Toxicity findings are also the least sensitive data a discovery organization
 holds.**
 When a compound shows toxicity, the usual consequence is that it gets
-deprioritised or the program is terminated. Nobody prosecutes a composition of
+deprioritized or the program is terminated. Nobody prosecutes a composition of
 matter claim on chemistry they have stopped working on, and nobody advances it.
-So the data most worth pooling is the data an organisation has the least reason
+So the data most worth pooling is the data an organization has the least reason
 to protect, and a finding that cost one company a program can stop three others
 repeating it.
 
@@ -349,7 +351,7 @@ work reverse-engineers a fraction of structures from folded fingerprints, around
 
 This package and the work behind it:
 
-> Muskal SM, Jha SK, Kishore P, Tyagi P. Toxicity by Consortium Revisited:
+> Muskal SM, Jha SK, Kishore MP, Tyagi P. Toxicity by Consortium Revisited:
 > Structural Neighbors and Cross-Family Reach. Manuscript in preparation, 2026.
 > Software: https://github.com/smuskal/toxpred
 
@@ -357,6 +359,7 @@ The method it returns to:
 
 > Muskal SM, Jha SK, Kishore MP, Tyagi P. A simple and readily integratable
 > approach to toxicity prediction. *J Chem Inf Comput Sci* 2003;43:1673-1678.
+> [doi:10.1021/ci034080c](https://doi.org/10.1021/ci034080c)
 
 The manuscript rebuilds that 2003 consortium method on public data twenty three
 years on, extends it unchanged to 28 further toxicity endpoints, and adds
