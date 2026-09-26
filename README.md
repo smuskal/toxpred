@@ -106,7 +106,7 @@ the axis runs to zero rather than cutting that curve off.
 **Panel B** ranks the 28 endpoints by the Matthews correlation between the call
 and the measurement, with the share of measured toxic compounds caught and the
 share of measured harmless compounds passed printed beside each bar. Gray bars
-rest on 20 or fewer measured toxic compounds and are too thin to rank.
+rest on fewer than 20 measured toxic compounds and are too thin to rank.
 
 Percent correct is not reported, and no majority-class comparison is drawn. These
 labels are lopsided, 87 to 13 on CYP2D6, and that ratio records which compounds
