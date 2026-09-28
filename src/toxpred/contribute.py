@@ -20,8 +20,11 @@ forms.
                   method recovers a structure from it. Carries the cross-family
                   signal only.
 
-Nothing is uploaded. The output is a file you can inspect before you send it
-anywhere.
+Building a record uploads nothing: the output is a file you can inspect first.
+When you are ready, `toxpred contribute --submit` sends that same file to the
+pool at toxpred.ai and prints the receipt it comes back with. A submitted record
+changes no prediction until a reviewer moves it into the reference set, so
+scoring keeps answering from the published set either way.
 """
 from __future__ import annotations
 
@@ -62,6 +65,13 @@ def _read_input(path):
     return out
 
 
+# Matches run to 500 and are the most identifying of the four counts, so they
+# are released as a band rather than a number. This is the same ceiling the
+# measurement of what the counts are worth applied, so a released record is the
+# record that was measured rather than a more revealing one.
+MATCH_CEILING = 40
+
+
 def _counts(records, home, cutoff=0.5, family_map=None):
     """Screen locally and keep only the four integers."""
     from . import data as D
@@ -76,7 +86,8 @@ def _counts(records, home, cutoff=0.5, family_map=None):
         rec["counts"] = {
             "families_reached": got.get("families_reached"),
             "proteins_reached": got["targets_reached"],
-            "matches": got["matches"],
+            "matches": min(int(got["matches"]), MATCH_CEILING),
+            "antitargets_reached": got["antitargets_reached"],
         }
         rec.pop("smiles")
     return files["version"], model.name
@@ -129,3 +140,34 @@ def build(input_path, out_path, fmt="counts", home=None, cutoff=0.5,
     out.write_text(json.dumps(dict(meta=meta, records=payload), indent=1))
     meta["written_to"] = str(out)
     return meta
+
+
+# The pool this writes to. One constant, so a fork pointing somewhere else
+# changes it in one place.
+SUBMIT_URL = "https://toxpred.ai/api/contribute/submit"
+
+
+def submit(record_path, email, url=SUBMIT_URL, timeout=300):
+    """Send a built record to the pool. -> the server's reply as a dict.
+
+    The file is sent exactly as it was written, so what lands in the queue is
+    what you inspected. An address is required because a contribution that
+    cannot be asked about cannot be reviewed, and it is the address the receipt
+    and any question come back to.
+    """
+    import requests
+
+    doc = json.loads(Path(record_path).read_text())
+    if not isinstance(doc, dict) or "records" not in doc:
+        raise SystemExit("%s is not a contribution file built by toxpred "
+                         "contribute" % record_path)
+    r = requests.post(url, json={"email": email, "record": doc}, timeout=timeout)
+    try:
+        reply = r.json()
+    except ValueError:
+        raise SystemExit("the pool replied %d and not JSON: %s"
+                         % (r.status_code, r.text[:300]))
+    if not reply.get("ok"):
+        raise SystemExit("the pool declined the contribution: %s"
+                         % (reply.get("error") or r.status_code))
+    return reply

@@ -75,7 +75,10 @@ def fetch_model(home: Path) -> Path:
         published.append(name)
         if name.endswith(dest.name):
             want = parts[0]
-    if want is None and not dest.exists():
+    # An unlisted checkpoint is refused whether or not a copy is already
+    # cached. Using a cached file that cannot be checked is the one outcome
+    # worse than failing, because the run would look verified and not be.
+    if want is None:
         raise RuntimeError(
             "%s is not listed in %s, so it cannot be verified.\n"
             "Published right now: %s"
@@ -111,6 +114,40 @@ def targets_by_component(sites_tsv) -> dict:
     return by_comp
 
 
+def _data_file(name) -> Path:
+    return Path(__file__).resolve().parent / "data_files" / name
+
+
+def default_family_map() -> dict:
+    """The level 2 family of each accession, as the paper counted them.
+
+    This ships with the package, so families reached works with nothing
+    supplied. It is the grouping of the released cross-family comparator at
+    familyfoundationmodel.com, with a target carrying two families appearing
+    twice and counting as two. Pass --family-map to group them your own way.
+    """
+    return read_family_map(_data_file("families.tsv"))
+
+
+def default_antitargets() -> dict:
+    """The 47 safety pharmacology antitargets, accession -> name.
+
+    antitargets_hit counts how many of these the reached proteins include. It
+    is the fourth of the four integers a contributor can release in place of a
+    structure, and this is the list every number in the paper used.
+    """
+    out = {}
+    with open(_data_file("antitargets.tsv")) as fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = line.split("\t")
+            if len(parts) >= 2:
+                out[parts[0].strip()] = parts[1].strip()
+    return out
+
+
 def read_family_map(path) -> dict:
     """Optional: a two column file, accession then family.
 
@@ -131,13 +168,24 @@ def read_family_map(path) -> dict:
 
 
 def reach(smiles, index_pfp, sites_tsv, model_path, family_map=None,
-          cutoff: float = 0.5, block: int = 256):
+          cutoff: float = 0.5, block: int = 256, top_k: int = 500,
+          antitargets=None):
     """-> one dict per query: how far its chemistry reaches.
 
-    Targets reached needs nothing but the published index. Families reached
-    needs a mapping from accession to family, which you supply, because how
-    proteins are grouped into families is a choice rather than a fact.
+    The operating point is the published one: the top_k most similar indexed
+    ligands are taken first and then floored at cutoff, which is the order the
+    paper's screen used. Raising top_k past 500 changes the count.
+
+    Families reached uses the shipped grouping unless family_map is given, so
+    the count is a count of families by default. Pass family_map=False to count
+    only proteins. antitargets defaults to the shipped 47.
     """
+    if family_map is None:
+        family_map = default_family_map()
+    elif family_map is False:
+        family_map = None
+    if antitargets is None:
+        antitargets = default_antitargets()
     pc = _pharmcast()
     names, words = [], []
     for name, w in pc.read_pfp(index_pfp):
@@ -154,14 +202,20 @@ def reach(smiles, index_pfp, sites_tsv, model_path, family_map=None,
         qwords = model.words_batch(chunk)
         T = pc.pharmtan_matrix(qwords, words)
         for i in range(len(chunk)):
-            hit = [j for j, v in enumerate(T[i]) if v >= cutoff]
+            # The published order: most similar first, capped at top_k, then
+            # floored at cutoff. Flooring first and capping after would take a
+            # different 500 on a compound with more than 500 matches.
+            row = T[i]
+            order = sorted(range(len(row)), key=lambda j: -row[j])[:top_k]
+            hit = [j for j in order if row[j] >= cutoff]
             reached = set()
             for j in hit:
                 reached.update(comp_tgts[j])
             rec = dict(smiles=chunk[i],
                        targets_reached=len(reached),
                        matches=len(hit),
-                       best_similarity=float(max(T[i])) if len(T[i]) else 0.0)
+                       antitargets_reached=len(reached & set(antitargets)),
+                       best_similarity=float(max(row)) if len(row) else 0.0)
             if family_map:
                 fams = {f for a in reached for f in family_map.get(a, ())}
                 rec["families_reached"] = len(fams)

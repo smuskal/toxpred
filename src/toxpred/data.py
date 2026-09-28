@@ -182,21 +182,65 @@ def fetch_toxric(home: Path) -> Path:
     return out
 
 
-def reverse_screen_manifest() -> dict:
-    r = requests.get(REVERSE_SCREEN_API, timeout=120, headers=_headers())
+def reverse_screen_manifest(version: str = None) -> dict:
+    """The publisher's manifest, for a named release when it serves one."""
+    url = REVERSE_SCREEN_API
+    if version:
+        url = "%s?version=%s" % (url, version)
+    r = requests.get(url, timeout=120, headers=_headers())
     r.raise_for_status()
     return r.json()
 
 
-def fetch_reverse_screen(home: Path) -> dict:
-    """The CURRENT published index, its site and target tables, checksum verified.
+def _cached_release(home: Path, version: str):
+    """A release already downloaded, found by the date in its filenames.
 
-    The manifest is read fresh on every call and the published filenames carry
-    the release date, so a new release is a new filename and is downloaded. An
-    older copy already in the cache is never silently reused in its place.
+    The files were checksum verified when they were fetched, and the record
+    written then is what `toxpred provenance` prints, so a cached release
+    carries its provenance rather than being taken on trust.
+    """
+    home = Path(home)
+    got = {}
+    for kind in ("index", "sites", "targets"):
+        hits = sorted(home.glob("reverse_screen_%s_%s.*" % (kind, version)))
+        if not hits:
+            return None
+        got[kind] = hits[0]
+    got["version"] = version
+    return got
+
+
+# The index release every number in the paper was produced with. A run that
+# pins this reproduces the published screen; a run that pins nothing takes the
+# current release, which is the right default for scoring new chemistry.
+PAPER_INDEX_VERSION = "2026-09-20"
+
+
+def fetch_reverse_screen(home: Path, version: str = None) -> dict:
+    """The published index, its site and target tables, checksum verified.
+
+    Without a version this takes the CURRENT release: the manifest is read
+    fresh on every call and the published filenames carry the release date, so
+    a new release is a new filename and is downloaded, and an older copy in the
+    cache is never silently reused in its place.
+
+    With a version it takes that release instead, which is how the paper's
+    screen is reproduced. A release already in the cache is used; otherwise the
+    publisher is asked for it, and if it is no longer served the failure names
+    what is published rather than quietly substituting a different index.
     """
     import hashlib
-    man = reverse_screen_manifest()
+    man = reverse_screen_manifest(version)
+    if version and man["version"] != version:
+        cached = _cached_release(home, version)
+        if cached:
+            print("  reverse screen index version %s, from the cache" % version)
+            return cached
+        raise RuntimeError(
+            "index release %s is not served by %s, which is publishing %s "
+            "right now, and no copy of it is in %s.\nPass the release that is "
+            "published, or put the %s files in the cache directory."
+            % (version, REVERSE_SCREEN_API, man["version"], home, version))
     want = {}
     for f in man["files"]:
         if any(k in f["name"] for k in ("index_", "sites_", "targets_")):

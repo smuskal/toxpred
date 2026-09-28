@@ -4,8 +4,13 @@ __pycache__/
 build/
 dist/
 .venv/
-data/
+/data/
 *.sdf
 *.gz
 *.zip
 .DS_Store
+figures/out/
+
+# The measured result files the figures read are part of the
+# repository. The rule above is for a fetched data cache at the root.
+!figures/data/

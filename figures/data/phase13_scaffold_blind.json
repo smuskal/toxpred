@@ -1,0 +1,3226 @@
+{
+ "queries": 34198,
+ "share_scaffold_with_index": 12052,
+ "percent_sharing_a_scaffold": 35.2,
+ "percent_with_a_match_at_or_above_0.70": 47.0,
+ "effect_of_blinding": {
+  "scaffold blind": {
+   "percent_of_compounds_changed": 4.3,
+   "mean_change_in_families": 0.061
+  },
+  "analogue blind": {
+   "percent_of_compounds_changed": 12.0,
+   "mean_change_in_families": 0.186
+  }
+ },
+ "endpoints": [
+  {
+   "endpoint": "Ames Mutagenicity",
+   "n": 6875,
+   "percent_toxic_overall": 55.1,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2030,
+      "percent_toxic": 52.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1758,
+      "percent_toxic": 56.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 833,
+      "percent_toxic": 66.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 655,
+      "percent_toxic": 58.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 548,
+      "percent_toxic": 54.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1051,
+      "percent_toxic": 47.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2140,
+      "percent_toxic": 51.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1666,
+      "percent_toxic": 58.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 838,
+      "percent_toxic": 65.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 653,
+      "percent_toxic": 59.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 535,
+      "percent_toxic": 54.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1043,
+      "percent_toxic": 47.9
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2139,
+      "percent_toxic": 53.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1679,
+      "percent_toxic": 55.3
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 844,
+      "percent_toxic": 65.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 636,
+      "percent_toxic": 59.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 544,
+      "percent_toxic": 54.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1033,
+      "percent_toxic": 48.3
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "CYP1A2",
+   "n": 9212,
+   "percent_toxic_overall": 38.2,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 670,
+      "percent_toxic": 10.9
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 859,
+      "percent_toxic": 28.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 947,
+      "percent_toxic": 39.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 965,
+      "percent_toxic": 42.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1080,
+      "percent_toxic": 42.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 4691,
+      "percent_toxic": 41.8
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 706,
+      "percent_toxic": 10.8
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 834,
+      "percent_toxic": 29.3
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 953,
+      "percent_toxic": 39.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 960,
+      "percent_toxic": 42.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1080,
+      "percent_toxic": 42.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 4679,
+      "percent_toxic": 41.9
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 688,
+      "percent_toxic": 11.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 859,
+      "percent_toxic": 28.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 964,
+      "percent_toxic": 40.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 957,
+      "percent_toxic": 42.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1067,
+      "percent_toxic": 42.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 4677,
+      "percent_toxic": 41.9
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "CYP2C19",
+   "n": 10095,
+   "percent_toxic_overall": 44.2,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 718,
+      "percent_toxic": 7.1
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 914,
+      "percent_toxic": 17.6
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 984,
+      "percent_toxic": 28.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1040,
+      "percent_toxic": 33.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1172,
+      "percent_toxic": 40.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5267,
+      "percent_toxic": 59.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 753,
+      "percent_toxic": 7.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 890,
+      "percent_toxic": 18.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 986,
+      "percent_toxic": 28.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1039,
+      "percent_toxic": 33.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1173,
+      "percent_toxic": 39.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5254,
+      "percent_toxic": 60.0
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 739,
+      "percent_toxic": 7.6
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 912,
+      "percent_toxic": 17.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 995,
+      "percent_toxic": 28.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1037,
+      "percent_toxic": 33.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1157,
+      "percent_toxic": 40.4
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5255,
+      "percent_toxic": 59.9
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "CYP2C9",
+   "n": 9405,
+   "percent_toxic_overall": 27.1,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 750,
+      "percent_toxic": 2.7
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 968,
+      "percent_toxic": 7.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 986,
+      "percent_toxic": 11.2
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1021,
+      "percent_toxic": 13.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1101,
+      "percent_toxic": 20.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 4579,
+      "percent_toxic": 43.4
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 790,
+      "percent_toxic": 2.7
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 942,
+      "percent_toxic": 8.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 990,
+      "percent_toxic": 11.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1017,
+      "percent_toxic": 13.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1101,
+      "percent_toxic": 20.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 4565,
+      "percent_toxic": 43.5
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 771,
+      "percent_toxic": 3.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 968,
+      "percent_toxic": 7.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 1001,
+      "percent_toxic": 11.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1017,
+      "percent_toxic": 13.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1089,
+      "percent_toxic": 20.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 4559,
+      "percent_toxic": 43.5
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "CYP2D6",
+   "n": 10201,
+   "percent_toxic_overall": 13.4,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 740,
+      "percent_toxic": 5.9
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 932,
+      "percent_toxic": 10.7
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 983,
+      "percent_toxic": 16.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 998,
+      "percent_toxic": 15.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1216,
+      "percent_toxic": 14.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5332,
+      "percent_toxic": 13.6
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 780,
+      "percent_toxic": 6.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 902,
+      "percent_toxic": 10.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 989,
+      "percent_toxic": 16.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 996,
+      "percent_toxic": 15.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1215,
+      "percent_toxic": 14.7
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5319,
+      "percent_toxic": 13.6
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 758,
+      "percent_toxic": 6.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 934,
+      "percent_toxic": 11.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 998,
+      "percent_toxic": 16.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 998,
+      "percent_toxic": 16.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1198,
+      "percent_toxic": 14.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5315,
+      "percent_toxic": 13.6
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "CYP3A4",
+   "n": 10887,
+   "percent_toxic_overall": 31.7,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1212,
+      "percent_toxic": 2.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1338,
+      "percent_toxic": 8.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 1036,
+      "percent_toxic": 16.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1067,
+      "percent_toxic": 22.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1125,
+      "percent_toxic": 26.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5109,
+      "percent_toxic": 51.0
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1291,
+      "percent_toxic": 2.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1274,
+      "percent_toxic": 8.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 1046,
+      "percent_toxic": 16.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1074,
+      "percent_toxic": 22.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1113,
+      "percent_toxic": 27.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5089,
+      "percent_toxic": 51.2
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1242,
+      "percent_toxic": 2.7
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1326,
+      "percent_toxic": 8.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 1073,
+      "percent_toxic": 16.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 1054,
+      "percent_toxic": 22.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 1112,
+      "percent_toxic": 26.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 5080,
+      "percent_toxic": 51.2
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Carcinogenicity",
+   "n": 1000,
+   "percent_toxic_overall": 50.0,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 342,
+      "percent_toxic": 52.9
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 231,
+      "percent_toxic": 55.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 114,
+      "percent_toxic": 50.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 152,
+      "percent_toxic": 36.8
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 353,
+      "percent_toxic": 52.4
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 221,
+      "percent_toxic": 56.6
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 120,
+      "percent_toxic": 48.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 152,
+      "percent_toxic": 36.8
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 359,
+      "percent_toxic": 52.9
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 220,
+      "percent_toxic": 54.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 114,
+      "percent_toxic": 51.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 150,
+      "percent_toxic": 36.7
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Cardiotoxicity-1",
+   "n": 1296,
+   "percent_toxic_overall": 21.4,
+   "modes": {
+    "as before": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 142,
+      "percent_toxic": 16.2
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 171,
+      "percent_toxic": 21.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 174,
+      "percent_toxic": 12.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 26.1
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 139,
+      "percent_toxic": 15.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 170,
+      "percent_toxic": 21.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 171,
+      "percent_toxic": 11.7
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 26.1
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 137,
+      "percent_toxic": 15.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 174,
+      "percent_toxic": 23.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 165,
+      "percent_toxic": 10.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 682,
+      "percent_toxic": 26.1
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Cardiotoxicity-10",
+   "n": 1296,
+   "percent_toxic_overall": 60.8,
+   "modes": {
+    "as before": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 142,
+      "percent_toxic": 57.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 171,
+      "percent_toxic": 62.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 174,
+      "percent_toxic": 63.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 63.3
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 139,
+      "percent_toxic": 57.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 170,
+      "percent_toxic": 63.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 171,
+      "percent_toxic": 63.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 63.3
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 137,
+      "percent_toxic": 59.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 174,
+      "percent_toxic": 64.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 165,
+      "percent_toxic": 61.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 682,
+      "percent_toxic": 63.3
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Cardiotoxicity-30",
+   "n": 1296,
+   "percent_toxic_overall": 82.9,
+   "modes": {
+    "as before": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 142,
+      "percent_toxic": 83.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 171,
+      "percent_toxic": 86.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 174,
+      "percent_toxic": 87.4
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 83.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 139,
+      "percent_toxic": 83.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 170,
+      "percent_toxic": 87.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 171,
+      "percent_toxic": 87.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 83.9
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 137,
+      "percent_toxic": 84.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 174,
+      "percent_toxic": 87.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 165,
+      "percent_toxic": 86.7
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 682,
+      "percent_toxic": 83.9
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Cardiotoxicity-5",
+   "n": 1296,
+   "percent_toxic_overall": 45.6,
+   "modes": {
+    "as before": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 142,
+      "percent_toxic": 40.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 171,
+      "percent_toxic": 46.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 174,
+      "percent_toxic": 42.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 50.5
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 139,
+      "percent_toxic": 40.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 170,
+      "percent_toxic": 48.2
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 171,
+      "percent_toxic": 41.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 683,
+      "percent_toxic": 50.5
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 137,
+      "percent_toxic": 39.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 174,
+      "percent_toxic": 50.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 165,
+      "percent_toxic": 40.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 682,
+      "percent_toxic": 50.6
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Clinical toxicity",
+   "n": 1242,
+   "percent_toxic_overall": 7.2,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 151,
+      "percent_toxic": 0.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 160,
+      "percent_toxic": 2.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 111,
+      "percent_toxic": 5.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 142,
+      "percent_toxic": 7.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 173,
+      "percent_toxic": 8.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 505,
+      "percent_toxic": 10.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 165,
+      "percent_toxic": 0.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 155,
+      "percent_toxic": 2.6
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 107,
+      "percent_toxic": 5.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 140,
+      "percent_toxic": 7.9
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 171,
+      "percent_toxic": 8.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 504,
+      "percent_toxic": 10.9
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 158,
+      "percent_toxic": 0.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 157,
+      "percent_toxic": 2.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 121,
+      "percent_toxic": 5.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 138,
+      "percent_toxic": 8.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 169,
+      "percent_toxic": 7.7
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 499,
+      "percent_toxic": 11.0
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Eye Corrosion",
+   "n": 2200,
+   "percent_toxic_overall": 38.9,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 708,
+      "percent_toxic": 82.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 379,
+      "percent_toxic": 61.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 179,
+      "percent_toxic": 11.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 209,
+      "percent_toxic": 3.3
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 195,
+      "percent_toxic": 1.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 530,
+      "percent_toxic": 1.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 755,
+      "percent_toxic": 81.6
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 336,
+      "percent_toxic": 58.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 189,
+      "percent_toxic": 11.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 205,
+      "percent_toxic": 3.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 192,
+      "percent_toxic": 1.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 523,
+      "percent_toxic": 1.9
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 730,
+      "percent_toxic": 81.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 366,
+      "percent_toxic": 61.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 193,
+      "percent_toxic": 8.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 195,
+      "percent_toxic": 3.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 192,
+      "percent_toxic": 1.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 524,
+      "percent_toxic": 1.9
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Eye Irritation",
+   "n": 5052,
+   "percent_toxic_overall": 74.7,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2012,
+      "percent_toxic": 94.9
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1445,
+      "percent_toxic": 90.7
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 397,
+      "percent_toxic": 61.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 275,
+      "percent_toxic": 28.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 268,
+      "percent_toxic": 31.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 655,
+      "percent_toxic": 22.4
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2184,
+      "percent_toxic": 94.8
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1295,
+      "percent_toxic": 90.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 392,
+      "percent_toxic": 58.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 271,
+      "percent_toxic": 28.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 263,
+      "percent_toxic": 31.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 647,
+      "percent_toxic": 22.6
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2061,
+      "percent_toxic": 94.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1417,
+      "percent_toxic": 91.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 408,
+      "percent_toxic": 58.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 259,
+      "percent_toxic": 29.3
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 269,
+      "percent_toxic": 32.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 638,
+      "percent_toxic": 21.3
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Hepatotoxicity",
+   "n": 2805,
+   "percent_toxic_overall": 51.4,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 328,
+      "percent_toxic": 47.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 314,
+      "percent_toxic": 49.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 299,
+      "percent_toxic": 62.2
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 328,
+      "percent_toxic": 61.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 351,
+      "percent_toxic": 53.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1185,
+      "percent_toxic": 47.1
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 352,
+      "percent_toxic": 48.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 303,
+      "percent_toxic": 49.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 306,
+      "percent_toxic": 61.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 319,
+      "percent_toxic": 59.9
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 351,
+      "percent_toxic": 54.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1174,
+      "percent_toxic": 47.2
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 347,
+      "percent_toxic": 47.8
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 312,
+      "percent_toxic": 49.7
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 321,
+      "percent_toxic": 61.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 311,
+      "percent_toxic": 60.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 345,
+      "percent_toxic": 53.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1169,
+      "percent_toxic": 47.1
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-AR",
+   "n": 6873,
+   "percent_toxic_overall": 4.3,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1912,
+      "percent_toxic": 1.4
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1569,
+      "percent_toxic": 2.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 702,
+      "percent_toxic": 4.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 613,
+      "percent_toxic": 10.6
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 558,
+      "percent_toxic": 5.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1519,
+      "percent_toxic": 7.2
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2022,
+      "percent_toxic": 1.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1479,
+      "percent_toxic": 2.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 699,
+      "percent_toxic": 4.9
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 610,
+      "percent_toxic": 10.2
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 551,
+      "percent_toxic": 5.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1512,
+      "percent_toxic": 7.3
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1979,
+      "percent_toxic": 1.4
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1552,
+      "percent_toxic": 2.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 722,
+      "percent_toxic": 7.2
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 587,
+      "percent_toxic": 8.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 550,
+      "percent_toxic": 5.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1483,
+      "percent_toxic": 7.4
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-AR-LBD",
+   "n": 6410,
+   "percent_toxic_overall": 3.5,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1863,
+      "percent_toxic": 1.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1491,
+      "percent_toxic": 1.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 657,
+      "percent_toxic": 3.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 576,
+      "percent_toxic": 8.3
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 500,
+      "percent_toxic": 5.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1323,
+      "percent_toxic": 6.1
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1963,
+      "percent_toxic": 1.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1410,
+      "percent_toxic": 1.6
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 655,
+      "percent_toxic": 3.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 572,
+      "percent_toxic": 8.2
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 493,
+      "percent_toxic": 5.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1317,
+      "percent_toxic": 6.2
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1923,
+      "percent_toxic": 1.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1479,
+      "percent_toxic": 1.3
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 679,
+      "percent_toxic": 6.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 548,
+      "percent_toxic": 5.3
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 494,
+      "percent_toxic": 5.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1287,
+      "percent_toxic": 6.3
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-AhR",
+   "n": 6200,
+   "percent_toxic_overall": 11.8,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1803,
+      "percent_toxic": 7.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1430,
+      "percent_toxic": 12.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 623,
+      "percent_toxic": 12.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 549,
+      "percent_toxic": 13.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 496,
+      "percent_toxic": 15.9
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1299,
+      "percent_toxic": 13.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1907,
+      "percent_toxic": 7.6
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1344,
+      "percent_toxic": 13.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 621,
+      "percent_toxic": 12.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 544,
+      "percent_toxic": 13.2
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 492,
+      "percent_toxic": 15.9
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1292,
+      "percent_toxic": 14.0
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1861,
+      "percent_toxic": 8.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1419,
+      "percent_toxic": 12.8
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 642,
+      "percent_toxic": 11.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 526,
+      "percent_toxic": 13.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 489,
+      "percent_toxic": 15.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1263,
+      "percent_toxic": 14.3
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-ER",
+   "n": 5875,
+   "percent_toxic_overall": 12.9,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1743,
+      "percent_toxic": 7.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1383,
+      "percent_toxic": 13.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 616,
+      "percent_toxic": 16.2
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 529,
+      "percent_toxic": 19.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 467,
+      "percent_toxic": 18.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1137,
+      "percent_toxic": 14.2
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1841,
+      "percent_toxic": 7.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1301,
+      "percent_toxic": 13.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 613,
+      "percent_toxic": 15.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 528,
+      "percent_toxic": 19.9
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 462,
+      "percent_toxic": 18.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1130,
+      "percent_toxic": 14.2
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1796,
+      "percent_toxic": 7.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1370,
+      "percent_toxic": 12.8
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 642,
+      "percent_toxic": 18.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 504,
+      "percent_toxic": 16.9
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 460,
+      "percent_toxic": 17.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1103,
+      "percent_toxic": 14.5
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-ER-LBD",
+   "n": 6589,
+   "percent_toxic_overall": 4.9,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1890,
+      "percent_toxic": 2.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1512,
+      "percent_toxic": 4.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 665,
+      "percent_toxic": 7.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 589,
+      "percent_toxic": 10.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 536,
+      "percent_toxic": 7.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1397,
+      "percent_toxic": 4.9
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1996,
+      "percent_toxic": 2.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1426,
+      "percent_toxic": 4.6
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 661,
+      "percent_toxic": 7.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 586,
+      "percent_toxic": 10.2
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 529,
+      "percent_toxic": 7.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1391,
+      "percent_toxic": 4.9
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1945,
+      "percent_toxic": 2.4
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1505,
+      "percent_toxic": 4.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 684,
+      "percent_toxic": 9.9
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 561,
+      "percent_toxic": 7.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 531,
+      "percent_toxic": 7.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1363,
+      "percent_toxic": 5.0
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-PPAR-gamma",
+   "n": 6106,
+   "percent_toxic_overall": 2.6,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1855,
+      "percent_toxic": 1.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1456,
+      "percent_toxic": 1.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 624,
+      "percent_toxic": 2.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 542,
+      "percent_toxic": 2.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 471,
+      "percent_toxic": 4.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1158,
+      "percent_toxic": 5.1
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1958,
+      "percent_toxic": 1.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1369,
+      "percent_toxic": 2.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 623,
+      "percent_toxic": 2.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 538,
+      "percent_toxic": 2.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 466,
+      "percent_toxic": 4.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1152,
+      "percent_toxic": 5.1
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1916,
+      "percent_toxic": 1.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1440,
+      "percent_toxic": 1.7
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 643,
+      "percent_toxic": 3.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 517,
+      "percent_toxic": 2.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 466,
+      "percent_toxic": 4.5
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1124,
+      "percent_toxic": 4.9
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "NR-aromatase",
+   "n": 5515,
+   "percent_toxic_overall": 5.2,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1728,
+      "percent_toxic": 2.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1296,
+      "percent_toxic": 3.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 537,
+      "percent_toxic": 4.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 467,
+      "percent_toxic": 5.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 399,
+      "percent_toxic": 7.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1088,
+      "percent_toxic": 11.4
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1820,
+      "percent_toxic": 2.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1219,
+      "percent_toxic": 4.3
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 534,
+      "percent_toxic": 4.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 465,
+      "percent_toxic": 5.4
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 396,
+      "percent_toxic": 7.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1081,
+      "percent_toxic": 11.5
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1785,
+      "percent_toxic": 2.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1280,
+      "percent_toxic": 3.7
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 550,
+      "percent_toxic": 4.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 446,
+      "percent_toxic": 5.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 397,
+      "percent_toxic": 6.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1057,
+      "percent_toxic": 11.8
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "Respiratory Toxicity",
+   "n": 1195,
+   "percent_toxic_overall": 60.8,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 195,
+      "percent_toxic": 71.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 185,
+      "percent_toxic": 66.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 144,
+      "percent_toxic": 57.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 168,
+      "percent_toxic": 58.9
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 166,
+      "percent_toxic": 54.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 337,
+      "percent_toxic": 57.0
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 203,
+      "percent_toxic": 70.0
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 178,
+      "percent_toxic": 67.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 150,
+      "percent_toxic": 56.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 164,
+      "percent_toxic": 59.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 163,
+      "percent_toxic": 55.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 337,
+      "percent_toxic": 57.0
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 198,
+      "percent_toxic": 71.7
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 184,
+      "percent_toxic": 66.3
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 145,
+      "percent_toxic": 56.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 166,
+      "percent_toxic": 59.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 166,
+      "percent_toxic": 54.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 336,
+      "percent_toxic": 57.1
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "SR-ARE",
+   "n": 5535,
+   "percent_toxic_overall": 15.6,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1755,
+      "percent_toxic": 10.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1350,
+      "percent_toxic": 14.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 553,
+      "percent_toxic": 15.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 443,
+      "percent_toxic": 18.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 429,
+      "percent_toxic": 21.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1005,
+      "percent_toxic": 23.3
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1855,
+      "percent_toxic": 10.4
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1267,
+      "percent_toxic": 14.3
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 549,
+      "percent_toxic": 16.2
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 440,
+      "percent_toxic": 18.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 425,
+      "percent_toxic": 21.4
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 999,
+      "percent_toxic": 23.4
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1811,
+      "percent_toxic": 10.7
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1331,
+      "percent_toxic": 14.0
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 564,
+      "percent_toxic": 17.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 429,
+      "percent_toxic": 17.2
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 424,
+      "percent_toxic": 19.8
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 976,
+      "percent_toxic": 23.7
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "SR-ATAD5",
+   "n": 6706,
+   "percent_toxic_overall": 3.6,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1918,
+      "percent_toxic": 2.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1548,
+      "percent_toxic": 3.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 687,
+      "percent_toxic": 4.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 607,
+      "percent_toxic": 4.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 537,
+      "percent_toxic": 5.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1409,
+      "percent_toxic": 4.1
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 2027,
+      "percent_toxic": 2.3
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1458,
+      "percent_toxic": 3.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 686,
+      "percent_toxic": 4.4
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 602,
+      "percent_toxic": 4.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 531,
+      "percent_toxic": 5.6
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1402,
+      "percent_toxic": 4.1
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1982,
+      "percent_toxic": 2.4
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1533,
+      "percent_toxic": 3.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 707,
+      "percent_toxic": 4.1
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 580,
+      "percent_toxic": 4.3
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 531,
+      "percent_toxic": 5.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1373,
+      "percent_toxic": 4.2
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "SR-HSE",
+   "n": 6138,
+   "percent_toxic_overall": 5.4,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1870,
+      "percent_toxic": 3.8
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1463,
+      "percent_toxic": 5.2
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 617,
+      "percent_toxic": 5.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 506,
+      "percent_toxic": 5.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 483,
+      "percent_toxic": 6.2
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1199,
+      "percent_toxic": 7.8
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1975,
+      "percent_toxic": 3.7
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1378,
+      "percent_toxic": 5.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 613,
+      "percent_toxic": 6.0
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 502,
+      "percent_toxic": 5.0
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 478,
+      "percent_toxic": 6.3
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1192,
+      "percent_toxic": 7.8
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1928,
+      "percent_toxic": 4.1
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1447,
+      "percent_toxic": 4.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 632,
+      "percent_toxic": 5.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 484,
+      "percent_toxic": 5.8
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 478,
+      "percent_toxic": 5.9
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1169,
+      "percent_toxic": 7.7
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "SR-MMP",
+   "n": 5511,
+   "percent_toxic_overall": 15.8,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1685,
+      "percent_toxic": 7.2
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1323,
+      "percent_toxic": 17.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 550,
+      "percent_toxic": 16.7
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 468,
+      "percent_toxic": 14.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 402,
+      "percent_toxic": 20.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1083,
+      "percent_toxic": 25.5
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1773,
+      "percent_toxic": 7.5
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1247,
+      "percent_toxic": 17.9
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 553,
+      "percent_toxic": 16.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 462,
+      "percent_toxic": 14.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 398,
+      "percent_toxic": 20.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1078,
+      "percent_toxic": 25.6
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1737,
+      "percent_toxic": 7.8
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1308,
+      "percent_toxic": 17.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 572,
+      "percent_toxic": 15.6
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 446,
+      "percent_toxic": 15.5
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 395,
+      "percent_toxic": 20.0
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1053,
+      "percent_toxic": 26.0
+     }
+    ]
+   }
+  },
+  {
+   "endpoint": "SR-p53",
+   "n": 6417,
+   "percent_toxic_overall": 6.0,
+   "modes": {
+    "as before": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1884,
+      "percent_toxic": 2.6
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1482,
+      "percent_toxic": 5.5
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 641,
+      "percent_toxic": 5.5
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 567,
+      "percent_toxic": 7.1
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 521,
+      "percent_toxic": 10.7
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1322,
+      "percent_toxic": 9.5
+     }
+    ],
+    "scaffold blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1992,
+      "percent_toxic": 2.8
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1391,
+      "percent_toxic": 5.4
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 640,
+      "percent_toxic": 5.8
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 564,
+      "percent_toxic": 6.9
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 514,
+      "percent_toxic": 10.7
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1316,
+      "percent_toxic": 9.6
+     }
+    ],
+    "analogue blind": [
+     {
+      "families": "0",
+      "low": 0,
+      "n": 1942,
+      "percent_toxic": 2.9
+     },
+     {
+      "families": "1 to 3",
+      "low": 1,
+      "n": 1467,
+      "percent_toxic": 5.1
+     },
+     {
+      "families": "4 to 7",
+      "low": 4,
+      "n": 663,
+      "percent_toxic": 5.3
+     },
+     {
+      "families": "8 to 11",
+      "low": 8,
+      "n": 543,
+      "percent_toxic": 7.7
+     },
+     {
+      "families": "12 to 15",
+      "low": 12,
+      "n": 513,
+      "percent_toxic": 10.1
+     },
+     {
+      "families": "16 or more",
+      "low": 16,
+      "n": 1289,
+      "percent_toxic": 9.8
+     }
+    ]
+   }
+  }
+ ]
+}

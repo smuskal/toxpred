@@ -1,0 +1,50 @@
+# The 47 protein safety pharmacology antitargets counted by
+# antitargets_hit. Accession, then the name it is known by.
+# This is the list every number in the paper was produced with.
+O75469	PXR
+P03372	estrogen receptor alpha
+P04150	glucocorticoid receptor
+P05177	CYP1A2
+P06239	LCK
+P07550	ADRB2
+P08172	CHRM2
+P08588	ADRB1
+P08684	CYP3A4
+P08908	5-HT1A
+P10275	androgen receptor
+P10635	CYP2D6
+P10828	THRB
+P11229	CHRM1
+P11712	CYP2C9
+P14416	dopamine D2
+P20309	CHRM3
+P21397	MAO-A
+P21554	CB1
+P21728	dopamine D1
+P22303	acetylcholinesterase
+P23219	COX-1
+P23975	norepinephrine transporter
+P25021	histamine H2
+P27338	MAO-B
+P28223	5-HT2A
+P29274	adenosine A2A
+P31645	serotonin transporter
+P33261	CYP2C19
+P34972	CB2
+P35348	ADRA1A
+P35354	COX-2
+P35367	histamine H1
+P35372	mu opioid
+P35869	aryl hydrocarbon receptor
+P37231	PPAR gamma
+P41143	delta opioid
+P41145	kappa opioid
+P41595	5-HT2B
+P46098	5-HT3A
+P51787	KCNQ1
+Q01959	dopamine transporter
+Q05586	NMDA GRIN1
+Q12809	hERG KCNH2
+Q13936	Cav1.2 CACNA1C
+Q14432	PDE3A
+Q14524	Nav1.5 SCN5A

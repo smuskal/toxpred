@@ -1,0 +1,5490 @@
+{
+ "breadth": [
+  {
+   "category": "CYP450",
+   "endpoint": "CYP1A2",
+   "n": 9212,
+   "overall_percent_toxic": 38.2,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 670,
+     "percent_toxic": 10.9
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 859,
+     "percent_toxic": 28.4
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 947,
+     "percent_toxic": 39.7
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 965,
+     "percent_toxic": 42.0
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 1080,
+     "percent_toxic": 42.2
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 4691,
+     "percent_toxic": 41.8
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP2C19",
+   "n": 10095,
+   "overall_percent_toxic": 44.2,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 718,
+     "percent_toxic": 7.1
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 914,
+     "percent_toxic": 17.6
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 984,
+     "percent_toxic": 28.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 1040,
+     "percent_toxic": 33.4
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 1172,
+     "percent_toxic": 40.0
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 5267,
+     "percent_toxic": 59.9
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP2C9",
+   "n": 9405,
+   "overall_percent_toxic": 27.1,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 750,
+     "percent_toxic": 2.7
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 968,
+     "percent_toxic": 7.9
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 986,
+     "percent_toxic": 11.2
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 1021,
+     "percent_toxic": 13.6
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 1101,
+     "percent_toxic": 20.1
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 4579,
+     "percent_toxic": 43.4
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP2D6",
+   "n": 10201,
+   "overall_percent_toxic": 13.4,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 740,
+     "percent_toxic": 5.9
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 932,
+     "percent_toxic": 10.7
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 983,
+     "percent_toxic": 16.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 998,
+     "percent_toxic": 15.7
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 1216,
+     "percent_toxic": 14.6
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 5332,
+     "percent_toxic": 13.6
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP3A4",
+   "n": 10887,
+   "overall_percent_toxic": 31.7,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1212,
+     "percent_toxic": 2.5
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1338,
+     "percent_toxic": 8.1
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 1036,
+     "percent_toxic": 16.4
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 1067,
+     "percent_toxic": 22.7
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 1125,
+     "percent_toxic": 26.6
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 5109,
+     "percent_toxic": 51.0
+    }
+   ]
+  },
+  {
+   "category": "Carcinogenicity",
+   "endpoint": "Carcinogenicity",
+   "n": 1000,
+   "overall_percent_toxic": 50.0,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 342,
+     "percent_toxic": 52.9
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 231,
+     "percent_toxic": 55.4
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 114,
+     "percent_toxic": 50.0
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 152,
+     "percent_toxic": 36.8
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-1",
+   "n": 1296,
+   "overall_percent_toxic": 21.4,
+   "bands": [
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 142,
+     "percent_toxic": 16.2
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 171,
+     "percent_toxic": 21.1
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 174,
+     "percent_toxic": 12.1
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 683,
+     "percent_toxic": 26.1
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-10",
+   "n": 1296,
+   "overall_percent_toxic": 60.8,
+   "bands": [
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 142,
+     "percent_toxic": 57.0
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 171,
+     "percent_toxic": 62.6
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 174,
+     "percent_toxic": 63.8
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 683,
+     "percent_toxic": 63.3
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-30",
+   "n": 1296,
+   "overall_percent_toxic": 82.9,
+   "bands": [
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 142,
+     "percent_toxic": 83.8
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 171,
+     "percent_toxic": 86.5
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 174,
+     "percent_toxic": 87.4
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 683,
+     "percent_toxic": 83.9
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-5",
+   "n": 1296,
+   "overall_percent_toxic": 45.6,
+   "bands": [
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 142,
+     "percent_toxic": 40.1
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 171,
+     "percent_toxic": 46.8
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 174,
+     "percent_toxic": 42.0
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 683,
+     "percent_toxic": 50.5
+    }
+   ]
+  },
+  {
+   "category": "Clinical Toxicity",
+   "endpoint": "Clinical toxicity",
+   "n": 1242,
+   "overall_percent_toxic": 7.2,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 151,
+     "percent_toxic": 0.0
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 160,
+     "percent_toxic": 2.5
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 111,
+     "percent_toxic": 5.4
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 142,
+     "percent_toxic": 7.7
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 173,
+     "percent_toxic": 8.1
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 505,
+     "percent_toxic": 10.9
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-AR",
+   "n": 6873,
+   "overall_percent_toxic": 4.3,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1912,
+     "percent_toxic": 1.4
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1569,
+     "percent_toxic": 2.1
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 702,
+     "percent_toxic": 4.6
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 613,
+     "percent_toxic": 10.6
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 558,
+     "percent_toxic": 5.6
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1519,
+     "percent_toxic": 7.2
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-AR-LBD",
+   "n": 6410,
+   "overall_percent_toxic": 3.5,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1863,
+     "percent_toxic": 1.2
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1491,
+     "percent_toxic": 1.5
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 657,
+     "percent_toxic": 3.3
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 576,
+     "percent_toxic": 8.3
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 500,
+     "percent_toxic": 5.2
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1323,
+     "percent_toxic": 6.1
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-AhR",
+   "n": 6200,
+   "overall_percent_toxic": 11.8,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1803,
+     "percent_toxic": 7.5
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1430,
+     "percent_toxic": 12.9
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 623,
+     "percent_toxic": 12.7
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 549,
+     "percent_toxic": 13.1
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 496,
+     "percent_toxic": 15.9
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1299,
+     "percent_toxic": 13.9
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-ER",
+   "n": 5875,
+   "overall_percent_toxic": 12.9,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1743,
+     "percent_toxic": 7.2
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1383,
+     "percent_toxic": 13.0
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 616,
+     "percent_toxic": 16.2
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 529,
+     "percent_toxic": 19.7
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 467,
+     "percent_toxic": 18.0
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1137,
+     "percent_toxic": 14.2
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-ER-LBD",
+   "n": 6589,
+   "overall_percent_toxic": 4.9,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1890,
+     "percent_toxic": 2.2
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1512,
+     "percent_toxic": 4.2
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 665,
+     "percent_toxic": 7.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 589,
+     "percent_toxic": 10.4
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 536,
+     "percent_toxic": 7.5
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1397,
+     "percent_toxic": 4.9
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-PPAR-gamma",
+   "n": 6106,
+   "overall_percent_toxic": 2.6,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1855,
+     "percent_toxic": 1.3
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1456,
+     "percent_toxic": 1.9
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 624,
+     "percent_toxic": 2.7
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 542,
+     "percent_toxic": 2.0
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 471,
+     "percent_toxic": 4.5
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1158,
+     "percent_toxic": 5.1
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-aromatase",
+   "n": 5515,
+   "overall_percent_toxic": 5.2,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1728,
+     "percent_toxic": 2.0
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1296,
+     "percent_toxic": 3.9
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 537,
+     "percent_toxic": 4.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 467,
+     "percent_toxic": 5.4
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 399,
+     "percent_toxic": 7.0
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1088,
+     "percent_toxic": 11.4
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-ARE",
+   "n": 5535,
+   "overall_percent_toxic": 15.6,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1755,
+     "percent_toxic": 10.3
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1350,
+     "percent_toxic": 14.2
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 553,
+     "percent_toxic": 15.7
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 443,
+     "percent_toxic": 18.5
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 429,
+     "percent_toxic": 21.2
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1005,
+     "percent_toxic": 23.3
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-ATAD5",
+   "n": 6706,
+   "overall_percent_toxic": 3.6,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1918,
+     "percent_toxic": 2.3
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1548,
+     "percent_toxic": 3.4
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 687,
+     "percent_toxic": 4.4
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 607,
+     "percent_toxic": 4.0
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 537,
+     "percent_toxic": 5.6
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1409,
+     "percent_toxic": 4.1
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-HSE",
+   "n": 6138,
+   "overall_percent_toxic": 5.4,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1870,
+     "percent_toxic": 3.8
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1463,
+     "percent_toxic": 5.2
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 617,
+     "percent_toxic": 5.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 506,
+     "percent_toxic": 5.5
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 483,
+     "percent_toxic": 6.2
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1199,
+     "percent_toxic": 7.8
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-MMP",
+   "n": 5511,
+   "overall_percent_toxic": 15.8,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1685,
+     "percent_toxic": 7.2
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1323,
+     "percent_toxic": 17.5
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 550,
+     "percent_toxic": 16.7
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 468,
+     "percent_toxic": 14.7
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 402,
+     "percent_toxic": 20.1
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1083,
+     "percent_toxic": 25.5
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-p53",
+   "n": 6417,
+   "overall_percent_toxic": 6.0,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 1884,
+     "percent_toxic": 2.6
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1482,
+     "percent_toxic": 5.5
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 641,
+     "percent_toxic": 5.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 567,
+     "percent_toxic": 7.1
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 521,
+     "percent_toxic": 10.7
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1322,
+     "percent_toxic": 9.5
+    }
+   ]
+  },
+  {
+   "category": "Hepatotoxicity",
+   "endpoint": "Hepatotoxicity",
+   "n": 2805,
+   "overall_percent_toxic": 51.4,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 328,
+     "percent_toxic": 47.3
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 314,
+     "percent_toxic": 49.4
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 299,
+     "percent_toxic": 62.2
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 328,
+     "percent_toxic": 61.0
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 351,
+     "percent_toxic": 53.8
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1185,
+     "percent_toxic": 47.1
+    }
+   ]
+  },
+  {
+   "category": "Irritation and Corrosion",
+   "endpoint": "Eye Corrosion",
+   "n": 2200,
+   "overall_percent_toxic": 38.9,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 708,
+     "percent_toxic": 82.2
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 379,
+     "percent_toxic": 61.2
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 179,
+     "percent_toxic": 11.7
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 209,
+     "percent_toxic": 3.3
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 195,
+     "percent_toxic": 1.5
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 530,
+     "percent_toxic": 1.9
+    }
+   ]
+  },
+  {
+   "category": "Irritation and Corrosion",
+   "endpoint": "Eye Irritation",
+   "n": 5052,
+   "overall_percent_toxic": 74.7,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 2012,
+     "percent_toxic": 94.9
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1445,
+     "percent_toxic": 90.7
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 397,
+     "percent_toxic": 61.5
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 275,
+     "percent_toxic": 28.7
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 268,
+     "percent_toxic": 31.3
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 655,
+     "percent_toxic": 22.4
+    }
+   ]
+  },
+  {
+   "category": "Mutagenicity",
+   "endpoint": "Ames Mutagenicity",
+   "n": 6875,
+   "overall_percent_toxic": 55.1,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 2030,
+     "percent_toxic": 52.3
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 1758,
+     "percent_toxic": 56.5
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 833,
+     "percent_toxic": 66.3
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 655,
+     "percent_toxic": 58.6
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 548,
+     "percent_toxic": 54.0
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 1051,
+     "percent_toxic": 47.9
+    }
+   ]
+  },
+  {
+   "category": "Respiratory Toxicity",
+   "endpoint": "Respiratory Toxicity",
+   "n": 1195,
+   "overall_percent_toxic": 60.8,
+   "bands": [
+    {
+     "families": "0",
+     "low": 0,
+     "n": 195,
+     "percent_toxic": 71.3
+    },
+    {
+     "families": "1 to 3",
+     "low": 1,
+     "n": 185,
+     "percent_toxic": 66.5
+    },
+    {
+     "families": "4 to 7",
+     "low": 4,
+     "n": 144,
+     "percent_toxic": 57.6
+    },
+    {
+     "families": "8 to 11",
+     "low": 8,
+     "n": 168,
+     "percent_toxic": 58.9
+    },
+    {
+     "families": "12 to 15",
+     "low": 12,
+     "n": 166,
+     "percent_toxic": 54.8
+    },
+    {
+     "families": "16 or more",
+     "low": 16,
+     "n": 337,
+     "percent_toxic": 57.0
+    }
+   ]
+  }
+ ],
+ "proteins": [
+  {
+   "category": "CYP450",
+   "endpoint": "CYP1A2",
+   "n_toxic": 3517,
+   "n_non_toxic": 5695,
+   "top": [
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 71.2,
+     "percent_of_non_toxic": 48.1,
+     "difference": 23.1
+    },
+    {
+     "accession": "Q07889",
+     "protein": "Son of sevenless homolog 1",
+     "family": "",
+     "percent_of_toxic": 37.6,
+     "percent_of_non_toxic": 16.4,
+     "difference": 21.2
+    },
+    {
+     "accession": "P0C024",
+     "protein": "Peroxisomal coenzyme A diphosphatase NUDT7",
+     "family": "",
+     "percent_of_toxic": 32.1,
+     "percent_of_non_toxic": 10.9,
+     "difference": 21.2
+    },
+    {
+     "accession": "Q02127",
+     "protein": "Dihydroorotate dehydrogenase (quinone), mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 58.1,
+     "percent_of_non_toxic": 37.7,
+     "difference": 20.4
+    },
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 45.1,
+     "percent_of_non_toxic": 24.7,
+     "difference": 20.4
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 64.6,
+     "percent_of_non_toxic": 44.6,
+     "difference": 20.0
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 55.2,
+     "percent_of_non_toxic": 35.9,
+     "difference": 19.3
+    },
+    {
+     "accession": "Q99814",
+     "protein": "Endothelial PAS domain-containing protein 1",
+     "family": "",
+     "percent_of_toxic": 34.6,
+     "percent_of_non_toxic": 15.6,
+     "difference": 18.9
+    },
+    {
+     "accession": "P27540",
+     "protein": "Aryl hydrocarbon receptor nuclear translocator",
+     "family": "",
+     "percent_of_toxic": 34.6,
+     "percent_of_non_toxic": 15.7,
+     "difference": 18.9
+    },
+    {
+     "accession": "P25440",
+     "protein": "Bromodomain-containing protein 2",
+     "family": "Reader",
+     "percent_of_toxic": 61.0,
+     "percent_of_non_toxic": 42.5,
+     "difference": 18.4
+    },
+    {
+     "accession": "Q9Y6A2",
+     "protein": "Cholesterol 24-hydroxylase",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 39.2,
+     "percent_of_non_toxic": 20.8,
+     "difference": 18.3
+    },
+    {
+     "accession": "P54687",
+     "protein": "Branched-chain-amino-acid aminotransferase, cytosolic",
+     "family": "",
+     "percent_of_toxic": 36.3,
+     "percent_of_non_toxic": 18.1,
+     "difference": 18.2
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P18621",
+     "protein": "Large ribosomal subunit protein uL22",
+     "family": "",
+     "percent_of_toxic": 4.5,
+     "percent_of_non_toxic": 12.1,
+     "difference": -7.6
+    },
+    {
+     "accession": "P27487",
+     "protein": "Dipeptidyl peptidase 4",
+     "family": "Protease",
+     "percent_of_toxic": 4.3,
+     "percent_of_non_toxic": 12.2,
+     "difference": -7.9
+    },
+    {
+     "accession": "P17931",
+     "protein": "Galectin-3",
+     "family": "",
+     "percent_of_toxic": 12.6,
+     "percent_of_non_toxic": 21.0,
+     "difference": -8.5
+    },
+    {
+     "accession": "P40337",
+     "protein": "von Hippel-Lindau disease tumor suppressor",
+     "family": "",
+     "percent_of_toxic": 5.9,
+     "percent_of_non_toxic": 15.3,
+     "difference": -9.4
+    },
+    {
+     "accession": "P03951",
+     "protein": "Coagulation factor XI",
+     "family": "Protease",
+     "percent_of_toxic": 5.5,
+     "percent_of_non_toxic": 15.9,
+     "difference": -10.4
+    },
+    {
+     "accession": "P00742",
+     "protein": "Coagulation factor X",
+     "family": "Protease",
+     "percent_of_toxic": 19.8,
+     "percent_of_non_toxic": 31.9,
+     "difference": -12.0
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP2C19",
+   "n_toxic": 4461,
+   "n_non_toxic": 5634,
+   "top": [
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 80.0,
+     "percent_of_non_toxic": 39.8,
+     "difference": 40.2
+    },
+    {
+     "accession": "P04629",
+     "protein": "High affinity nerve growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 60.3,
+     "percent_of_non_toxic": 21.7,
+     "difference": 38.6
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 73.8,
+     "percent_of_non_toxic": 35.9,
+     "difference": 37.9
+    },
+    {
+     "accession": "Q96RI1",
+     "protein": "Bile acid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 57.7,
+     "percent_of_non_toxic": 21.2,
+     "difference": 36.4
+    },
+    {
+     "accession": "Q02127",
+     "protein": "Dihydroorotate dehydrogenase (quinone), mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 65.3,
+     "percent_of_non_toxic": 30.4,
+     "difference": 34.9
+    },
+    {
+     "accession": "P21554",
+     "protein": "Cannabinoid receptor 1",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 51.5,
+     "percent_of_non_toxic": 17.7,
+     "difference": 33.8
+    },
+    {
+     "accession": "O75469",
+     "protein": "Nuclear receptor subfamily 1 group I member 2",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 55.4,
+     "percent_of_non_toxic": 21.8,
+     "difference": 33.6
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 68.2,
+     "percent_of_non_toxic": 35.0,
+     "difference": 33.2
+    },
+    {
+     "accession": "Q9H7Z6",
+     "protein": "Histone acetyltransferase KAT8",
+     "family": "Reader; Writer",
+     "percent_of_toxic": 55.5,
+     "percent_of_non_toxic": 22.6,
+     "difference": 32.9
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 61.4,
+     "percent_of_non_toxic": 28.6,
+     "difference": 32.8
+    },
+    {
+     "accession": "P00533",
+     "protein": "Epidermal growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 60.5,
+     "percent_of_non_toxic": 28.4,
+     "difference": 32.1
+    },
+    {
+     "accession": "P25440",
+     "protein": "Bromodomain-containing protein 2",
+     "family": "Reader",
+     "percent_of_toxic": 67.1,
+     "percent_of_non_toxic": 36.4,
+     "difference": 30.8
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P62424",
+     "protein": "Large ribosomal subunit protein eL8",
+     "family": "",
+     "percent_of_toxic": 6.0,
+     "percent_of_non_toxic": 11.6,
+     "difference": -5.6
+    },
+    {
+     "accession": "P42766",
+     "protein": "Large ribosomal subunit protein uL29",
+     "family": "",
+     "percent_of_toxic": 6.0,
+     "percent_of_non_toxic": 11.6,
+     "difference": -5.6
+    },
+    {
+     "accession": "P36578",
+     "protein": "Large ribosomal subunit protein uL4",
+     "family": "",
+     "percent_of_toxic": 6.0,
+     "percent_of_non_toxic": 11.6,
+     "difference": -5.6
+    },
+    {
+     "accession": "P18621",
+     "protein": "Large ribosomal subunit protein uL22",
+     "family": "",
+     "percent_of_toxic": 6.0,
+     "percent_of_non_toxic": 11.6,
+     "difference": -5.6
+    },
+    {
+     "accession": "P47914",
+     "protein": "Large ribosomal subunit protein eL29",
+     "family": "",
+     "percent_of_toxic": 4.3,
+     "percent_of_non_toxic": 10.5,
+     "difference": -6.2
+    },
+    {
+     "accession": "P27487",
+     "protein": "Dipeptidyl peptidase 4",
+     "family": "Protease",
+     "percent_of_toxic": 4.8,
+     "percent_of_non_toxic": 13.3,
+     "difference": -8.5
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP2C9",
+   "n_toxic": 2553,
+   "n_non_toxic": 6852,
+   "top": [
+    {
+     "accession": "P04629",
+     "protein": "High affinity nerve growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 66.4,
+     "percent_of_non_toxic": 23.7,
+     "difference": 42.7
+    },
+    {
+     "accession": "Q96RI1",
+     "protein": "Bile acid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 64.5,
+     "percent_of_non_toxic": 22.5,
+     "difference": 42.0
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 79.1,
+     "percent_of_non_toxic": 38.8,
+     "difference": 40.2
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 75.2,
+     "percent_of_non_toxic": 35.3,
+     "difference": 39.8
+    },
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 81.5,
+     "percent_of_non_toxic": 42.9,
+     "difference": 38.6
+    },
+    {
+     "accession": "O75469",
+     "protein": "Nuclear receptor subfamily 1 group I member 2",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 62.0,
+     "percent_of_non_toxic": 23.4,
+     "difference": 38.5
+    },
+    {
+     "accession": "P21554",
+     "protein": "Cannabinoid receptor 1",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 58.2,
+     "percent_of_non_toxic": 19.8,
+     "difference": 38.4
+    },
+    {
+     "accession": "P00533",
+     "protein": "Epidermal growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 67.8,
+     "percent_of_non_toxic": 29.5,
+     "difference": 38.3
+    },
+    {
+     "accession": "P37231",
+     "protein": "Peroxisome proliferator-activated receptor gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 59.6,
+     "percent_of_non_toxic": 22.6,
+     "difference": 37.0
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 66.5,
+     "percent_of_non_toxic": 30.5,
+     "difference": 36.0
+    },
+    {
+     "accession": "Q13451",
+     "protein": "Peptidyl-prolyl cis-trans isomerase FKBP5",
+     "family": "",
+     "percent_of_toxic": 55.7,
+     "percent_of_non_toxic": 19.7,
+     "difference": 36.0
+    },
+    {
+     "accession": "Q00987",
+     "protein": "E3 ubiquitin-protein ligase Mdm2",
+     "family": "",
+     "percent_of_toxic": 57.8,
+     "percent_of_non_toxic": 21.8,
+     "difference": 36.0
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P16083",
+     "protein": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 6.1,
+     "percent_of_non_toxic": 11.2,
+     "difference": -5.0
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 2.5,
+     "percent_of_non_toxic": 7.8,
+     "difference": -5.3
+    },
+    {
+     "accession": "P04637",
+     "protein": "Cellular tumor antigen p53",
+     "family": "",
+     "percent_of_toxic": 3.1,
+     "percent_of_non_toxic": 8.6,
+     "difference": -5.5
+    },
+    {
+     "accession": "P29475",
+     "protein": "Nitric oxide synthase 1",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 1.7,
+     "percent_of_non_toxic": 7.2,
+     "difference": -5.5
+    },
+    {
+     "accession": "P47914",
+     "protein": "Large ribosomal subunit protein eL29",
+     "family": "",
+     "percent_of_toxic": 3.7,
+     "percent_of_non_toxic": 9.7,
+     "difference": -6.1
+    },
+    {
+     "accession": "P27487",
+     "protein": "Dipeptidyl peptidase 4",
+     "family": "Protease",
+     "percent_of_toxic": 3.9,
+     "percent_of_non_toxic": 12.6,
+     "difference": -8.7
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP2D6",
+   "n_toxic": 1364,
+   "n_non_toxic": 8837,
+   "top": [
+    {
+     "accession": "Q07889",
+     "protein": "Son of sevenless homolog 1",
+     "family": "",
+     "percent_of_toxic": 38.1,
+     "percent_of_non_toxic": 19.3,
+     "difference": 18.8
+    },
+    {
+     "accession": "P27487",
+     "protein": "Dipeptidyl peptidase 4",
+     "family": "Protease",
+     "percent_of_toxic": 24.4,
+     "percent_of_non_toxic": 6.2,
+     "difference": 18.2
+    },
+    {
+     "accession": "P06276",
+     "protein": "Cholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 32.3,
+     "percent_of_non_toxic": 16.0,
+     "difference": 16.3
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 18.8,
+     "percent_of_non_toxic": 2.9,
+     "difference": 15.9
+    },
+    {
+     "accession": "P00797",
+     "protein": "Renin",
+     "family": "Protease",
+     "percent_of_toxic": 38.3,
+     "percent_of_non_toxic": 22.6,
+     "difference": 15.7
+    },
+    {
+     "accession": "P61925",
+     "protein": "cAMP-dependent protein kinase inhibitor alpha",
+     "family": "",
+     "percent_of_toxic": 30.3,
+     "percent_of_non_toxic": 15.1,
+     "difference": 15.2
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 71.9,
+     "percent_of_non_toxic": 56.9,
+     "difference": 15.1
+    },
+    {
+     "accession": "Q96GG9",
+     "protein": "DCN1-like protein 1",
+     "family": "",
+     "percent_of_toxic": 27.0,
+     "percent_of_non_toxic": 12.7,
+     "difference": 14.3
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 78.0,
+     "percent_of_non_toxic": 63.8,
+     "difference": 14.2
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 77.3,
+     "percent_of_non_toxic": 63.3,
+     "difference": 14.0
+    },
+    {
+     "accession": "P41180",
+     "protein": "Extracellular calcium-sensing receptor",
+     "family": "Family C G protein-coupled receptor",
+     "percent_of_toxic": 15.9,
+     "percent_of_non_toxic": 2.1,
+     "difference": 13.8
+    },
+    {
+     "accession": "P28223",
+     "protein": "5-hydroxytryptamine receptor 2A",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 16.1,
+     "percent_of_non_toxic": 2.9,
+     "difference": 13.2
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q14145",
+     "protein": "Kelch-like ECH-associated protein 1",
+     "family": "",
+     "percent_of_toxic": 9.6,
+     "percent_of_non_toxic": 19.2,
+     "difference": -9.6
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 25.2,
+     "percent_of_non_toxic": 35.6,
+     "difference": -10.3
+    },
+    {
+     "accession": "P04049",
+     "protein": "RAF proto-oncogene serine/threonine-protein kinase",
+     "family": "Kinase",
+     "percent_of_toxic": 9.2,
+     "percent_of_non_toxic": 20.0,
+     "difference": -10.8
+    },
+    {
+     "accession": "P29274",
+     "protein": "Adenosine receptor A2a",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 19.2,
+     "percent_of_non_toxic": 30.0,
+     "difference": -10.8
+    },
+    {
+     "accession": "P15121",
+     "protein": "Aldo-keto reductase family 1 member B1",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 5.9,
+     "percent_of_non_toxic": 16.7,
+     "difference": -10.8
+    },
+    {
+     "accession": "Q13526",
+     "protein": "Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1",
+     "family": "Isomerase",
+     "percent_of_toxic": 16.0,
+     "percent_of_non_toxic": 28.2,
+     "difference": -12.2
+    }
+   ]
+  },
+  {
+   "category": "CYP450",
+   "endpoint": "CYP3A4",
+   "n_toxic": 3456,
+   "n_non_toxic": 7431,
+   "top": [
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 77.8,
+     "percent_of_non_toxic": 31.0,
+     "difference": 46.8
+    },
+    {
+     "accession": "P00533",
+     "protein": "Epidermal growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 68.3,
+     "percent_of_non_toxic": 22.1,
+     "difference": 46.2
+    },
+    {
+     "accession": "P04629",
+     "protein": "High affinity nerve growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 63.2,
+     "percent_of_non_toxic": 18.3,
+     "difference": 44.9
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 73.3,
+     "percent_of_non_toxic": 30.5,
+     "difference": 42.7
+    },
+    {
+     "accession": "Q08499",
+     "protein": "3',5'-cyclic-AMP phosphodiesterase 4D",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 66.8,
+     "percent_of_non_toxic": 26.0,
+     "difference": 40.7
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 66.2,
+     "percent_of_non_toxic": 25.6,
+     "difference": 40.6
+    },
+    {
+     "accession": "P56817",
+     "protein": "Beta-secretase 1",
+     "family": "Protease",
+     "percent_of_toxic": 73.4,
+     "percent_of_non_toxic": 32.8,
+     "difference": 40.6
+    },
+    {
+     "accession": "Q96RI1",
+     "protein": "Bile acid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 59.3,
+     "percent_of_non_toxic": 19.2,
+     "difference": 40.1
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 63.4,
+     "percent_of_non_toxic": 23.2,
+     "difference": 40.1
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 87.5,
+     "percent_of_non_toxic": 47.9,
+     "difference": 39.6
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 70.8,
+     "percent_of_non_toxic": 31.4,
+     "difference": 39.3
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 86.9,
+     "percent_of_non_toxic": 48.4,
+     "difference": 38.5
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q9UGL1",
+     "protein": "Lysine-specific demethylase 5B",
+     "family": "Eraser",
+     "percent_of_toxic": 6.6,
+     "percent_of_non_toxic": 9.3,
+     "difference": -2.7
+    },
+    {
+     "accession": "P29375",
+     "protein": "Lysine-specific demethylase 5A",
+     "family": "Eraser; Reader",
+     "percent_of_toxic": 2.0,
+     "percent_of_non_toxic": 4.8,
+     "difference": -2.8
+    },
+    {
+     "accession": "P14867",
+     "protein": "Gamma-aminobutyric acid receptor subunit alpha-1",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 7.2,
+     "percent_of_non_toxic": 10.3,
+     "difference": -3.1
+    },
+    {
+     "accession": "O60218",
+     "protein": "Aldo-keto reductase family 1 member B10",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 1.3,
+     "percent_of_non_toxic": 4.4,
+     "difference": -3.1
+    },
+    {
+     "accession": "P15121",
+     "protein": "Aldo-keto reductase family 1 member B1",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 11.0,
+     "percent_of_non_toxic": 14.0,
+     "difference": -3.1
+    },
+    {
+     "accession": "Q95460",
+     "protein": "Major histocompatibility complex class I-related protein 1",
+     "family": "",
+     "percent_of_toxic": 1.9,
+     "percent_of_non_toxic": 6.0,
+     "difference": -4.1
+    }
+   ]
+  },
+  {
+   "category": "Carcinogenicity",
+   "endpoint": "Carcinogenicity",
+   "n_toxic": 500,
+   "n_non_toxic": 500,
+   "top": [
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 23.8,
+     "percent_of_non_toxic": 23.8,
+     "difference": 0.0
+    },
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 15.8,
+     "percent_of_non_toxic": 16.2,
+     "difference": -0.4
+    },
+    {
+     "accession": "P25440",
+     "protein": "Bromodomain-containing protein 2",
+     "family": "Reader",
+     "percent_of_toxic": 14.8,
+     "percent_of_non_toxic": 16.2,
+     "difference": -1.4
+    },
+    {
+     "accession": "P68400",
+     "protein": "Casein kinase II subunit alpha",
+     "family": "Kinase",
+     "percent_of_toxic": 18.6,
+     "percent_of_non_toxic": 21.2,
+     "difference": -2.6
+    },
+    {
+     "accession": "P00918",
+     "protein": "Carbonic anhydrase 2",
+     "family": "Lyase",
+     "percent_of_toxic": 23.6,
+     "percent_of_non_toxic": 26.2,
+     "difference": -2.6
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 14.8,
+     "percent_of_non_toxic": 18.2,
+     "difference": -3.4
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 15.0,
+     "percent_of_non_toxic": 19.4,
+     "difference": -4.4
+    },
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 14.6,
+     "percent_of_non_toxic": 20.2,
+     "difference": -5.6
+    },
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 12.2,
+     "percent_of_non_toxic": 18.6,
+     "difference": -6.4
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 17.2,
+     "percent_of_non_toxic": 24.4,
+     "difference": -7.2
+    },
+    {
+     "accession": "P18031",
+     "protein": "Tyrosine-protein phosphatase non-receptor type 1",
+     "family": "Phosphatase",
+     "percent_of_toxic": 12.8,
+     "percent_of_non_toxic": 20.0,
+     "difference": -7.2
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 17.0,
+     "percent_of_non_toxic": 24.8,
+     "difference": -7.8
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 12.2,
+     "percent_of_non_toxic": 18.6,
+     "difference": -6.4
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 17.2,
+     "percent_of_non_toxic": 24.4,
+     "difference": -7.2
+    },
+    {
+     "accession": "P18031",
+     "protein": "Tyrosine-protein phosphatase non-receptor type 1",
+     "family": "Phosphatase",
+     "percent_of_toxic": 12.8,
+     "percent_of_non_toxic": 20.0,
+     "difference": -7.2
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 17.0,
+     "percent_of_non_toxic": 24.8,
+     "difference": -7.8
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 20.8,
+     "percent_of_non_toxic": 29.0,
+     "difference": -8.2
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 20.6,
+     "percent_of_non_toxic": 29.0,
+     "difference": -8.4
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-1",
+   "n_toxic": 277,
+   "n_non_toxic": 1019,
+   "top": [
+    {
+     "accession": "Q16740",
+     "protein": "ATP-dependent Clp protease proteolytic subunit, mitochondrial",
+     "family": "Hydrolase",
+     "percent_of_toxic": 43.3,
+     "percent_of_non_toxic": 15.4,
+     "difference": 27.9
+    },
+    {
+     "accession": "P0DP23",
+     "protein": "Calmodulin-1",
+     "family": "",
+     "percent_of_toxic": 47.7,
+     "percent_of_non_toxic": 23.3,
+     "difference": 24.4
+    },
+    {
+     "accession": "Q92769",
+     "protein": "Histone deacetylase 2",
+     "family": "Eraser",
+     "percent_of_toxic": 46.2,
+     "percent_of_non_toxic": 22.1,
+     "difference": 24.1
+    },
+    {
+     "accession": "Q12809",
+     "protein": "Voltage-gated inwardly rectifying potassium channel KCNH2",
+     "family": "Voltage-gated ion channel",
+     "percent_of_toxic": 32.5,
+     "percent_of_non_toxic": 9.6,
+     "difference": 22.9
+    },
+    {
+     "accession": "Q9P0X4",
+     "protein": "Voltage-dependent T-type calcium channel subunit alpha-1I",
+     "family": "Voltage-gated ion channel",
+     "percent_of_toxic": 33.2,
+     "percent_of_non_toxic": 11.7,
+     "difference": 21.5
+    },
+    {
+     "accession": "Q8IXJ6",
+     "protein": "NAD-dependent protein deacetylase sirtuin-2",
+     "family": "Eraser",
+     "percent_of_toxic": 41.5,
+     "percent_of_non_toxic": 20.1,
+     "difference": 21.4
+    },
+    {
+     "accession": "P06276",
+     "protein": "Cholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 56.7,
+     "percent_of_non_toxic": 35.5,
+     "difference": 21.2
+    },
+    {
+     "accession": "P08684",
+     "protein": "Cytochrome P450 3A4",
+     "family": "Cytochrome P450",
+     "percent_of_toxic": 50.9,
+     "percent_of_non_toxic": 29.7,
+     "difference": 21.2
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 47.3,
+     "percent_of_non_toxic": 26.1,
+     "difference": 21.2
+    },
+    {
+     "accession": "P35367",
+     "protein": "Histamine H1 receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 33.9,
+     "percent_of_non_toxic": 13.0,
+     "difference": 21.0
+    },
+    {
+     "accession": "P04150",
+     "protein": "Glucocorticoid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 41.2,
+     "percent_of_non_toxic": 20.6,
+     "difference": 20.5
+    },
+    {
+     "accession": "P04629",
+     "protein": "High affinity nerve growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 50.2,
+     "percent_of_non_toxic": 30.6,
+     "difference": 19.6
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P45452",
+     "protein": "Collagenase 3",
+     "family": "Protease",
+     "percent_of_toxic": 10.1,
+     "percent_of_non_toxic": 17.3,
+     "difference": -7.2
+    },
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 40.1,
+     "percent_of_non_toxic": 48.0,
+     "difference": -7.9
+    },
+    {
+     "accession": "Q8TF76",
+     "protein": "Serine/threonine-protein kinase haspin",
+     "family": "Kinase",
+     "percent_of_toxic": 6.9,
+     "percent_of_non_toxic": 14.8,
+     "difference": -8.0
+    },
+    {
+     "accession": "O76074",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 11.9,
+     "percent_of_non_toxic": 20.4,
+     "difference": -8.5
+    },
+    {
+     "accession": "P11309",
+     "protein": "Serine/threonine-protein kinase pim-1",
+     "family": "Kinase",
+     "percent_of_toxic": 25.3,
+     "percent_of_non_toxic": 35.9,
+     "difference": -10.6
+    },
+    {
+     "accession": "O14757",
+     "protein": "Serine/threonine-protein kinase Chk1",
+     "family": "Kinase",
+     "percent_of_toxic": 24.9,
+     "percent_of_non_toxic": 37.4,
+     "difference": -12.5
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-10",
+   "n_toxic": 788,
+   "n_non_toxic": 508,
+   "top": [
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 38.1,
+     "percent_of_non_toxic": 19.1,
+     "difference": 19.0
+    },
+    {
+     "accession": "Q16740",
+     "protein": "ATP-dependent Clp protease proteolytic subunit, mitochondrial",
+     "family": "Hydrolase",
+     "percent_of_toxic": 27.8,
+     "percent_of_non_toxic": 11.4,
+     "difference": 16.4
+    },
+    {
+     "accession": "Q07889",
+     "protein": "Son of sevenless homolog 1",
+     "family": "",
+     "percent_of_toxic": 34.9,
+     "percent_of_non_toxic": 18.9,
+     "difference": 16.0
+    },
+    {
+     "accession": "P35367",
+     "protein": "Histamine H1 receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 23.6,
+     "percent_of_non_toxic": 7.9,
+     "difference": 15.7
+    },
+    {
+     "accession": "P06276",
+     "protein": "Cholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 46.1,
+     "percent_of_non_toxic": 30.7,
+     "difference": 15.4
+    },
+    {
+     "accession": "P01112",
+     "protein": "GTPase HRas",
+     "family": "",
+     "percent_of_toxic": 36.9,
+     "percent_of_non_toxic": 21.7,
+     "difference": 15.3
+    },
+    {
+     "accession": "P00797",
+     "protein": "Renin",
+     "family": "Protease",
+     "percent_of_toxic": 48.6,
+     "percent_of_non_toxic": 34.8,
+     "difference": 13.8
+    },
+    {
+     "accession": "P61925",
+     "protein": "cAMP-dependent protein kinase inhibitor alpha",
+     "family": "",
+     "percent_of_toxic": 45.2,
+     "percent_of_non_toxic": 31.9,
+     "difference": 13.3
+    },
+    {
+     "accession": "Q13153",
+     "protein": "Serine/threonine-protein kinase PAK 1",
+     "family": "Kinase",
+     "percent_of_toxic": 24.9,
+     "percent_of_non_toxic": 11.8,
+     "difference": 13.1
+    },
+    {
+     "accession": "P29474",
+     "protein": "Nitric oxide synthase 3",
+     "family": "",
+     "percent_of_toxic": 34.4,
+     "percent_of_non_toxic": 21.5,
+     "difference": 12.9
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 78.4,
+     "percent_of_non_toxic": 65.6,
+     "difference": 12.9
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 59.0,
+     "percent_of_non_toxic": 46.3,
+     "difference": 12.8
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P11362",
+     "protein": "Fibroblast growth factor receptor 1",
+     "family": "Kinase",
+     "percent_of_toxic": 19.9,
+     "percent_of_non_toxic": 26.6,
+     "difference": -6.7
+    },
+    {
+     "accession": "O76074",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 15.7,
+     "percent_of_non_toxic": 23.0,
+     "difference": -7.3
+    },
+    {
+     "accession": "Q15369",
+     "protein": "Elongin-C",
+     "family": "",
+     "percent_of_toxic": 16.9,
+     "percent_of_non_toxic": 24.2,
+     "difference": -7.3
+    },
+    {
+     "accession": "Q15370",
+     "protein": "Elongin-B",
+     "family": "",
+     "percent_of_toxic": 16.9,
+     "percent_of_non_toxic": 24.2,
+     "difference": -7.3
+    },
+    {
+     "accession": "P39900",
+     "protein": "Macrophage metalloelastase",
+     "family": "Protease",
+     "percent_of_toxic": 9.3,
+     "percent_of_non_toxic": 17.7,
+     "difference": -8.5
+    },
+    {
+     "accession": "P45452",
+     "protein": "Collagenase 3",
+     "family": "Protease",
+     "percent_of_toxic": 12.2,
+     "percent_of_non_toxic": 21.3,
+     "difference": -9.1
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-30",
+   "n_toxic": 1075,
+   "n_non_toxic": 221,
+   "top": [
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 34.3,
+     "percent_of_non_toxic": 12.7,
+     "difference": 21.7
+    },
+    {
+     "accession": "Q07889",
+     "protein": "Son of sevenless homolog 1",
+     "family": "",
+     "percent_of_toxic": 31.7,
+     "percent_of_non_toxic": 13.6,
+     "difference": 18.1
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 76.5,
+     "percent_of_non_toxic": 58.4,
+     "difference": 18.1
+    },
+    {
+     "accession": "P29475",
+     "protein": "Nitric oxide synthase 1",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 30.6,
+     "percent_of_non_toxic": 13.1,
+     "difference": 17.5
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 82.9,
+     "percent_of_non_toxic": 65.6,
+     "difference": 17.3
+    },
+    {
+     "accession": "P06276",
+     "protein": "Cholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 43.0,
+     "percent_of_non_toxic": 25.8,
+     "difference": 17.2
+    },
+    {
+     "accession": "P61925",
+     "protein": "cAMP-dependent protein kinase inhibitor alpha",
+     "family": "",
+     "percent_of_toxic": 42.9,
+     "percent_of_non_toxic": 25.8,
+     "difference": 17.1
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 83.3,
+     "percent_of_non_toxic": 66.5,
+     "difference": 16.8
+    },
+    {
+     "accession": "P35367",
+     "protein": "Histamine H1 receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 20.3,
+     "percent_of_non_toxic": 3.6,
+     "difference": 16.7
+    },
+    {
+     "accession": "P29474",
+     "protein": "Nitric oxide synthase 3",
+     "family": "",
+     "percent_of_toxic": 32.1,
+     "percent_of_non_toxic": 15.8,
+     "difference": 16.3
+    },
+    {
+     "accession": "P00797",
+     "protein": "Renin",
+     "family": "Protease",
+     "percent_of_toxic": 45.7,
+     "percent_of_non_toxic": 31.2,
+     "difference": 14.5
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 56.5,
+     "percent_of_non_toxic": 42.1,
+     "difference": 14.4
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q14145",
+     "protein": "Kelch-like ECH-associated protein 1",
+     "family": "",
+     "percent_of_toxic": 10.3,
+     "percent_of_non_toxic": 18.6,
+     "difference": -8.2
+    },
+    {
+     "accession": "P39900",
+     "protein": "Macrophage metalloelastase",
+     "family": "Protease",
+     "percent_of_toxic": 11.2,
+     "percent_of_non_toxic": 19.5,
+     "difference": -8.3
+    },
+    {
+     "accession": "P11362",
+     "protein": "Fibroblast growth factor receptor 1",
+     "family": "Kinase",
+     "percent_of_toxic": 21.1,
+     "percent_of_non_toxic": 29.4,
+     "difference": -8.3
+    },
+    {
+     "accession": "P41182",
+     "protein": "B-cell lymphoma 6 protein",
+     "family": "",
+     "percent_of_toxic": 27.5,
+     "percent_of_non_toxic": 36.7,
+     "difference": -9.1
+    },
+    {
+     "accession": "P62937",
+     "protein": "Peptidyl-prolyl cis-trans isomerase A",
+     "family": "Isomerase",
+     "percent_of_toxic": 17.9,
+     "percent_of_non_toxic": 29.0,
+     "difference": -11.1
+    },
+    {
+     "accession": "P29274",
+     "protein": "Adenosine receptor A2a",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 13.3,
+     "percent_of_non_toxic": 24.9,
+     "difference": -11.6
+    }
+   ]
+  },
+  {
+   "category": "Cardiotoxicity",
+   "endpoint": "Cardiotoxicity-5",
+   "n_toxic": 591,
+   "n_non_toxic": 705,
+   "top": [
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 42.5,
+     "percent_of_non_toxic": 20.7,
+     "difference": 21.8
+    },
+    {
+     "accession": "Q16740",
+     "protein": "ATP-dependent Clp protease proteolytic subunit, mitochondrial",
+     "family": "Hydrolase",
+     "percent_of_toxic": 32.3,
+     "percent_of_non_toxic": 12.2,
+     "difference": 20.1
+    },
+    {
+     "accession": "P35367",
+     "protein": "Histamine H1 receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 27.7,
+     "percent_of_non_toxic": 8.8,
+     "difference": 19.0
+    },
+    {
+     "accession": "P06276",
+     "protein": "Cholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 50.1,
+     "percent_of_non_toxic": 31.6,
+     "difference": 18.5
+    },
+    {
+     "accession": "P61925",
+     "protein": "cAMP-dependent protein kinase inhibitor alpha",
+     "family": "",
+     "percent_of_toxic": 48.9,
+     "percent_of_non_toxic": 32.5,
+     "difference": 16.4
+    },
+    {
+     "accession": "P01116",
+     "protein": "GTPase KRas",
+     "family": "Hydrolase",
+     "percent_of_toxic": 64.3,
+     "percent_of_non_toxic": 47.9,
+     "difference": 16.4
+    },
+    {
+     "accession": "Q12809",
+     "protein": "Voltage-gated inwardly rectifying potassium channel KCNH2",
+     "family": "Voltage-gated ion channel",
+     "percent_of_toxic": 23.2,
+     "percent_of_non_toxic": 7.2,
+     "difference": 15.9
+    },
+    {
+     "accession": "P04150",
+     "protein": "Glucocorticoid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 33.3,
+     "percent_of_non_toxic": 18.0,
+     "difference": 15.3
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 62.3,
+     "percent_of_non_toxic": 47.1,
+     "difference": 15.2
+    },
+    {
+     "accession": "P08908",
+     "protein": "5-hydroxytryptamine receptor 1A",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 31.0,
+     "percent_of_non_toxic": 16.0,
+     "difference": 14.9
+    },
+    {
+     "accession": "P51685",
+     "protein": "C-C chemokine receptor type 8",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 20.5,
+     "percent_of_non_toxic": 5.5,
+     "difference": 14.9
+    },
+    {
+     "accession": "O75530",
+     "protein": "Polycomb protein EED",
+     "family": "",
+     "percent_of_toxic": 38.9,
+     "percent_of_non_toxic": 24.7,
+     "difference": 14.2
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q15370",
+     "protein": "Elongin-B",
+     "family": "",
+     "percent_of_toxic": 16.8,
+     "percent_of_non_toxic": 22.3,
+     "difference": -5.5
+    },
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 8.8,
+     "percent_of_non_toxic": 14.3,
+     "difference": -5.5
+    },
+    {
+     "accession": "P39900",
+     "protein": "Macrophage metalloelastase",
+     "family": "Protease",
+     "percent_of_toxic": 9.1,
+     "percent_of_non_toxic": 15.5,
+     "difference": -6.3
+    },
+    {
+     "accession": "O76074",
+     "protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 14.9,
+     "percent_of_non_toxic": 21.7,
+     "difference": -6.8
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 10.5,
+     "percent_of_non_toxic": 17.4,
+     "difference": -7.0
+    },
+    {
+     "accession": "P45452",
+     "protein": "Collagenase 3",
+     "family": "Protease",
+     "percent_of_toxic": 11.3,
+     "percent_of_non_toxic": 19.4,
+     "difference": -8.1
+    }
+   ]
+  },
+  {
+   "category": "Clinical Toxicity",
+   "endpoint": "Clinical toxicity",
+   "n_toxic": 90,
+   "n_non_toxic": 1152,
+   "top": [
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 68.9,
+     "percent_of_non_toxic": 36.6,
+     "difference": 32.3
+    },
+    {
+     "accession": "P00734",
+     "protein": "Prothrombin",
+     "family": "Protease",
+     "percent_of_toxic": 53.3,
+     "percent_of_non_toxic": 26.1,
+     "difference": 27.2
+    },
+    {
+     "accession": "P00742",
+     "protein": "Coagulation factor X",
+     "family": "Protease",
+     "percent_of_toxic": 43.3,
+     "percent_of_non_toxic": 16.2,
+     "difference": 27.1
+    },
+    {
+     "accession": "P56817",
+     "protein": "Beta-secretase 1",
+     "family": "Protease",
+     "percent_of_toxic": 66.7,
+     "percent_of_non_toxic": 39.6,
+     "difference": 27.1
+    },
+    {
+     "accession": "P08709",
+     "protein": "Coagulation factor VII",
+     "family": "Protease",
+     "percent_of_toxic": 41.1,
+     "percent_of_non_toxic": 14.1,
+     "difference": 27.0
+    },
+    {
+     "accession": "O60674",
+     "protein": "Tyrosine-protein kinase JAK2",
+     "family": "Kinase",
+     "percent_of_toxic": 45.6,
+     "percent_of_non_toxic": 19.2,
+     "difference": 26.4
+    },
+    {
+     "accession": "Q16531",
+     "protein": "DNA damage-binding protein 1",
+     "family": "",
+     "percent_of_toxic": 40.0,
+     "percent_of_non_toxic": 14.7,
+     "difference": 25.3
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 61.1,
+     "percent_of_non_toxic": 36.4,
+     "difference": 24.7
+    },
+    {
+     "accession": "P01116",
+     "protein": "GTPase KRas",
+     "family": "Hydrolase",
+     "percent_of_toxic": 53.3,
+     "percent_of_non_toxic": 29.8,
+     "difference": 23.6
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 70.0,
+     "percent_of_non_toxic": 46.9,
+     "difference": 23.1
+    },
+    {
+     "accession": "Q8TF76",
+     "protein": "Serine/threonine-protein kinase haspin",
+     "family": "Kinase",
+     "percent_of_toxic": 36.7,
+     "percent_of_non_toxic": 13.8,
+     "difference": 22.9
+    },
+    {
+     "accession": "Q06187",
+     "protein": "Tyrosine-protein kinase BTK",
+     "family": "Kinase",
+     "percent_of_toxic": 40.0,
+     "percent_of_non_toxic": 17.1,
+     "difference": 22.9
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P34913",
+     "protein": "Bifunctional epoxide hydrolase 2",
+     "family": "Protease",
+     "percent_of_toxic": 16.7,
+     "percent_of_non_toxic": 19.5,
+     "difference": -2.9
+    },
+    {
+     "accession": "P62826",
+     "protein": "GTP-binding nuclear protein Ran",
+     "family": "",
+     "percent_of_toxic": 10.0,
+     "percent_of_non_toxic": 13.4,
+     "difference": -3.4
+    },
+    {
+     "accession": "P35372",
+     "protein": "Mu-type opioid receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 8.9,
+     "percent_of_non_toxic": 14.3,
+     "difference": -5.4
+    },
+    {
+     "accession": "P50579",
+     "protein": "Methionine aminopeptidase 2",
+     "family": "Protease",
+     "percent_of_toxic": 14.4,
+     "percent_of_non_toxic": 20.8,
+     "difference": -6.4
+    },
+    {
+     "accession": "P15121",
+     "protein": "Aldo-keto reductase family 1 member B1",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 6.7,
+     "percent_of_non_toxic": 13.9,
+     "difference": -7.2
+    },
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 11.1,
+     "percent_of_non_toxic": 22.5,
+     "difference": -11.4
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-AR",
+   "n_toxic": 297,
+   "n_non_toxic": 6576,
+   "top": [
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 55.9,
+     "percent_of_non_toxic": 17.9,
+     "difference": 38.0
+    },
+    {
+     "accession": "P08235",
+     "protein": "Mineralocorticoid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 43.4,
+     "percent_of_non_toxic": 6.4,
+     "difference": 37.0
+    },
+    {
+     "accession": "P06401",
+     "protein": "Progesterone receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 39.4,
+     "percent_of_non_toxic": 4.2,
+     "difference": 35.2
+    },
+    {
+     "accession": "P00918",
+     "protein": "Carbonic anhydrase 2",
+     "family": "Lyase",
+     "percent_of_toxic": 58.9,
+     "percent_of_non_toxic": 24.0,
+     "difference": 35.0
+    },
+    {
+     "accession": "P01011",
+     "protein": "Alpha-1-antichymotrypsin",
+     "family": "",
+     "percent_of_toxic": 36.4,
+     "percent_of_non_toxic": 1.8,
+     "difference": 34.6
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 51.2,
+     "percent_of_non_toxic": 19.8,
+     "difference": 31.3
+    },
+    {
+     "accession": "Q15466",
+     "protein": "Nuclear receptor subfamily 0 group B member 2",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 31.0,
+     "percent_of_non_toxic": 1.2,
+     "difference": 29.8
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 49.5,
+     "percent_of_non_toxic": 21.0,
+     "difference": 28.5
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 62.3,
+     "percent_of_non_toxic": 34.0,
+     "difference": 28.3
+    },
+    {
+     "accession": "P63092",
+     "protein": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short",
+     "family": "",
+     "percent_of_toxic": 47.1,
+     "percent_of_non_toxic": 19.3,
+     "difference": 27.9
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 61.6,
+     "percent_of_non_toxic": 34.1,
+     "difference": 27.5
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 42.4,
+     "percent_of_non_toxic": 18.2,
+     "difference": 24.3
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P31153",
+     "protein": "S-adenosylmethionine synthase isoform type-2",
+     "family": "Transferase",
+     "percent_of_toxic": 6.7,
+     "percent_of_non_toxic": 10.0,
+     "difference": -3.2
+    },
+    {
+     "accession": "P19784",
+     "protein": "Casein kinase II subunit alpha'",
+     "family": "Kinase",
+     "percent_of_toxic": 8.8,
+     "percent_of_non_toxic": 12.0,
+     "difference": -3.2
+    },
+    {
+     "accession": "P52732",
+     "protein": "Kinesin-like protein KIF11",
+     "family": "",
+     "percent_of_toxic": 4.7,
+     "percent_of_non_toxic": 8.7,
+     "difference": -4.0
+    },
+    {
+     "accession": "P10636",
+     "protein": "Microtubule-associated protein tau",
+     "family": "",
+     "percent_of_toxic": 5.1,
+     "percent_of_non_toxic": 9.4,
+     "difference": -4.3
+    },
+    {
+     "accession": "P11309",
+     "protein": "Serine/threonine-protein kinase pim-1",
+     "family": "Kinase",
+     "percent_of_toxic": 11.4,
+     "percent_of_non_toxic": 15.9,
+     "difference": -4.5
+    },
+    {
+     "accession": "P16083",
+     "protein": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 3.0,
+     "percent_of_non_toxic": 8.3,
+     "difference": -5.3
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-AR-LBD",
+   "n_toxic": 223,
+   "n_non_toxic": 6187,
+   "top": [
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 59.6,
+     "percent_of_non_toxic": 16.6,
+     "difference": 43.1
+    },
+    {
+     "accession": "P01011",
+     "protein": "Alpha-1-antichymotrypsin",
+     "family": "",
+     "percent_of_toxic": 43.9,
+     "percent_of_non_toxic": 1.8,
+     "difference": 42.2
+    },
+    {
+     "accession": "P08235",
+     "protein": "Mineralocorticoid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 48.0,
+     "percent_of_non_toxic": 6.1,
+     "difference": 41.8
+    },
+    {
+     "accession": "P06401",
+     "protein": "Progesterone receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 44.4,
+     "percent_of_non_toxic": 4.2,
+     "difference": 40.2
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 56.5,
+     "percent_of_non_toxic": 19.6,
+     "difference": 36.9
+    },
+    {
+     "accession": "P00918",
+     "protein": "Carbonic anhydrase 2",
+     "family": "Lyase",
+     "percent_of_toxic": 58.7,
+     "percent_of_non_toxic": 23.2,
+     "difference": 35.6
+    },
+    {
+     "accession": "Q15466",
+     "protein": "Nuclear receptor subfamily 0 group B member 2",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 35.9,
+     "percent_of_non_toxic": 1.3,
+     "difference": 34.5
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 66.8,
+     "percent_of_non_toxic": 32.5,
+     "difference": 34.3
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 65.9,
+     "percent_of_non_toxic": 32.6,
+     "difference": 33.3
+    },
+    {
+     "accession": "P63092",
+     "protein": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short",
+     "family": "",
+     "percent_of_toxic": 47.1,
+     "percent_of_non_toxic": 18.4,
+     "difference": 28.7
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 46.6,
+     "percent_of_non_toxic": 18.7,
+     "difference": 28.0
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 41.7,
+     "percent_of_non_toxic": 17.2,
+     "difference": 24.5
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P18031",
+     "protein": "Tyrosine-protein phosphatase non-receptor type 1",
+     "family": "Phosphatase",
+     "percent_of_toxic": 11.7,
+     "percent_of_non_toxic": 16.6,
+     "difference": -5.0
+    },
+    {
+     "accession": "P00338",
+     "protein": "L-lactate dehydrogenase A chain",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 1.3,
+     "percent_of_non_toxic": 6.7,
+     "difference": -5.4
+    },
+    {
+     "accession": "P19784",
+     "protein": "Casein kinase II subunit alpha'",
+     "family": "Kinase",
+     "percent_of_toxic": 6.3,
+     "percent_of_non_toxic": 11.9,
+     "difference": -5.6
+    },
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 12.1,
+     "percent_of_non_toxic": 17.9,
+     "difference": -5.8
+    },
+    {
+     "accession": "P10636",
+     "protein": "Microtubule-associated protein tau",
+     "family": "",
+     "percent_of_toxic": 3.1,
+     "percent_of_non_toxic": 9.2,
+     "difference": -6.0
+    },
+    {
+     "accession": "P00441",
+     "protein": "Superoxide dismutase [Cu-Zn]",
+     "family": "",
+     "percent_of_toxic": 0.4,
+     "percent_of_non_toxic": 6.5,
+     "difference": -6.0
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-AhR",
+   "n_toxic": 732,
+   "n_non_toxic": 5468,
+   "top": [
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 41.5,
+     "percent_of_non_toxic": 26.4,
+     "difference": 15.1
+    },
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 33.7,
+     "percent_of_non_toxic": 19.4,
+     "difference": 14.3
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 28.3,
+     "percent_of_non_toxic": 14.3,
+     "difference": 14.0
+    },
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 29.1,
+     "percent_of_non_toxic": 15.9,
+     "difference": 13.2
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 31.3,
+     "percent_of_non_toxic": 18.4,
+     "difference": 12.9
+    },
+    {
+     "accession": "P68400",
+     "protein": "Casein kinase II subunit alpha",
+     "family": "Kinase",
+     "percent_of_toxic": 33.7,
+     "percent_of_non_toxic": 21.2,
+     "difference": 12.5
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 27.6,
+     "percent_of_non_toxic": 15.7,
+     "difference": 11.9
+    },
+    {
+     "accession": "O60674",
+     "protein": "Tyrosine-protein kinase JAK2",
+     "family": "Kinase",
+     "percent_of_toxic": 22.1,
+     "percent_of_non_toxic": 10.4,
+     "difference": 11.7
+    },
+    {
+     "accession": "P07900",
+     "protein": "Heat shock protein HSP 90-alpha",
+     "family": "",
+     "percent_of_toxic": 26.5,
+     "percent_of_non_toxic": 14.8,
+     "difference": 11.7
+    },
+    {
+     "accession": "P25440",
+     "protein": "Bromodomain-containing protein 2",
+     "family": "Reader",
+     "percent_of_toxic": 27.2,
+     "percent_of_non_toxic": 15.9,
+     "difference": 11.3
+    },
+    {
+     "accession": "P11309",
+     "protein": "Serine/threonine-protein kinase pim-1",
+     "family": "Kinase",
+     "percent_of_toxic": 24.3,
+     "percent_of_non_toxic": 13.7,
+     "difference": 10.7
+    },
+    {
+     "accession": "Q02127",
+     "protein": "Dihydroorotate dehydrogenase (quinone), mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 22.1,
+     "percent_of_non_toxic": 12.0,
+     "difference": 10.1
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P29016",
+     "protein": "T-cell surface glycoprotein CD1b",
+     "family": "",
+     "percent_of_toxic": 0.3,
+     "percent_of_non_toxic": 3.9,
+     "difference": -3.6
+    },
+    {
+     "accession": "P05388",
+     "protein": "Large ribosomal subunit protein uL10",
+     "family": "",
+     "percent_of_toxic": 1.1,
+     "percent_of_non_toxic": 4.7,
+     "difference": -3.6
+    },
+    {
+     "accession": "Q86UW2",
+     "protein": "Organic solute transporter subunit beta",
+     "family": "",
+     "percent_of_toxic": 0.0,
+     "percent_of_non_toxic": 3.7,
+     "difference": -3.7
+    },
+    {
+     "accession": "Q86UW1",
+     "protein": "Organic solute transporter subunit alpha",
+     "family": "",
+     "percent_of_toxic": 0.0,
+     "percent_of_non_toxic": 3.7,
+     "difference": -3.7
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 3.8,
+     "percent_of_non_toxic": 7.5,
+     "difference": -3.7
+    },
+    {
+     "accession": "P09471",
+     "protein": "Guanine nucleotide-binding protein G(o) subunit alpha",
+     "family": "",
+     "percent_of_toxic": 4.6,
+     "percent_of_non_toxic": 9.4,
+     "difference": -4.7
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-ER",
+   "n_toxic": 755,
+   "n_non_toxic": 5120,
+   "top": [
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 35.2,
+     "percent_of_non_toxic": 16.9,
+     "difference": 18.3
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 35.6,
+     "percent_of_non_toxic": 17.4,
+     "difference": 18.2
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 30.5,
+     "percent_of_non_toxic": 15.4,
+     "difference": 15.1
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 30.7,
+     "percent_of_non_toxic": 16.9,
+     "difference": 13.8
+    },
+    {
+     "accession": "P47870",
+     "protein": "Gamma-aminobutyric acid receptor subunit beta-2",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 18.4,
+     "percent_of_non_toxic": 6.6,
+     "difference": 11.8
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 24.8,
+     "percent_of_non_toxic": 13.3,
+     "difference": 11.4
+    },
+    {
+     "accession": "P18507",
+     "protein": "Gamma-aminobutyric acid receptor subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 20.9,
+     "percent_of_non_toxic": 9.6,
+     "difference": 11.3
+    },
+    {
+     "accession": "P14867",
+     "protein": "Gamma-aminobutyric acid receptor subunit alpha-1",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 20.7,
+     "percent_of_non_toxic": 9.5,
+     "difference": 11.2
+    },
+    {
+     "accession": "P00918",
+     "protein": "Carbonic anhydrase 2",
+     "family": "Lyase",
+     "percent_of_toxic": 33.6,
+     "percent_of_non_toxic": 22.7,
+     "difference": 11.0
+    },
+    {
+     "accession": "P10275",
+     "protein": "Androgen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 17.1,
+     "percent_of_non_toxic": 6.5,
+     "difference": 10.6
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 34.8,
+     "percent_of_non_toxic": 25.7,
+     "difference": 9.2
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 32.3,
+     "percent_of_non_toxic": 23.7,
+     "difference": 8.6
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P28066",
+     "protein": "Proteasome subunit alpha type-5",
+     "family": "",
+     "percent_of_toxic": 2.6,
+     "percent_of_non_toxic": 4.7,
+     "difference": -2.1
+    },
+    {
+     "accession": "P20618",
+     "protein": "Proteasome subunit beta type-1",
+     "family": "Protease",
+     "percent_of_toxic": 2.6,
+     "percent_of_non_toxic": 4.7,
+     "difference": -2.1
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 26.8,
+     "percent_of_non_toxic": 28.9,
+     "difference": -2.2
+    },
+    {
+     "accession": "P29474",
+     "protein": "Nitric oxide synthase 3",
+     "family": "",
+     "percent_of_toxic": 1.6,
+     "percent_of_non_toxic": 3.8,
+     "difference": -2.2
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 4.8,
+     "percent_of_non_toxic": 7.3,
+     "difference": -2.5
+    },
+    {
+     "accession": "P04637",
+     "protein": "Cellular tumor antigen p53",
+     "family": "",
+     "percent_of_toxic": 4.0,
+     "percent_of_non_toxic": 6.8,
+     "difference": -2.8
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-ER-LBD",
+   "n_toxic": 323,
+   "n_non_toxic": 6266,
+   "top": [
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 46.4,
+     "percent_of_non_toxic": 18.5,
+     "difference": 27.9
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 44.9,
+     "percent_of_non_toxic": 17.3,
+     "difference": 27.6
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 47.4,
+     "percent_of_non_toxic": 19.9,
+     "difference": 27.5
+    },
+    {
+     "accession": "P00918",
+     "protein": "Carbonic anhydrase 2",
+     "family": "Lyase",
+     "percent_of_toxic": 46.7,
+     "percent_of_non_toxic": 24.0,
+     "difference": 22.8
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 40.9,
+     "percent_of_non_toxic": 19.2,
+     "difference": 21.7
+    },
+    {
+     "accession": "P10275",
+     "protein": "Androgen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 25.4,
+     "percent_of_non_toxic": 7.5,
+     "difference": 17.9
+    },
+    {
+     "accession": "P24046",
+     "protein": "Gamma-aminobutyric acid receptor subunit rho-1",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 17.0,
+     "percent_of_non_toxic": 1.9,
+     "difference": 15.2
+    },
+    {
+     "accession": "P01011",
+     "protein": "Alpha-1-antichymotrypsin",
+     "family": "",
+     "percent_of_toxic": 17.3,
+     "percent_of_non_toxic": 2.4,
+     "difference": 14.9
+    },
+    {
+     "accession": "Q9BPX1",
+     "protein": "L-fucose dehydrogenase",
+     "family": "",
+     "percent_of_toxic": 16.4,
+     "percent_of_non_toxic": 1.7,
+     "difference": 14.7
+    },
+    {
+     "accession": "P42330",
+     "protein": "Aldo-keto reductase family 1 member C3",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 26.6,
+     "percent_of_non_toxic": 13.2,
+     "difference": 13.4
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 28.8,
+     "percent_of_non_toxic": 15.9,
+     "difference": 12.9
+    },
+    {
+     "accession": "P06401",
+     "protein": "Progesterone receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 17.6,
+     "percent_of_non_toxic": 4.8,
+     "difference": 12.8
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q13546",
+     "protein": "Receptor-interacting serine/threonine-protein kinase 1",
+     "family": "Kinase",
+     "percent_of_toxic": 2.8,
+     "percent_of_non_toxic": 6.5,
+     "difference": -3.7
+    },
+    {
+     "accession": "P04637",
+     "protein": "Cellular tumor antigen p53",
+     "family": "",
+     "percent_of_toxic": 3.1,
+     "percent_of_non_toxic": 6.8,
+     "difference": -3.7
+    },
+    {
+     "accession": "P00734",
+     "protein": "Prothrombin",
+     "family": "Protease",
+     "percent_of_toxic": 9.0,
+     "percent_of_non_toxic": 12.9,
+     "difference": -3.9
+    },
+    {
+     "accession": "P61925",
+     "protein": "cAMP-dependent protein kinase inhibitor alpha",
+     "family": "",
+     "percent_of_toxic": 5.3,
+     "percent_of_non_toxic": 9.2,
+     "difference": -4.0
+    },
+    {
+     "accession": "Q00987",
+     "protein": "E3 ubiquitin-protein ligase Mdm2",
+     "family": "",
+     "percent_of_toxic": 9.9,
+     "percent_of_non_toxic": 14.1,
+     "difference": -4.2
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 25.7,
+     "percent_of_non_toxic": 30.5,
+     "difference": -4.8
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-PPAR-gamma",
+   "n_toxic": 160,
+   "n_non_toxic": 5946,
+   "top": [
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 44.4,
+     "percent_of_non_toxic": 16.5,
+     "difference": 27.9
+    },
+    {
+     "accession": "P37231",
+     "protein": "Peroxisome proliferator-activated receptor gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 39.4,
+     "percent_of_non_toxic": 12.5,
+     "difference": 26.9
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 41.2,
+     "percent_of_non_toxic": 16.3,
+     "difference": 24.9
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 41.2,
+     "percent_of_non_toxic": 17.6,
+     "difference": 23.7
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 53.1,
+     "percent_of_non_toxic": 31.1,
+     "difference": 22.0
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 53.1,
+     "percent_of_non_toxic": 31.2,
+     "difference": 21.9
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 38.8,
+     "percent_of_non_toxic": 18.3,
+     "difference": 20.4
+    },
+    {
+     "accession": "P19793",
+     "protein": "Retinoic acid receptor RXR-alpha",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 23.1,
+     "percent_of_non_toxic": 3.3,
+     "difference": 19.8
+    },
+    {
+     "accession": "P02768",
+     "protein": "Albumin",
+     "family": "",
+     "percent_of_toxic": 31.2,
+     "percent_of_non_toxic": 11.5,
+     "difference": 19.7
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 46.9,
+     "percent_of_non_toxic": 27.3,
+     "difference": 19.6
+    },
+    {
+     "accession": "Q02127",
+     "protein": "Dihydroorotate dehydrogenase (quinone), mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 30.0,
+     "percent_of_non_toxic": 12.4,
+     "difference": 17.6
+    },
+    {
+     "accession": "Q07869",
+     "protein": "Peroxisome proliferator-activated receptor alpha",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 21.2,
+     "percent_of_non_toxic": 3.9,
+     "difference": 17.3
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P62753",
+     "protein": "Small ribosomal subunit protein eS6",
+     "family": "",
+     "percent_of_toxic": 3.1,
+     "percent_of_non_toxic": 5.7,
+     "difference": -2.6
+    },
+    {
+     "accession": "P28223",
+     "protein": "5-hydroxytryptamine receptor 2A",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 0.6,
+     "percent_of_non_toxic": 3.3,
+     "difference": -2.7
+    },
+    {
+     "accession": "P62266",
+     "protein": "Small ribosomal subunit protein uS12",
+     "family": "",
+     "percent_of_toxic": 1.9,
+     "percent_of_non_toxic": 4.6,
+     "difference": -2.7
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 3.1,
+     "percent_of_non_toxic": 6.5,
+     "difference": -3.4
+    },
+    {
+     "accession": "P16083",
+     "protein": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 4.4,
+     "percent_of_non_toxic": 7.9,
+     "difference": -3.5
+    },
+    {
+     "accession": "P27487",
+     "protein": "Dipeptidyl peptidase 4",
+     "family": "Protease",
+     "percent_of_toxic": 1.9,
+     "percent_of_non_toxic": 5.5,
+     "difference": -3.6
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "NR-aromatase",
+   "n_toxic": 287,
+   "n_non_toxic": 5228,
+   "top": [
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 54.7,
+     "percent_of_non_toxic": 24.4,
+     "difference": 30.3
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 49.8,
+     "percent_of_non_toxic": 22.6,
+     "difference": 27.2
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 40.8,
+     "percent_of_non_toxic": 13.9,
+     "difference": 26.8
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 43.6,
+     "percent_of_non_toxic": 17.6,
+     "difference": 26.0
+    },
+    {
+     "accession": "P25440",
+     "protein": "Bromodomain-containing protein 2",
+     "family": "Reader",
+     "percent_of_toxic": 39.7,
+     "percent_of_non_toxic": 15.0,
+     "difference": 24.7
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 54.7,
+     "percent_of_non_toxic": 31.0,
+     "difference": 23.7
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 40.4,
+     "percent_of_non_toxic": 16.7,
+     "difference": 23.7
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 54.7,
+     "percent_of_non_toxic": 31.1,
+     "difference": 23.6
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 38.0,
+     "percent_of_non_toxic": 15.7,
+     "difference": 22.3
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 49.5,
+     "percent_of_non_toxic": 27.3,
+     "difference": 22.2
+    },
+    {
+     "accession": "Q08499",
+     "protein": "3',5'-cyclic-AMP phosphodiesterase 4D",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 34.1,
+     "percent_of_non_toxic": 12.7,
+     "difference": 21.4
+    },
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 36.9,
+     "percent_of_non_toxic": 15.6,
+     "difference": 21.3
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P05164",
+     "protein": "Myeloperoxidase",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 3.5,
+     "difference": -1.4
+    },
+    {
+     "accession": "Q9UNQ0",
+     "protein": "Broad substrate specificity ATP-binding cassette transporter ABCG2",
+     "family": "Primary active transporter",
+     "percent_of_toxic": 2.4,
+     "percent_of_non_toxic": 4.0,
+     "difference": -1.6
+    },
+    {
+     "accession": "P29973",
+     "protein": "Cyclic nucleotide-gated channel alpha-1",
+     "family": "",
+     "percent_of_toxic": 1.4,
+     "percent_of_non_toxic": 3.1,
+     "difference": -1.7
+    },
+    {
+     "accession": "P08908",
+     "protein": "5-hydroxytryptamine receptor 1A",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 2.8,
+     "percent_of_non_toxic": 4.6,
+     "difference": -1.8
+    },
+    {
+     "accession": "Q9UBS5",
+     "protein": "Gamma-aminobutyric acid type B receptor subunit 1",
+     "family": "Family C G protein-coupled receptor",
+     "percent_of_toxic": 1.4,
+     "percent_of_non_toxic": 3.4,
+     "difference": -2.0
+    },
+    {
+     "accession": "O75899",
+     "protein": "Gamma-aminobutyric acid type B receptor subunit 2",
+     "family": "",
+     "percent_of_toxic": 1.4,
+     "percent_of_non_toxic": 3.4,
+     "difference": -2.0
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-ARE",
+   "n_toxic": 866,
+   "n_non_toxic": 4669,
+   "top": [
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 31.8,
+     "percent_of_non_toxic": 15.4,
+     "difference": 16.4
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 32.4,
+     "percent_of_non_toxic": 17.0,
+     "difference": 15.4
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 38.9,
+     "percent_of_non_toxic": 24.2,
+     "difference": 14.7
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 30.4,
+     "percent_of_non_toxic": 16.4,
+     "difference": 13.9
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 27.5,
+     "percent_of_non_toxic": 13.7,
+     "difference": 13.8
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 26.2,
+     "percent_of_non_toxic": 12.9,
+     "difference": 13.3
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 27.3,
+     "percent_of_non_toxic": 13.9,
+     "difference": 13.3
+    },
+    {
+     "accession": "P37231",
+     "protein": "Peroxisome proliferator-activated receptor gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 23.7,
+     "percent_of_non_toxic": 10.9,
+     "difference": 12.8
+    },
+    {
+     "accession": "Q08499",
+     "protein": "3',5'-cyclic-AMP phosphodiesterase 4D",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 23.8,
+     "percent_of_non_toxic": 12.5,
+     "difference": 11.3
+    },
+    {
+     "accession": "P68400",
+     "protein": "Casein kinase II subunit alpha",
+     "family": "Kinase",
+     "percent_of_toxic": 30.3,
+     "percent_of_non_toxic": 19.4,
+     "difference": 10.9
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 39.0,
+     "percent_of_non_toxic": 28.3,
+     "difference": 10.7
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 24.8,
+     "percent_of_non_toxic": 14.2,
+     "difference": 10.6
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q99643",
+     "protein": "Succinate dehydrogenase cytochrome b560 subunit, mitochondrial",
+     "family": "",
+     "percent_of_toxic": 3.9,
+     "percent_of_non_toxic": 4.7,
+     "difference": -0.8
+    },
+    {
+     "accession": "Q9Y6N5",
+     "protein": "Sulfide:quinone oxidoreductase, mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 1.8,
+     "percent_of_non_toxic": 2.9,
+     "difference": -1.0
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 5.0,
+     "percent_of_non_toxic": 5.9,
+     "difference": -1.0
+    },
+    {
+     "accession": "P04637",
+     "protein": "Cellular tumor antigen p53",
+     "family": "",
+     "percent_of_toxic": 5.1,
+     "percent_of_non_toxic": 6.2,
+     "difference": -1.1
+    },
+    {
+     "accession": "P49773",
+     "protein": "Adenosine 5'-monophosphoramidase HINT1",
+     "family": "",
+     "percent_of_toxic": 2.0,
+     "percent_of_non_toxic": 3.3,
+     "difference": -1.3
+    },
+    {
+     "accession": "P08173",
+     "protein": "Muscarinic acetylcholine receptor M4",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 3.4,
+     "difference": -1.4
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-ATAD5",
+   "n_toxic": 239,
+   "n_non_toxic": 6467,
+   "top": [
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 33.5,
+     "percent_of_non_toxic": 15.8,
+     "difference": 17.7
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 42.7,
+     "percent_of_non_toxic": 28.0,
+     "difference": 14.7
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 31.4,
+     "percent_of_non_toxic": 19.9,
+     "difference": 11.5
+    },
+    {
+     "accession": "P07900",
+     "protein": "Heat shock protein HSP 90-alpha",
+     "family": "",
+     "percent_of_toxic": 26.8,
+     "percent_of_non_toxic": 16.2,
+     "difference": 10.6
+    },
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 31.8,
+     "percent_of_non_toxic": 21.4,
+     "difference": 10.4
+    },
+    {
+     "accession": "P68400",
+     "protein": "Casein kinase II subunit alpha",
+     "family": "Kinase",
+     "percent_of_toxic": 32.2,
+     "percent_of_non_toxic": 22.6,
+     "difference": 9.6
+    },
+    {
+     "accession": "P11362",
+     "protein": "Fibroblast growth factor receptor 1",
+     "family": "Kinase",
+     "percent_of_toxic": 14.6,
+     "percent_of_non_toxic": 5.6,
+     "difference": 9.1
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 28.9,
+     "percent_of_non_toxic": 19.9,
+     "difference": 9.0
+    },
+    {
+     "accession": "O60674",
+     "protein": "Tyrosine-protein kinase JAK2",
+     "family": "Kinase",
+     "percent_of_toxic": 20.5,
+     "percent_of_non_toxic": 11.6,
+     "difference": 8.9
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 34.7,
+     "percent_of_non_toxic": 25.9,
+     "difference": 8.8
+    },
+    {
+     "accession": "P14174",
+     "protein": "Macrophage migration inhibitory factor",
+     "family": "",
+     "percent_of_toxic": 15.1,
+     "percent_of_non_toxic": 7.1,
+     "difference": 8.0
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 24.7,
+     "percent_of_non_toxic": 16.8,
+     "difference": 7.9
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P48147",
+     "protein": "Prolyl endopeptidase",
+     "family": "Protease",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 5.8,
+     "difference": -3.7
+    },
+    {
+     "accession": "P54289",
+     "protein": "Voltage-dependent calcium channel subunit alpha-2/delta-1",
+     "family": "Calcium channel auxiliary subunit alpha2delta family",
+     "percent_of_toxic": 4.6,
+     "percent_of_non_toxic": 8.4,
+     "difference": -3.8
+    },
+    {
+     "accession": "P04899",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-2",
+     "family": "",
+     "percent_of_toxic": 3.3,
+     "percent_of_non_toxic": 7.1,
+     "difference": -3.8
+    },
+    {
+     "accession": "P08908",
+     "protein": "5-hydroxytryptamine receptor 1A",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 0.8,
+     "percent_of_non_toxic": 4.6,
+     "difference": -3.8
+    },
+    {
+     "accession": "P35372",
+     "protein": "Mu-type opioid receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 4.6,
+     "percent_of_non_toxic": 8.8,
+     "difference": -4.2
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 7.3,
+     "difference": -5.2
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-HSE",
+   "n_toxic": 332,
+   "n_non_toxic": 5806,
+   "top": [
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 34.6,
+     "percent_of_non_toxic": 18.2,
+     "difference": 16.4
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 29.2,
+     "percent_of_non_toxic": 16.4,
+     "difference": 12.8
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 27.7,
+     "percent_of_non_toxic": 15.8,
+     "difference": 11.9
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 38.3,
+     "percent_of_non_toxic": 27.2,
+     "difference": 11.1
+    },
+    {
+     "accession": "P29274",
+     "protein": "Adenosine receptor A2a",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 21.1,
+     "percent_of_non_toxic": 10.2,
+     "difference": 10.9
+    },
+    {
+     "accession": "O75469",
+     "protein": "Nuclear receptor subfamily 1 group I member 2",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 23.8,
+     "percent_of_non_toxic": 13.1,
+     "difference": 10.7
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 29.8,
+     "percent_of_non_toxic": 19.6,
+     "difference": 10.2
+    },
+    {
+     "accession": "Q00987",
+     "protein": "E3 ubiquitin-protein ligase Mdm2",
+     "family": "",
+     "percent_of_toxic": 22.9,
+     "percent_of_non_toxic": 12.7,
+     "difference": 10.1
+    },
+    {
+     "accession": "Q96RI1",
+     "protein": "Bile acid receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 20.8,
+     "percent_of_non_toxic": 10.8,
+     "difference": 10.0
+    },
+    {
+     "accession": "P37231",
+     "protein": "Peroxisome proliferator-activated receptor gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 22.9,
+     "percent_of_non_toxic": 13.3,
+     "difference": 9.6
+    },
+    {
+     "accession": "P51449",
+     "protein": "Nuclear receptor ROR-gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 26.2,
+     "percent_of_non_toxic": 16.7,
+     "difference": 9.5
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 28.9,
+     "percent_of_non_toxic": 19.5,
+     "difference": 9.4
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P62753",
+     "protein": "Small ribosomal subunit protein eS6",
+     "family": "",
+     "percent_of_toxic": 2.4,
+     "percent_of_non_toxic": 5.3,
+     "difference": -2.9
+    },
+    {
+     "accession": "P30050",
+     "protein": "Large ribosomal subunit protein uL11",
+     "family": "",
+     "percent_of_toxic": 0.6,
+     "percent_of_non_toxic": 3.6,
+     "difference": -3.0
+    },
+    {
+     "accession": "P25398",
+     "protein": "Small ribosomal subunit protein eS12",
+     "family": "",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 5.1,
+     "difference": -3.0
+    },
+    {
+     "accession": "P62269",
+     "protein": "Small ribosomal subunit protein uS13",
+     "family": "",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 5.1,
+     "difference": -3.0
+    },
+    {
+     "accession": "P27635",
+     "protein": "Large ribosomal subunit protein uL16",
+     "family": "",
+     "percent_of_toxic": 2.1,
+     "percent_of_non_toxic": 5.1,
+     "difference": -3.0
+    },
+    {
+     "accession": "P05388",
+     "protein": "Large ribosomal subunit protein uL10",
+     "family": "",
+     "percent_of_toxic": 0.6,
+     "percent_of_non_toxic": 3.8,
+     "difference": -3.2
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-MMP",
+   "n_toxic": 871,
+   "n_non_toxic": 4640,
+   "top": [
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 40.1,
+     "percent_of_non_toxic": 15.6,
+     "difference": 24.5
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 37.4,
+     "percent_of_non_toxic": 16.1,
+     "difference": 21.3
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 43.7,
+     "percent_of_non_toxic": 23.9,
+     "difference": 19.9
+    },
+    {
+     "accession": "P68400",
+     "protein": "Casein kinase II subunit alpha",
+     "family": "Kinase",
+     "percent_of_toxic": 38.2,
+     "percent_of_non_toxic": 18.8,
+     "difference": 19.4
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 35.6,
+     "percent_of_non_toxic": 16.3,
+     "difference": 19.3
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 30.9,
+     "percent_of_non_toxic": 12.2,
+     "difference": 18.7
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 31.1,
+     "percent_of_non_toxic": 12.7,
+     "difference": 18.4
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 33.5,
+     "percent_of_non_toxic": 15.6,
+     "difference": 17.9
+    },
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 35.2,
+     "percent_of_non_toxic": 17.8,
+     "difference": 17.4
+    },
+    {
+     "accession": "P07900",
+     "protein": "Heat shock protein HSP 90-alpha",
+     "family": "",
+     "percent_of_toxic": 29.6,
+     "percent_of_non_toxic": 13.0,
+     "difference": 16.6
+    },
+    {
+     "accession": "P56817",
+     "protein": "Beta-secretase 1",
+     "family": "Protease",
+     "percent_of_toxic": 29.7,
+     "percent_of_non_toxic": 15.0,
+     "difference": 14.7
+    },
+    {
+     "accession": "P00533",
+     "protein": "Epidermal growth factor receptor",
+     "family": "Kinase",
+     "percent_of_toxic": 22.0,
+     "percent_of_non_toxic": 7.9,
+     "difference": 14.1
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "O14521",
+     "protein": "Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial",
+     "family": "",
+     "percent_of_toxic": 2.5,
+     "percent_of_non_toxic": 4.8,
+     "difference": -2.2
+    },
+    {
+     "accession": "P31040",
+     "protein": "Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial",
+     "family": "",
+     "percent_of_toxic": 2.5,
+     "percent_of_non_toxic": 4.8,
+     "difference": -2.2
+    },
+    {
+     "accession": "Q99643",
+     "protein": "Succinate dehydrogenase cytochrome b560 subunit, mitochondrial",
+     "family": "",
+     "percent_of_toxic": 2.5,
+     "percent_of_non_toxic": 4.8,
+     "difference": -2.2
+    },
+    {
+     "accession": "P12821",
+     "protein": "Angiotensin-converting enzyme",
+     "family": "Protease",
+     "percent_of_toxic": 1.0,
+     "percent_of_non_toxic": 3.2,
+     "difference": -2.2
+    },
+    {
+     "accession": "P21912",
+     "protein": "Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 2.5,
+     "percent_of_non_toxic": 4.8,
+     "difference": -2.3
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 3.7,
+     "percent_of_non_toxic": 6.1,
+     "difference": -2.5
+    }
+   ]
+  },
+  {
+   "category": "Endocrine Disruption",
+   "endpoint": "SR-p53",
+   "n_toxic": 387,
+   "n_non_toxic": 6030,
+   "top": [
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 50.1,
+     "percent_of_non_toxic": 27.0,
+     "difference": 23.1
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 39.0,
+     "percent_of_non_toxic": 19.7,
+     "difference": 19.3
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 37.0,
+     "percent_of_non_toxic": 18.5,
+     "difference": 18.4
+    },
+    {
+     "accession": "P07900",
+     "protein": "Heat shock protein HSP 90-alpha",
+     "family": "",
+     "percent_of_toxic": 33.9,
+     "percent_of_non_toxic": 15.5,
+     "difference": 18.4
+    },
+    {
+     "accession": "P00918",
+     "protein": "Carbonic anhydrase 2",
+     "family": "Lyase",
+     "percent_of_toxic": 41.6,
+     "percent_of_non_toxic": 24.0,
+     "difference": 17.6
+    },
+    {
+     "accession": "Q15596",
+     "protein": "Nuclear receptor coactivator 2",
+     "family": "",
+     "percent_of_toxic": 34.4,
+     "percent_of_non_toxic": 17.0,
+     "difference": 17.3
+    },
+    {
+     "accession": "P24941",
+     "protein": "Cyclin-dependent kinase 2",
+     "family": "Kinase",
+     "percent_of_toxic": 37.7,
+     "percent_of_non_toxic": 20.7,
+     "difference": 17.0
+    },
+    {
+     "accession": "P68400",
+     "protein": "Casein kinase II subunit alpha",
+     "family": "Kinase",
+     "percent_of_toxic": 38.2,
+     "percent_of_non_toxic": 21.8,
+     "difference": 16.4
+    },
+    {
+     "accession": "Q16539",
+     "protein": "Mitogen-activated protein kinase 14",
+     "family": "Kinase",
+     "percent_of_toxic": 31.5,
+     "percent_of_non_toxic": 15.8,
+     "difference": 15.8
+    },
+    {
+     "accession": "P02766",
+     "protein": "Transthyretin",
+     "family": "",
+     "percent_of_toxic": 32.8,
+     "percent_of_non_toxic": 18.5,
+     "difference": 14.3
+    },
+    {
+     "accession": "Q08499",
+     "protein": "3',5'-cyclic-AMP phosphodiesterase 4D",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 28.4,
+     "percent_of_non_toxic": 14.1,
+     "difference": 14.3
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 46.5,
+     "percent_of_non_toxic": 32.7,
+     "difference": 13.8
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P21912",
+     "protein": "Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 2.3,
+     "percent_of_non_toxic": 4.6,
+     "difference": -2.3
+    },
+    {
+     "accession": "P38435",
+     "protein": "Vitamin K-dependent gamma-carboxylase",
+     "family": "",
+     "percent_of_toxic": 1.6,
+     "percent_of_non_toxic": 3.8,
+     "difference": -2.3
+    },
+    {
+     "accession": "Q9UBS5",
+     "protein": "Gamma-aminobutyric acid type B receptor subunit 1",
+     "family": "Family C G protein-coupled receptor",
+     "percent_of_toxic": 1.0,
+     "percent_of_non_toxic": 3.5,
+     "difference": -2.4
+    },
+    {
+     "accession": "O75899",
+     "protein": "Gamma-aminobutyric acid type B receptor subunit 2",
+     "family": "",
+     "percent_of_toxic": 1.0,
+     "percent_of_non_toxic": 3.5,
+     "difference": -2.4
+    },
+    {
+     "accession": "P08195",
+     "protein": "Amino acid transporter heavy chain SLC3A2",
+     "family": "",
+     "percent_of_toxic": 0.8,
+     "percent_of_non_toxic": 3.5,
+     "difference": -2.7
+    },
+    {
+     "accession": "P23975",
+     "protein": "Sodium-dependent noradrenaline transporter",
+     "family": "Electrochemical transporter",
+     "percent_of_toxic": 3.9,
+     "percent_of_non_toxic": 7.1,
+     "difference": -3.3
+    }
+   ]
+  },
+  {
+   "category": "Hepatotoxicity",
+   "endpoint": "Hepatotoxicity",
+   "n_toxic": 1443,
+   "n_non_toxic": 1362,
+   "top": [
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 23.0,
+     "percent_of_non_toxic": 14.7,
+     "difference": 8.3
+    },
+    {
+     "accession": "P15121",
+     "protein": "Aldo-keto reductase family 1 member B1",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 15.5,
+     "percent_of_non_toxic": 7.9,
+     "difference": 7.6
+    },
+    {
+     "accession": "Q07820",
+     "protein": "Induced myeloid leukemia cell differentiation protein Mcl-1",
+     "family": "",
+     "percent_of_toxic": 16.8,
+     "percent_of_non_toxic": 10.4,
+     "difference": 6.4
+    },
+    {
+     "accession": "O14757",
+     "protein": "Serine/threonine-protein kinase Chk1",
+     "family": "Kinase",
+     "percent_of_toxic": 24.3,
+     "percent_of_non_toxic": 19.6,
+     "difference": 4.7
+    },
+    {
+     "accession": "O60218",
+     "protein": "Aldo-keto reductase family 1 member B10",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 8.7,
+     "percent_of_non_toxic": 4.1,
+     "difference": 4.6
+    },
+    {
+     "accession": "P19793",
+     "protein": "Retinoic acid receptor RXR-alpha",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 8.0,
+     "percent_of_non_toxic": 4.0,
+     "difference": 4.0
+    },
+    {
+     "accession": "Q9NZ08",
+     "protein": "Endoplasmic reticulum aminopeptidase 1",
+     "family": "Protease",
+     "percent_of_toxic": 10.0,
+     "percent_of_non_toxic": 6.3,
+     "difference": 3.7
+    },
+    {
+     "accession": "P29375",
+     "protein": "Lysine-specific demethylase 5A",
+     "family": "Eraser; Reader",
+     "percent_of_toxic": 7.9,
+     "percent_of_non_toxic": 4.4,
+     "difference": 3.5
+    },
+    {
+     "accession": "P23946",
+     "protein": "Chymase",
+     "family": "Protease",
+     "percent_of_toxic": 12.4,
+     "percent_of_non_toxic": 9.0,
+     "difference": 3.4
+    },
+    {
+     "accession": "O14965",
+     "protein": "Aurora kinase A",
+     "family": "Kinase",
+     "percent_of_toxic": 19.3,
+     "percent_of_non_toxic": 16.1,
+     "difference": 3.3
+    },
+    {
+     "accession": "Q13093",
+     "protein": "Platelet-activating factor acetylhydrolase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 11.4,
+     "percent_of_non_toxic": 8.2,
+     "difference": 3.1
+    },
+    {
+     "accession": "Q15562",
+     "protein": "Transcriptional enhancer factor TEF-4",
+     "family": "",
+     "percent_of_toxic": 10.3,
+     "percent_of_non_toxic": 7.3,
+     "difference": 3.0
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P49773",
+     "protein": "Adenosine 5'-monophosphoramidase HINT1",
+     "family": "",
+     "percent_of_toxic": 8.2,
+     "percent_of_non_toxic": 15.9,
+     "difference": -7.7
+    },
+    {
+     "accession": "O43570",
+     "protein": "Carbonic anhydrase 12",
+     "family": "Lyase",
+     "percent_of_toxic": 14.5,
+     "percent_of_non_toxic": 22.3,
+     "difference": -7.8
+    },
+    {
+     "accession": "P16442",
+     "protein": "Histo-blood group ABO system transferase",
+     "family": "",
+     "percent_of_toxic": 7.5,
+     "percent_of_non_toxic": 15.5,
+     "difference": -8.0
+    },
+    {
+     "accession": "P14174",
+     "protein": "Macrophage migration inhibitory factor",
+     "family": "",
+     "percent_of_toxic": 10.7,
+     "percent_of_non_toxic": 18.7,
+     "difference": -8.0
+    },
+    {
+     "accession": "P62942",
+     "protein": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+     "family": "Isomerase",
+     "percent_of_toxic": 14.6,
+     "percent_of_non_toxic": 22.7,
+     "difference": -8.1
+    },
+    {
+     "accession": "P03372",
+     "protein": "Estrogen receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 37.4,
+     "percent_of_non_toxic": 45.7,
+     "difference": -8.4
+    }
+   ]
+  },
+  {
+   "category": "Irritation and Corrosion",
+   "endpoint": "Eye Corrosion",
+   "n_toxic": 855,
+   "n_non_toxic": 1345,
+   "top": [
+    {
+     "accession": "Q13936",
+     "protein": "Voltage-dependent L-type calcium channel subunit alpha-1C",
+     "family": "Voltage-gated ion channel",
+     "percent_of_toxic": 4.7,
+     "percent_of_non_toxic": 8.8,
+     "difference": -4.2
+    },
+    {
+     "accession": "P16083",
+     "protein": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 5.4,
+     "percent_of_non_toxic": 10.7,
+     "difference": -5.3
+    },
+    {
+     "accession": "P19784",
+     "protein": "Casein kinase II subunit alpha'",
+     "family": "Kinase",
+     "percent_of_toxic": 4.3,
+     "percent_of_non_toxic": 12.9,
+     "difference": -8.5
+    },
+    {
+     "accession": "P14867",
+     "protein": "Gamma-aminobutyric acid receptor subunit alpha-1",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 1.6,
+     "percent_of_non_toxic": 10.6,
+     "difference": -9.0
+    },
+    {
+     "accession": "P18507",
+     "protein": "Gamma-aminobutyric acid receptor subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 1.6,
+     "percent_of_non_toxic": 10.7,
+     "difference": -9.1
+    },
+    {
+     "accession": "P00749",
+     "protein": "Urokinase-type plasminogen activator",
+     "family": "Protease",
+     "percent_of_toxic": 2.3,
+     "percent_of_non_toxic": 11.6,
+     "difference": -9.3
+    },
+    {
+     "accession": "P20248",
+     "protein": "Cyclin-A2",
+     "family": "",
+     "percent_of_toxic": 3.3,
+     "percent_of_non_toxic": 13.4,
+     "difference": -10.1
+    },
+    {
+     "accession": "Q8IXJ6",
+     "protein": "NAD-dependent protein deacetylase sirtuin-2",
+     "family": "Eraser",
+     "percent_of_toxic": 1.4,
+     "percent_of_non_toxic": 11.6,
+     "difference": -10.2
+    },
+    {
+     "accession": "Q9Y6A2",
+     "protein": "Cholesterol 24-hydroxylase",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 1.1,
+     "percent_of_non_toxic": 11.4,
+     "difference": -10.4
+    },
+    {
+     "accession": "P06401",
+     "protein": "Progesterone receptor",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 0.1,
+     "percent_of_non_toxic": 11.1,
+     "difference": -11.0
+    },
+    {
+     "accession": "P21554",
+     "protein": "Cannabinoid receptor 1",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 0.5,
+     "percent_of_non_toxic": 11.4,
+     "difference": -11.0
+    },
+    {
+     "accession": "Q8N6T7",
+     "protein": "NAD-dependent protein deacylase sirtuin-6",
+     "family": "Eraser",
+     "percent_of_toxic": 0.1,
+     "percent_of_non_toxic": 11.2,
+     "difference": -11.1
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P56817",
+     "protein": "Beta-secretase 1",
+     "family": "Protease",
+     "percent_of_toxic": 0.1,
+     "percent_of_non_toxic": 40.7,
+     "difference": -40.6
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 1.4,
+     "percent_of_non_toxic": 48.7,
+     "difference": -47.3
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 1.2,
+     "percent_of_non_toxic": 49.4,
+     "difference": -48.3
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 3.4,
+     "percent_of_non_toxic": 53.8,
+     "difference": -50.4
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 3.4,
+     "percent_of_non_toxic": 63.0,
+     "difference": -59.7
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 3.4,
+     "percent_of_non_toxic": 63.0,
+     "difference": -59.7
+    }
+   ]
+  },
+  {
+   "category": "Irritation and Corrosion",
+   "endpoint": "Eye Irritation",
+   "n_toxic": 3774,
+   "n_non_toxic": 1278,
+   "top": [
+    {
+     "accession": "P53350",
+     "protein": "Serine/threonine-protein kinase PLK1",
+     "family": "Kinase",
+     "percent_of_toxic": 4.1,
+     "percent_of_non_toxic": 2.6,
+     "difference": 1.5
+    },
+    {
+     "accession": "P35270",
+     "protein": "Sepiapterin reductase",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 2.9,
+     "percent_of_non_toxic": 4.5,
+     "difference": -1.5
+    },
+    {
+     "accession": "P49327",
+     "protein": "Fatty acid synthase",
+     "family": "Transferase",
+     "percent_of_toxic": 2.6,
+     "percent_of_non_toxic": 5.2,
+     "difference": -2.6
+    },
+    {
+     "accession": "Q460N3",
+     "protein": "Protein mono-ADP-ribosyltransferase PARP15",
+     "family": "Transferase",
+     "percent_of_toxic": 4.0,
+     "percent_of_non_toxic": 6.7,
+     "difference": -2.6
+    },
+    {
+     "accession": "P16083",
+     "protein": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 6.4,
+     "percent_of_non_toxic": 10.9,
+     "difference": -4.5
+    },
+    {
+     "accession": "P27338",
+     "protein": "Amine oxidase [flavin-containing] B",
+     "family": "Oxidoreductase",
+     "percent_of_toxic": 2.2,
+     "percent_of_non_toxic": 6.8,
+     "difference": -4.6
+    },
+    {
+     "accession": "P19784",
+     "protein": "Casein kinase II subunit alpha'",
+     "family": "Kinase",
+     "percent_of_toxic": 8.1,
+     "percent_of_non_toxic": 12.8,
+     "difference": -4.7
+    },
+    {
+     "accession": "P19793",
+     "protein": "Retinoic acid receptor RXR-alpha",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 1.6,
+     "percent_of_non_toxic": 7.2,
+     "difference": -5.6
+    },
+    {
+     "accession": "O43924",
+     "protein": "Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 2.3,
+     "percent_of_non_toxic": 7.9,
+     "difference": -5.6
+    },
+    {
+     "accession": "P47870",
+     "protein": "Gamma-aminobutyric acid receptor subunit beta-2",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 2.8,
+     "percent_of_non_toxic": 8.5,
+     "difference": -5.7
+    },
+    {
+     "accession": "Q07869",
+     "protein": "Peroxisome proliferator-activated receptor alpha",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 1.7,
+     "percent_of_non_toxic": 7.5,
+     "difference": -5.8
+    },
+    {
+     "accession": "Q13936",
+     "protein": "Voltage-dependent L-type calcium channel subunit alpha-1C",
+     "family": "Voltage-gated ion channel",
+     "percent_of_toxic": 3.4,
+     "percent_of_non_toxic": 9.3,
+     "difference": -5.9
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P56817",
+     "protein": "Beta-secretase 1",
+     "family": "Protease",
+     "percent_of_toxic": 2.5,
+     "percent_of_non_toxic": 41.9,
+     "difference": -39.3
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 7.3,
+     "percent_of_non_toxic": 50.0,
+     "difference": -42.7
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 6.7,
+     "percent_of_non_toxic": 50.5,
+     "difference": -43.7
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 6.5,
+     "percent_of_non_toxic": 55.6,
+     "difference": -49.1
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 7.6,
+     "percent_of_non_toxic": 64.9,
+     "difference": -57.3
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 7.6,
+     "percent_of_non_toxic": 64.9,
+     "difference": -57.4
+    }
+   ]
+  },
+  {
+   "category": "Mutagenicity",
+   "endpoint": "Ames Mutagenicity",
+   "n_toxic": 3789,
+   "n_non_toxic": 3086,
+   "top": [
+    {
+     "accession": "Q9Y233",
+     "protein": "cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",
+     "family": "Phosphodiesterase",
+     "percent_of_toxic": 24.6,
+     "percent_of_non_toxic": 17.8,
+     "difference": 6.8
+    },
+    {
+     "accession": "P0C024",
+     "protein": "Peroxisomal coenzyme A diphosphatase NUDT7",
+     "family": "",
+     "percent_of_toxic": 11.6,
+     "percent_of_non_toxic": 6.4,
+     "difference": 5.2
+    },
+    {
+     "accession": "P36639",
+     "protein": "Oxidized purine nucleoside triphosphate hydrolase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 12.4,
+     "percent_of_non_toxic": 7.9,
+     "difference": 4.4
+    },
+    {
+     "accession": "Q13093",
+     "protein": "Platelet-activating factor acetylhydrolase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 11.5,
+     "percent_of_non_toxic": 7.2,
+     "difference": 4.3
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 30.5,
+     "percent_of_non_toxic": 26.9,
+     "difference": 3.5
+    },
+    {
+     "accession": "Q9NRA2",
+     "protein": "Sialin",
+     "family": "",
+     "percent_of_toxic": 5.8,
+     "percent_of_non_toxic": 2.3,
+     "difference": 3.5
+    },
+    {
+     "accession": "P31644",
+     "protein": "Gamma-aminobutyric acid receptor subunit alpha-5",
+     "family": "",
+     "percent_of_toxic": 8.9,
+     "percent_of_non_toxic": 5.7,
+     "difference": 3.2
+    },
+    {
+     "accession": "P22303",
+     "protein": "Acetylcholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 6.9,
+     "percent_of_non_toxic": 3.9,
+     "difference": 3.0
+    },
+    {
+     "accession": "Q04206",
+     "protein": "Transcription factor p65",
+     "family": "",
+     "percent_of_toxic": 15.5,
+     "percent_of_non_toxic": 12.6,
+     "difference": 3.0
+    },
+    {
+     "accession": "P42262",
+     "protein": "Glutamate receptor 2",
+     "family": "Ligand-gated ion channel",
+     "percent_of_toxic": 7.9,
+     "percent_of_non_toxic": 5.1,
+     "difference": 2.9
+    },
+    {
+     "accession": "P31947",
+     "protein": "14-3-3 protein sigma",
+     "family": "",
+     "percent_of_toxic": 26.6,
+     "percent_of_non_toxic": 23.8,
+     "difference": 2.8
+    },
+    {
+     "accession": "Q9H8M2",
+     "protein": "Bromodomain-containing protein 9",
+     "family": "Reader",
+     "percent_of_toxic": 8.1,
+     "percent_of_non_toxic": 5.3,
+     "difference": 2.8
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "P37231",
+     "protein": "Peroxisome proliferator-activated receptor gamma",
+     "family": "Nuclear receptor",
+     "percent_of_toxic": 8.7,
+     "percent_of_non_toxic": 13.4,
+     "difference": -4.7
+    },
+    {
+     "accession": "P63092",
+     "protein": "Guanine nucleotide-binding protein G(s) subunit alpha isoforms short",
+     "family": "",
+     "percent_of_toxic": 10.9,
+     "percent_of_non_toxic": 16.5,
+     "difference": -5.5
+    },
+    {
+     "accession": "P63096",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-1",
+     "family": "",
+     "percent_of_toxic": 19.2,
+     "percent_of_non_toxic": 25.1,
+     "difference": -5.8
+    },
+    {
+     "accession": "Q15788",
+     "protein": "Nuclear receptor coactivator 1",
+     "family": "Writer",
+     "percent_of_toxic": 12.0,
+     "percent_of_non_toxic": 18.0,
+     "difference": -6.1
+    },
+    {
+     "accession": "P62873",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1",
+     "family": "",
+     "percent_of_toxic": 21.4,
+     "percent_of_non_toxic": 29.5,
+     "difference": -8.1
+    },
+    {
+     "accession": "P59768",
+     "protein": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2",
+     "family": "",
+     "percent_of_toxic": 21.3,
+     "percent_of_non_toxic": 29.5,
+     "difference": -8.2
+    }
+   ]
+  },
+  {
+   "category": "Respiratory Toxicity",
+   "endpoint": "Respiratory Toxicity",
+   "n_toxic": 727,
+   "n_non_toxic": 468,
+   "top": [
+    {
+     "accession": "P35372",
+     "protein": "Mu-type opioid receptor",
+     "family": "Family A G protein-coupled receptor",
+     "percent_of_toxic": 18.8,
+     "percent_of_non_toxic": 10.0,
+     "difference": 8.8
+    },
+    {
+     "accession": "O75530",
+     "protein": "Polycomb protein EED",
+     "family": "",
+     "percent_of_toxic": 18.8,
+     "percent_of_non_toxic": 12.2,
+     "difference": 6.7
+    },
+    {
+     "accession": "Q07889",
+     "protein": "Son of sevenless homolog 1",
+     "family": "",
+     "percent_of_toxic": 18.7,
+     "percent_of_non_toxic": 12.2,
+     "difference": 6.5
+    },
+    {
+     "accession": "P50579",
+     "protein": "Methionine aminopeptidase 2",
+     "family": "Protease",
+     "percent_of_toxic": 19.8,
+     "percent_of_non_toxic": 13.5,
+     "difference": 6.3
+    },
+    {
+     "accession": "P43405",
+     "protein": "Tyrosine-protein kinase SYK",
+     "family": "Kinase",
+     "percent_of_toxic": 15.1,
+     "percent_of_non_toxic": 9.0,
+     "difference": 6.2
+    },
+    {
+     "accession": "P61925",
+     "protein": "cAMP-dependent protein kinase inhibitor alpha",
+     "family": "",
+     "percent_of_toxic": 18.3,
+     "percent_of_non_toxic": 12.2,
+     "difference": 6.1
+    },
+    {
+     "accession": "P49841",
+     "protein": "Glycogen synthase kinase-3 beta",
+     "family": "Kinase",
+     "percent_of_toxic": 20.8,
+     "percent_of_non_toxic": 14.7,
+     "difference": 6.0
+    },
+    {
+     "accession": "P04899",
+     "protein": "Guanine nucleotide-binding protein G(i) subunit alpha-2",
+     "family": "",
+     "percent_of_toxic": 15.5,
+     "percent_of_non_toxic": 10.9,
+     "difference": 4.6
+    },
+    {
+     "accession": "P06276",
+     "protein": "Cholinesterase",
+     "family": "Hydrolase",
+     "percent_of_toxic": 15.7,
+     "percent_of_non_toxic": 12.0,
+     "difference": 3.7
+    },
+    {
+     "accession": "P01112",
+     "protein": "GTPase HRas",
+     "family": "",
+     "percent_of_toxic": 17.3,
+     "percent_of_non_toxic": 13.9,
+     "difference": 3.4
+    },
+    {
+     "accession": "P48730",
+     "protein": "Casein kinase I isoform delta",
+     "family": "Kinase",
+     "percent_of_toxic": 17.6,
+     "percent_of_non_toxic": 14.3,
+     "difference": 3.3
+    },
+    {
+     "accession": "P56817",
+     "protein": "Beta-secretase 1",
+     "family": "Protease",
+     "percent_of_toxic": 32.6,
+     "percent_of_non_toxic": 29.5,
+     "difference": 3.1
+    }
+   ],
+   "bottom": [
+    {
+     "accession": "Q13546",
+     "protein": "Receptor-interacting serine/threonine-protein kinase 1",
+     "family": "Kinase",
+     "percent_of_toxic": 9.9,
+     "percent_of_non_toxic": 19.7,
+     "difference": -9.8
+    },
+    {
+     "accession": "O60674",
+     "protein": "Tyrosine-protein kinase JAK2",
+     "family": "Kinase",
+     "percent_of_toxic": 18.8,
+     "percent_of_non_toxic": 29.1,
+     "difference": -10.2
+    },
+    {
+     "accession": "Q9H2K2",
+     "protein": "Poly [ADP-ribose] polymerase tankyrase-2",
+     "family": "Transferase",
+     "percent_of_toxic": 23.0,
+     "percent_of_non_toxic": 33.3,
+     "difference": -10.4
+    },
+    {
+     "accession": "Q04206",
+     "protein": "Transcription factor p65",
+     "family": "",
+     "percent_of_toxic": 16.2,
+     "percent_of_non_toxic": 27.6,
+     "difference": -11.3
+    },
+    {
+     "accession": "O60885",
+     "protein": "Bromodomain-containing protein 4",
+     "family": "Reader",
+     "percent_of_toxic": 42.5,
+     "percent_of_non_toxic": 56.8,
+     "difference": -14.3
+    },
+    {
+     "accession": "P15090",
+     "protein": "Fatty acid-binding protein, adipocyte",
+     "family": "Fatty acid binding protein family",
+     "percent_of_toxic": 20.8,
+     "percent_of_non_toxic": 35.5,
+     "difference": -14.7
+    }
+   ]
+  }
+ ]
+}

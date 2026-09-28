@@ -1,0 +1,1914 @@
+# Accession, then the level 2 protein family it belongs to, from
+# the released cross-family comparator at familyfoundationmodel.com.
+# A target carrying two families appears on two lines and counts as
+# two, which is how every families reached number in the paper was
+# counted. Supply your own grouping with --family-map to override.
+A6NHR9	Hydrolase
+A8K2H7	Family A G protein-coupled receptor
+B2RXH2	Eraser
+O00141	Kinase
+O00187	Hydrolase
+O00206	Toll-like and Il-1 receptors
+O00222	Family C G protein-coupled receptor
+O00238	Kinase
+O00299	Oxidoreductase
+O00311	Kinase
+O00329	Transferase
+O00337	Electrochemical transporter
+O00391	Oxidoreductase
+O00408	Phosphodiesterase
+O00418	Kinase
+O00421	Family A G protein-coupled receptor
+O00443	Transferase
+O00444	Kinase
+O00487	Protease
+O00506	Kinase
+O00519	Hydrolase
+O00555	Voltage-gated ion channel
+O00625	Oxidoreductase
+O00743	Hydrolase
+O00746	Transferase
+O00748	Hydrolase
+O00750	Transferase
+O00763	Ligase
+O00764	Transferase
+O14578	Kinase
+O14638	Hydrolase
+O14646	Hydrolase
+O14649	Voltage-gated ion channel
+O14672	Protease
+O14684	Isomerase
+O14717	Transferase
+O14730	Kinase
+O14733	Kinase
+O14744	Writer
+O14746	Transferase
+O14757	Kinase
+O14815	Hydrolase
+O14842	Family A G protein-coupled receptor
+O14874	Transferase
+O14920	Kinase
+O14939	Hydrolase
+O14965	Kinase
+O14966	Hydrolase
+O14974	Phosphatase
+O14975	Electrochemical transporter
+O14976	Kinase
+O14983	Hydrolase
+O14983	Primary active transporter
+O14986	Transferase
+O15047	Transferase
+O15054	Eraser
+O15056	Hydrolase
+O15067	Ligase
+O15075	Kinase
+O15111	Kinase
+O15121	Oxidoreductase
+O15146	Kinase
+O15164	Reader
+O15244	Electrochemical transporter
+O15245	Electrochemical transporter
+O15254	Oxidoreductase
+O15264	Kinase
+O15270	Transferase
+O15296	Oxidoreductase
+O15303	Family C G protein-coupled receptor
+O15305	Isomerase
+O15355	Phosphatase
+O15357	Phosphatase
+O15379	Eraser
+O15393	Protease
+O15399	Ligand-gated ion channel
+O15427	Electrochemical transporter
+O15438	Primary active transporter
+O15439	Primary active transporter
+O15440	Primary active transporter
+O15455	Toll-like and Il-1 receptors
+O15496	Hydrolase
+O15528	Cytochrome P450
+O15530	Kinase
+O15547	Ligand-gated ion channel
+O15550	Eraser
+O15554	Voltage-gated ion channel
+O43143	Hydrolase
+O43148	Transferase
+O43151	Oxidoreductase
+O43174	Cytochrome P450
+O43175	Oxidoreductase
+O43193	Family A G protein-coupled receptor
+O43194	Family A G protein-coupled receptor
+O43283	Kinase
+O43293	Kinase
+O43318	Kinase
+O43353	Kinase
+O43396	Oxidoreductase
+O43426	Hydrolase
+O43451	Hydrolase
+O43463	Reader
+O43463	Writer
+O43464	Hydrolase
+O43497	Voltage-gated ion channel
+O43526	Voltage-gated ion channel
+O43570	Lyase
+O43598	Hydrolase
+O43603	Family A G protein-coupled receptor
+O43613	Family A G protein-coupled receptor
+O43614	Family A G protein-coupled receptor
+O43683	Kinase
+O43741	Kinase
+O43781	Kinase
+O43826	Electrochemical transporter
+O43847	Hydrolase
+O43868	Electrochemical transporter
+O43897	Hydrolase
+O43924	Phosphodiesterase
+O60218	Oxidoreductase
+O60285	Kinase
+O60313	Hydrolase
+O60331	Transferase
+O60341	Eraser
+O60346	Reader
+O60361	Transferase
+O60547	Lyase
+O60551	Transferase
+O60566	Transferase
+O60583	Kinase
+O60602	Toll-like and Il-1 receptors
+O60603	Toll-like and Il-1 receptors
+O60656	Transferase
+O60658	Phosphodiesterase
+O60674	Kinase
+O60678	Writer
+O60725	Transferase
+O60729	Hydrolase
+O60760	Transferase
+O60832	Isomerase
+O60841	Hydrolase
+O60885	Reader
+O60911	Protease
+O60930	Hydrolase
+O60939	Sodium channel auxiliary subunit beta family
+O60942	Transferase
+O75116	Kinase
+O75151	Oxidoreductase
+O75164	Eraser
+O75164	Reader
+O75173	Protease
+O75306	Oxidoreductase
+O75311	Ligand-gated ion channel
+O75351	Hydrolase
+O75355	Hydrolase
+O75365	Phosphatase
+O75385	Kinase
+O75387	Electrochemical transporter
+O75417	Transferase
+O75469	Nuclear receptor
+O75475	Reader
+O75582	Kinase
+O75604	Protease
+O75643	Hydrolase
+O75676	Kinase
+O75688	Phosphatase
+O75716	Kinase
+O75747	Transferase
+O75751	Electrochemical transporter
+O75762	Voltage-gated ion channel
+O75807	Phosphatase
+O75874	Oxidoreductase
+O75881	Oxidoreductase
+O75884	Hydrolase
+O75907	Transferase
+O75908	Transferase
+O75914	Kinase
+O75936	Oxidoreductase
+O75962	Transferase
+O76039	Kinase
+O76074	Phosphodiesterase
+O76083	Phosphodiesterase
+O94759	Voltage-gated ion channel
+O94760	Hydrolase
+O94768	Kinase
+O94782	Protease
+O94804	Kinase
+O94806	Kinase
+O94921	Kinase
+O94925	Hydrolase
+O94953	Eraser
+O94956	Electrochemical transporter
+O94966	Hydrolase
+O95050	Transferase
+O95069	Voltage-gated ion channel
+O95136	Family A G protein-coupled receptor
+O95180	Voltage-gated ion channel
+O95237	Transferase
+O95259	Voltage-gated ion channel
+O95263	Phosphodiesterase
+O95271	Transferase
+O95342	Primary active transporter
+O95382	Kinase
+O95470	Lyase
+O95544	Transferase
+O95551	Phosphodiesterase
+O95563	Electrochemical transporter
+O95602	Transferase
+O95619	Reader
+O95622	Lyase
+O95630	Hydrolase
+O95696	Reader
+O95718	Nuclear receptor
+O95747	Kinase
+O95749	Transferase
+O95819	Kinase
+O95822	Lyase
+O95831	Oxidoreductase
+O95835	Kinase
+O95848	Hydrolase
+O95870	Hydrolase
+O95931	Reader
+O96013	Kinase
+O96017	Kinase
+O96028	Writer
+P00338	Oxidoreductase
+P00352	Oxidoreductase
+P00374	Oxidoreductase
+P00390	Oxidoreductase
+P00395	Primary active transporter
+P00403	Primary active transporter
+P00480	Transferase
+P00488	Aminoacyltransferase
+P00491	Transferase
+P00492	Transferase
+P00519	Kinase
+P00533	Kinase
+P00734	Protease
+P00740	Protease
+P00742	Protease
+P00746	Protease
+P00747	Protease
+P00748	Protease
+P00749	Protease
+P00750	Protease
+P00751	Protease
+P00797	Protease
+P00813	Hydrolase
+P00915	Lyase
+P00918	Lyase
+P01111	Hydrolase
+P01116	Hydrolase
+P02708	Ligand-gated ion channel
+P03372	Nuclear receptor
+P03905	Oxidoreductase
+P03951	Protease
+P03952	Protease
+P03956	Protease
+P04035	Oxidoreductase
+P04040	Oxidoreductase
+P04049	Kinase
+P04054	Hydrolase
+P04070	Protease
+P04075	Lyase
+P04083	Other ion channel
+P04150	Nuclear receptor
+P04406	Oxidoreductase
+P04626	Kinase
+P04629	Kinase
+P04746	Hydrolase
+P04798	Cytochrome P450
+P04818	Transferase
+P04839	Transmembrane 1-electron transfer carriers
+P05023	Hydrolase
+P05023	Primary active transporter
+P05026	Hydrolase
+P05026	Primary active transporter
+P05089	Hydrolase
+P05091	Oxidoreductase
+P05093	Cytochrome P450
+P05129	Kinase
+P05141	Electrochemical transporter
+P05164	Oxidoreductase
+P05177	Cytochrome P450
+P05181	Cytochrome P450
+P05186	Phosphatase
+P05413	Fatty acid binding protein family
+P05771	Kinase
+P05981	Protease
+P06213	Kinase
+P06239	Kinase
+P06241	Kinase
+P06276	Hydrolase
+P06401	Nuclear receptor
+P06493	Kinase
+P06737	Transferase
+P06858	Hydrolase
+P06865	Hydrolase
+P07099	Protease
+P07148	Fatty acid binding protein family
+P07195	Oxidoreductase
+P07202	Oxidoreductase
+P07237	Isomerase
+P07288	Protease
+P07327	Oxidoreductase
+P07332	Kinase
+P07333	Kinase
+P07339	Protease
+P07384	Protease
+P07451	Lyase
+P07477	Protease
+P07550	Family A G protein-coupled receptor
+P07686	Hydrolase
+P07711	Protease
+P07741	Transferase
+P07858	Protease
+P07947	Kinase
+P07948	Kinase
+P07949	Kinase
+P08069	Kinase
+P08172	Family A G protein-coupled receptor
+P08173	Family A G protein-coupled receptor
+P08183	Primary active transporter
+P08235	Nuclear receptor
+P08236	Hydrolase
+P08246	Protease
+P08253	Protease
+P08254	Protease
+P08311	Protease
+P08473	Protease
+P08575	Phosphatase
+P08581	Kinase
+P08588	Family A G protein-coupled receptor
+P08631	Kinase
+P08684	Cytochrome P450
+P08686	Cytochrome P450
+P08709	Protease
+P08842	Hydrolase
+P08908	Family A G protein-coupled receptor
+P08912	Family A G protein-coupled receptor
+P08913	Family A G protein-coupled receptor
+P08922	Kinase
+P09172	Oxidoreductase
+P09211	Transferase
+P09237	Protease
+P09238	Protease
+P09417	Oxidoreductase
+P09467	Phosphatase
+P09543	Hydrolase
+P09619	Kinase
+P09668	Protease
+P09769	Kinase
+P09848	Hydrolase
+P09871	Protease
+P09874	Transferase
+P09884	Transferase
+P09917	Oxidoreductase
+P09923	Phosphatase
+P09936	Protease
+P09958	Protease
+P09960	Protease
+P0C1S8	Kinase
+P0C264	Kinase
+P0C870	Oxidoreductase
+P0DMS8	Family A G protein-coupled receptor
+P0DUB6	Hydrolase
+P10253	Hydrolase
+P10275	Nuclear receptor
+P10276	Nuclear receptor
+P10398	Kinase
+P10415	Other ion channel
+P10515	Transferase
+P10586	Phosphatase
+P10599	Oxidoreductase
+P10619	Protease
+P10632	Cytochrome P450
+P10635	Cytochrome P450
+P10696	Phosphatase
+P10721	Kinase
+P10826	Nuclear receptor
+P10827	Nuclear receptor
+P10828	Nuclear receptor
+P11086	Transferase
+P11150	Hydrolase
+P11166	Electrochemical transporter
+P11168	Electrochemical transporter
+P11169	Electrochemical transporter
+P11216	Transferase
+P11217	Transferase
+P11229	Family A G protein-coupled receptor
+P11233	Hydrolase
+P11274	Kinase
+P11309	Kinase
+P11362	Kinase
+P11387	Isomerase
+P11388	Isomerase
+P11413	Oxidoreductase
+P11473	Nuclear receptor
+P11474	Nuclear receptor
+P11509	Cytochrome P450
+P11511	Cytochrome P450
+P11597	Other ion channel
+P11678	Oxidoreductase
+P11712	Cytochrome P450
+P11766	Oxidoreductase
+P11801	Transferase
+P11802	Kinase
+P11926	Lyase
+P12104	Fatty acid binding protein family
+P12236	Electrochemical transporter
+P12268	Oxidoreductase
+P12544	Protease
+P12644	Protease
+P12821	Protease
+P12931	Kinase
+P12955	Protease
+P13010	Hydrolase
+P13497	Protease
+P13569	Other ion channel
+P13631	Nuclear receptor
+P13667	Isomerase
+P13674	Oxidoreductase
+P13861	Kinase
+P13866	Electrochemical transporter
+P13945	Family A G protein-coupled receptor
+P13995	Oxidoreductase
+P14061	Oxidoreductase
+P14091	Protease
+P14222	Other ion channel
+P14324	Transferase
+P14410	Hydrolase
+P14416	Family A G protein-coupled receptor
+P14550	Oxidoreductase
+P14555	Hydrolase
+P14616	Kinase
+P14672	Electrochemical transporter
+P14679	Oxidoreductase
+P14780	Protease
+P14867	Ligand-gated ion channel
+P14902	Oxidoreductase
+P14920	Oxidoreductase
+P14927	Transmembrane 1-electron transfer carriers
+P15056	Kinase
+P15090	Fatty acid binding protein family
+P15104	Ligase
+P15121	Oxidoreductase
+P15144	Protease
+P15289	Hydrolase
+P15309	Phosphatase
+P15374	Protease
+P15382	Slow voltage-gated potassium channel accessory protein family
+P15428	Oxidoreductase
+P15531	Transferase
+P15538	Cytochrome P450
+P15559	Oxidoreductase
+P15735	Kinase
+P15907	Transferase
+P16050	Oxidoreductase
+P16083	Oxidoreductase
+P16152	Oxidoreductase
+P16233	Hydrolase
+P16234	Kinase
+P16278	Hydrolase
+P16298	Phosphatase
+P16389	Voltage-gated ion channel
+P16435	Oxidoreductase
+P16455	Transferase
+P16473	Family A G protein-coupled receptor
+P16499	Phosphodiesterase
+P16591	Kinase
+P16615	Hydrolase
+P16615	Primary active transporter
+P16662	Transferase
+P16885	Hydrolase
+P17174	Transferase
+P17252	Kinase
+P17405	Phosphodiesterase
+P17516	Oxidoreductase
+P17538	Protease
+P17612	Kinase
+P17655	Protease
+P17658	Voltage-gated ion channel
+P17706	Phosphatase
+P17812	Ligase
+P17844	Hydrolase
+P17948	Kinase
+P17987	Hydrolase
+P18031	Phosphatase
+P18074	Hydrolase
+P18089	Family A G protein-coupled receptor
+P18405	Oxidoreductase
+P18505	Ligand-gated ion channel
+P18825	Family A G protein-coupled receptor
+P19099	Cytochrome P450
+P19224	Transferase
+P19525	Kinase
+P19634	Electrochemical transporter
+P19784	Kinase
+P19793	Nuclear receptor
+P19801	Oxidoreductase
+P19835	Hydrolase
+P20231	Hydrolase
+P20309	Family A G protein-coupled receptor
+P20340	Hydrolase
+P20618	Protease
+P20711	Lyase
+P20794	Kinase
+P20813	Cytochrome P450
+P20815	Cytochrome P450
+P20839	Oxidoreductase
+P21127	Kinase
+P21397	Oxidoreductase
+P21439	Primary active transporter
+P21452	Family A G protein-coupled receptor
+P21453	Family A G protein-coupled receptor
+P21462	Family A G protein-coupled receptor
+P21549	Transferase
+P21554	Family A G protein-coupled receptor
+P21589	Phosphatase
+P21673	Transferase
+P21709	Kinase
+P21728	Family A G protein-coupled receptor
+P21730	Family A G protein-coupled receptor
+P21731	Family A G protein-coupled receptor
+P21802	Kinase
+P21860	Kinase
+P21912	Oxidoreductase
+P21917	Family A G protein-coupled receptor
+P21918	Family A G protein-coupled receptor
+P21964	Transferase
+P21980	Aminoacyltransferase
+P22001	Voltage-gated ion channel
+P22061	Transferase
+P22083	Transferase
+P22102	Ligase
+P22303	Hydrolase
+P22309	Transferase
+P22310	Transferase
+P22314	Ligase
+P22455	Kinase
+P22459	Voltage-gated ion channel
+P22460	Voltage-gated ion channel
+P22607	Kinase
+P22612	Kinase
+P22680	Cytochrome P450
+P22694	Kinase
+P22735	Aminoacyltransferase
+P22736	Nuclear receptor
+P22748	Lyase
+P22760	Hydrolase
+P22830	Lyase
+P22888	Family A G protein-coupled receptor
+P22894	Protease
+P23141	Hydrolase
+P23219	Oxidoreductase
+P23280	Lyase
+P23284	Isomerase
+P23368	Oxidoreductase
+P23415	Ligand-gated ion channel
+P23416	Ligand-gated ion channel
+P23443	Kinase
+P23458	Kinase
+P23471	Hydrolase
+P23526	Hydrolase
+P23786	Transferase
+P23946	Protease
+P23975	Electrochemical transporter
+P24046	Ligand-gated ion channel
+P24158	Protease
+P24462	Oxidoreductase
+P24530	Family A G protein-coupled receptor
+P24557	Cytochrome P450
+P24666	Phosphatase
+P24723	Kinase
+P24752	Transferase
+P24855	Hydrolase
+P24928	Transferase
+P24941	Kinase
+P25021	Family A G protein-coupled receptor
+P25024	Family A G protein-coupled receptor
+P25025	Family A G protein-coupled receptor
+P25090	Family A G protein-coupled receptor
+P25098	Kinase
+P25100	Family A G protein-coupled receptor
+P25101	Family A G protein-coupled receptor
+P25103	Family A G protein-coupled receptor
+P25105	Family A G protein-coupled receptor
+P25106	Family A G protein-coupled receptor
+P25116	Family A G protein-coupled receptor
+P25440	Reader
+P25705	Hydrolase
+P25705	Primary active transporter
+P25774	Protease
+P25929	Family A G protein-coupled receptor
+P26358	Writer
+P26439	Oxidoreductase
+P26572	Transferase
+P27037	Kinase
+P27169	Hydrolase
+P27338	Oxidoreductase
+P27361	Kinase
+P27448	Kinase
+P27487	Protease
+P27707	Transferase
+P27815	Phosphodiesterase
+P28062	Protease
+P28065	Protease
+P28072	Protease
+P28074	Protease
+P28161	Transferase
+P28221	Family A G protein-coupled receptor
+P28222	Family A G protein-coupled receptor
+P28223	Family A G protein-coupled receptor
+P28300	Oxidoreductase
+P28329	Transferase
+P28335	Family A G protein-coupled receptor
+P28336	Family A G protein-coupled receptor
+P28472	Ligand-gated ion channel
+P28482	Kinase
+P28566	Family A G protein-coupled receptor
+P28702	Nuclear receptor
+P28845	Oxidoreductase
+P29144	Protease
+P29274	Family A G protein-coupled receptor
+P29275	Family A G protein-coupled receptor
+P29317	Kinase
+P29320	Kinase
+P29322	Kinase
+P29323	Kinase
+P29350	Phosphatase
+P29371	Family A G protein-coupled receptor
+P29372	Hydrolase
+P29375	Eraser
+P29375	Reader
+P29376	Kinase
+P29401	Transferase
+P29466	Protease
+P29475	Oxidoreductase
+P29597	Kinase
+P29972	Other ion channel
+P30084	Lyase
+P30101	Isomerase
+P30291	Kinase
+P30304	Phosphatase
+P30305	Phosphatase
+P30307	Phosphatase
+P30405	Isomerase
+P30411	Family A G protein-coupled receptor
+P30419	Transferase
+P30518	Family A G protein-coupled receptor
+P30519	Oxidoreductase
+P30530	Kinase
+P30531	Electrochemical transporter
+P30542	Family A G protein-coupled receptor
+P30550	Family A G protein-coupled receptor
+P30556	Family A G protein-coupled receptor
+P30559	Family A G protein-coupled receptor
+P30838	Oxidoreductase
+P30872	Family A G protein-coupled receptor
+P30874	Family A G protein-coupled receptor
+P30876	Transferase
+P30939	Family A G protein-coupled receptor
+P30968	Family A G protein-coupled receptor
+P30989	Family A G protein-coupled receptor
+P31152	Kinase
+P31153	Transferase
+P31213	Oxidoreductase
+P31391	Family A G protein-coupled receptor
+P31639	Electrochemical transporter
+P31641	Electrochemical transporter
+P31645	Electrochemical transporter
+P31749	Kinase
+P31751	Kinase
+P31944	Protease
+P32238	Family A G protein-coupled receptor
+P32239	Family A G protein-coupled receptor
+P32241	Family B G protein-coupled receptor
+P32245	Family A G protein-coupled receptor
+P32246	Family A G protein-coupled receptor
+P32247	Family A G protein-coupled receptor
+P32249	Family A G protein-coupled receptor
+P32297	Ligand-gated ion channel
+P32298	Kinase
+P32320	Hydrolase
+P32745	Family A G protein-coupled receptor
+P32929	Lyase
+P33032	Family A G protein-coupled receptor
+P33121	Ligase
+P33261	Cytochrome P450
+P33527	Primary active transporter
+P33552	Kinase
+P33981	Kinase
+P33991	Hydrolase
+P33992	Hydrolase
+P34896	Transferase
+P34897	Transferase
+P34913	Protease
+P34947	Kinase
+P34949	Isomerase
+P34969	Family A G protein-coupled receptor
+P34972	Family A G protein-coupled receptor
+P34995	Family A G protein-coupled receptor
+P34998	Family B G protein-coupled receptor
+P35030	Protease
+P35218	Lyase
+P35236	Phosphatase
+P35270	Oxidoreductase
+P35346	Family A G protein-coupled receptor
+P35348	Family A G protein-coupled receptor
+P35354	Oxidoreductase
+P35367	Family A G protein-coupled receptor
+P35368	Family A G protein-coupled receptor
+P35372	Family A G protein-coupled receptor
+P35398	Nuclear receptor
+P35408	Family A G protein-coupled receptor
+P35414	Family A G protein-coupled receptor
+P35462	Family A G protein-coupled receptor
+P35498	Voltage-gated ion channel
+P35499	Voltage-gated ion channel
+P35590	Kinase
+P35610	Transferase
+P35626	Kinase
+P35790	Transferase
+P35813	Phosphatase
+P35916	Kinase
+P35968	Kinase
+P36507	Kinase
+P36544	Ligand-gated ion channel
+P36639	Hydrolase
+P36776	Hydrolase
+P36873	Phosphatase
+P36888	Kinase
+P36894	Kinase
+P36896	Kinase
+P36897	Kinase
+P36969	Oxidoreductase
+P37023	Kinase
+P37058	Oxidoreductase
+P37059	Oxidoreductase
+P37088	Ligand-gated ion channel
+P37173	Kinase
+P37231	Nuclear receptor
+P37268	Transferase
+P37288	Family A G protein-coupled receptor
+P39086	Ligand-gated ion channel
+P39748	Hydrolase
+P39877	Hydrolase
+P39900	Protease
+P40145	Lyase
+P40261	Transferase
+P40306	Protease
+P40818	Protease
+P40925	Oxidoreductase
+P40926	Oxidoreductase
+P41143	Family A G protein-coupled receptor
+P41145	Family A G protein-coupled receptor
+P41146	Family A G protein-coupled receptor
+P41180	Family C G protein-coupled receptor
+P41229	Eraser
+P41229	Reader
+P41231	Family A G protein-coupled receptor
+P41240	Kinase
+P41250	Hydrolase
+P41279	Kinase
+P41440	Electrochemical transporter
+P41587	Family B G protein-coupled receptor
+P41594	Family C G protein-coupled receptor
+P41595	Family A G protein-coupled receptor
+P41597	Family A G protein-coupled receptor
+P41743	Kinase
+P41968	Family A G protein-coupled receptor
+P42261	Ligand-gated ion channel
+P42262	Ligand-gated ion channel
+P42263	Ligand-gated ion channel
+P42285	Hydrolase
+P42330	Oxidoreductase
+P42336	Transferase
+P42338	Transferase
+P42345	Kinase
+P42356	Transferase
+P42568	Reader
+P42574	Protease
+P42575	Protease
+P42679	Kinase
+P42680	Kinase
+P42681	Kinase
+P42684	Kinase
+P42685	Kinase
+P42694	Hydrolase
+P42785	Protease
+P42892	Protease
+P43003	Electrochemical transporter
+P43004	Electrochemical transporter
+P43005	Electrochemical transporter
+P43007	Electrochemical transporter
+P43088	Family A G protein-coupled receptor
+P43115	Family A G protein-coupled receptor
+P43116	Family A G protein-coupled receptor
+P43119	Family A G protein-coupled receptor
+P43166	Lyase
+P43220	Family B G protein-coupled receptor
+P43235	Protease
+P43250	Kinase
+P43354	Nuclear receptor
+P43378	Phosphatase
+P43403	Kinase
+P43405	Kinase
+P43681	Ligand-gated ion channel
+P45452	Protease
+P45880	Other ion channel
+P45974	Protease
+P45983	Kinase
+P45984	Kinase
+P45985	Kinase
+P46059	Electrochemical transporter
+P46089	Family A G protein-coupled receptor
+P46092	Family A G protein-coupled receptor
+P46093	Family A G protein-coupled receptor
+P46095	Family A G protein-coupled receptor
+P46098	Ligand-gated ion channel
+P46663	Family A G protein-coupled receptor
+P46721	Electrochemical transporter
+P46734	Kinase
+P47870	Ligand-gated ion channel
+P47871	Family B G protein-coupled receptor
+P47872	Family B G protein-coupled receptor
+P47895	Oxidoreductase
+P47898	Family A G protein-coupled receptor
+P47900	Family A G protein-coupled receptor
+P47901	Family A G protein-coupled receptor
+P47989	Oxidoreductase
+P48039	Family A G protein-coupled receptor
+P48048	Voltage-gated ion channel
+P48058	Ligand-gated ion channel
+P48065	Electrochemical transporter
+P48066	Electrochemical transporter
+P48067	Electrochemical transporter
+P48147	Protease
+P48426	Transferase
+P48443	Nuclear receptor
+P48449	Isomerase
+P48546	Family B G protein-coupled receptor
+P48651	Transferase
+P48729	Kinase
+P48730	Kinase
+P48735	Oxidoreductase
+P48736	Transferase
+P48764	Electrochemical transporter
+P48775	Oxidoreductase
+P49116	Nuclear receptor
+P49137	Kinase
+P49146	Family A G protein-coupled receptor
+P49238	Family A G protein-coupled receptor
+P49247	Isomerase
+P49281	Electrochemical transporter
+P49286	Family A G protein-coupled receptor
+P49327	Transferase
+P49336	Kinase
+P49354	Transferase
+P49356	Transferase
+P49366	Transferase
+P49585	Transferase
+P49589	Ligase
+P49674	Kinase
+P49682	Family A G protein-coupled receptor
+P49721	Protease
+P49748	Oxidoreductase
+P49759	Kinase
+P49760	Kinase
+P49761	Kinase
+P49768	Other ion channel
+P49789	Hydrolase
+P49821	Oxidoreductase
+P49840	Kinase
+P49841	Kinase
+P49842	Transferase
+P49862	Protease
+P49916	Ligase
+P49959	Hydrolase
+P49961	Hydrolase
+P50052	Family A G protein-coupled receptor
+P50053	Transferase
+P50135	Transferase
+P50213	Oxidoreductase
+P50225	Transferase
+P50281	Protease
+P50391	Family A G protein-coupled receptor
+P50406	Family A G protein-coupled receptor
+P50416	Transferase
+P50570	Hydrolase
+P50579	Protease
+P50613	Kinase
+P50750	Kinase
+P51149	Hydrolase
+P51160	Phosphodiesterase
+P51449	Nuclear receptor
+P51451	Kinase
+P51452	Phosphatase
+P51511	Protease
+P51512	Protease
+P51531	Reader
+P51532	Reader
+P51575	Ligand-gated ion channel
+P51580	Transferase
+P51582	Family A G protein-coupled receptor
+P51608	Reader
+P51617	Kinase
+P51649	Oxidoreductase
+P51659	Oxidoreductase
+P51677	Family A G protein-coupled receptor
+P51679	Family A G protein-coupled receptor
+P51681	Family A G protein-coupled receptor
+P51684	Family A G protein-coupled receptor
+P51685	Family A G protein-coupled receptor
+P51787	Voltage-gated ion channel
+P51788	Other ion channel
+P51812	Kinase
+P51813	Kinase
+P51817	Kinase
+P51955	Kinase
+P51956	Kinase
+P51957	Kinase
+P52209	Oxidoreductase
+P52333	Kinase
+P52564	Kinase
+P52895	Oxidoreductase
+P53041	Phosphatase
+P53350	Kinase
+P53355	Kinase
+P53396	Transferase
+P53582	Protease
+P53609	Transferase
+P53634	Protease
+P53667	Kinase
+P53671	Kinase
+P53778	Kinase
+P53779	Kinase
+P53816	Hydrolase
+P53985	Electrochemical transporter
+P54098	Transferase
+P54136	Ligase
+P54219	Electrochemical transporter
+P54289	Calcium channel auxiliary subunit alpha2delta family
+P54577	Ligase
+P54619	Kinase
+P54646	Kinase
+P54707	Hydrolase
+P54707	Primary active transporter
+P54750	Phosphodiesterase
+P54753	Kinase
+P54756	Kinase
+P54760	Kinase
+P54762	Kinase
+P54764	Kinase
+P54803	Hydrolase
+P54829	Phosphatase
+P55011	Electrochemical transporter
+P55055	Nuclear receptor
+P55072	Primary active transporter
+P55085	Family A G protein-coupled receptor
+P55210	Protease
+P55211	Protease
+P55263	Transferase
+P55786	Protease
+P56373	Ligand-gated ion channel
+P56524	Eraser
+P56696	Voltage-gated ion channel
+P56730	Hydrolase
+P56817	Protease
+P57058	Kinase
+P57059	Kinase
+P57078	Kinase
+P57789	Voltage-gated ion channel
+P58215	Oxidoreductase
+P58397	Hydrolase
+P59533	Taste family G protein-coupled receptor
+P59534	Taste family G protein-coupled receptor
+P59535	Taste family G protein-coupled receptor
+P59536	Taste family G protein-coupled receptor
+P59537	Taste family G protein-coupled receptor
+P59538	Taste family G protein-coupled receptor
+P59539	Taste family G protein-coupled receptor
+P59540	Taste family G protein-coupled receptor
+P59541	Taste family G protein-coupled receptor
+P59542	Taste family G protein-coupled receptor
+P59543	Taste family G protein-coupled receptor
+P59544	Taste family G protein-coupled receptor
+P59551	Taste family G protein-coupled receptor
+P60484	Phosphatase
+P60604	Transferase
+P60842	Hydrolase
+P60891	Transferase
+P60953	Hydrolase
+P61026	Hydrolase
+P61073	Family A G protein-coupled receptor
+P61081	Transferase
+P61964	Reader
+P62136	Phosphatase
+P62508	Nuclear receptor
+P62834	Hydrolase
+P62937	Isomerase
+P62942	Isomerase
+P63000	Hydrolase
+P63098	Phosphatase
+P63151	Phosphatase
+P67775	Phosphatase
+P67870	Kinase
+P68036	Transferase
+P68106	Isomerase
+P68400	Kinase
+P68402	Hydrolase
+P78325	Protease
+P78329	Cytochrome P450
+P78356	Kinase
+P78362	Kinase
+P78368	Kinase
+P78371	Hydrolase
+P78527	Kinase
+P78536	Protease
+P78540	Hydrolase
+P80192	Kinase
+P80365	Oxidoreductase
+P80404	Transferase
+P98161	Voltage-gated ion channel
+P98187	Oxidoreductase
+Q00526	Kinase
+Q00532	Kinase
+Q00534	Kinase
+Q00535	Kinase
+Q00536	Kinase
+Q00537	Kinase
+Q00796	Oxidoreductase
+Q00975	Voltage-gated ion channel
+Q01064	Phosphodiesterase
+Q01118	Voltage-gated ion channel
+Q01469	Fatty acid binding protein family
+Q01650	Electrochemical transporter
+Q01668	Voltage-gated ion channel
+Q01726	Family A G protein-coupled receptor
+Q01959	Electrochemical transporter
+Q02083	Hydrolase
+Q02127	Oxidoreductase
+Q02156	Kinase
+Q02643	Family B G protein-coupled receptor
+Q02750	Kinase
+Q02763	Kinase
+Q02779	Kinase
+Q02790	Isomerase
+Q02880	Isomerase
+Q02928	Cytochrome P450
+Q03111	Reader
+Q03164	Reader
+Q03164	Writer
+Q03181	Nuclear receptor
+Q03431	Family B G protein-coupled receptor
+Q04609	Protease
+Q04756	Protease
+Q04759	Kinase
+Q04760	Lyase
+Q04771	Kinase
+Q04828	Oxidoreductase
+Q04844	Ligand-gated ion channel
+Q04912	Kinase
+Q05193	Hydrolase
+Q05209	Phosphatase
+Q05397	Kinase
+Q05513	Kinase
+Q05586	Ligand-gated ion channel
+Q05655	Kinase
+Q05823	Hydrolase
+Q05923	Phosphatase
+Q05932	Ligase
+Q05940	Electrochemical transporter
+Q05BQ5	Reader
+Q06124	Phosphatase
+Q06187	Kinase
+Q06278	Oxidoreductase
+Q06418	Kinase
+Q06520	Transferase
+Q06830	Oxidoreductase
+Q07001	Ligand-gated ion channel
+Q07002	Kinase
+Q07343	Phosphodiesterase
+Q07812	Other ion channel
+Q07817	Other ion channel
+Q07869	Nuclear receptor
+Q07912	Kinase
+Q07973	Cytochrome P450
+Q08188	Aminoacyltransferase
+Q08209	Phosphatase
+Q08211	Hydrolase
+Q08257	Oxidoreductase
+Q08345	Kinase
+Q08462	Lyase
+Q08477	Oxidoreductase
+Q08493	Phosphodiesterase
+Q08499	Phosphodiesterase
+Q08752	Isomerase
+Q08828	Lyase
+Q08881	Kinase
+Q08J23	Transferase
+Q09013	Kinase
+Q09327	Transferase
+Q09428	Primary active transporter
+Q09470	Voltage-gated ion channel
+Q09472	Reader
+Q09472	Writer
+Q10469	Transferase
+Q10471	Transferase
+Q11130	Transferase
+Q11201	Transferase
+Q11203	Transferase
+Q12791	Voltage-gated ion channel
+Q12794	Hydrolase
+Q12797	Oxidoreductase
+Q12809	Voltage-gated ion channel
+Q12830	Reader
+Q12851	Kinase
+Q12852	Kinase
+Q12866	Kinase
+Q12879	Ligand-gated ion channel
+Q12884	Protease
+Q12888	Reader
+Q12908	Electrochemical transporter
+Q12913	Phosphatase
+Q12923	Phosphatase
+Q12974	Phosphatase
+Q13002	Ligand-gated ion channel
+Q13003	Ligand-gated ion channel
+Q13011	Isomerase
+Q13043	Kinase
+Q13093	Hydrolase
+Q13131	Kinase
+Q13133	Nuclear receptor
+Q13153	Kinase
+Q13162	Oxidoreductase
+Q13163	Kinase
+Q13164	Kinase
+Q13177	Kinase
+Q13188	Kinase
+Q13224	Ligand-gated ion channel
+Q13231	Hydrolase
+Q13233	Kinase
+Q13237	Kinase
+Q13255	Family C G protein-coupled receptor
+Q13258	Family A G protein-coupled receptor
+Q13263	Reader
+Q13283	Hydrolase
+Q13285	Nuclear receptor
+Q13304	Family A G protein-coupled receptor
+Q13315	Kinase
+Q13332	Phosphatase
+Q13370	Phosphodiesterase
+Q13393	Hydrolase
+Q13418	Kinase
+Q13427	Isomerase
+Q13464	Kinase
+Q13470	Kinase
+Q13507	Voltage-gated ion channel
+Q13510	Hydrolase
+Q13523	Kinase
+Q13526	Isomerase
+Q13535	Kinase
+Q13546	Kinase
+Q13547	Eraser
+Q13554	Kinase
+Q13555	Kinase
+Q13557	Kinase
+Q13563	Voltage-gated ion channel
+Q13609	Hydrolase
+Q13627	Kinase
+Q13639	Family A G protein-coupled receptor
+Q13698	Voltage-gated ion channel
+Q13705	Kinase
+Q13873	Kinase
+Q13882	Kinase
+Q13936	Voltage-gated ion channel
+Q13946	Phosphodiesterase
+Q13976	Kinase
+Q14012	Kinase
+Q14123	Phosphodiesterase
+Q14164	Kinase
+Q14289	Kinase
+Q14318	Isomerase
+Q14330	Family A G protein-coupled receptor
+Q14376	Isomerase
+Q14416	Family C G protein-coupled receptor
+Q14432	Phosphodiesterase
+Q14524	Voltage-gated ion channel
+Q14534	Oxidoreductase
+Q14542	Electrochemical transporter
+Q14566	Hydrolase
+Q14573	Ligand-gated ion channel
+Q14643	Ligand-gated ion channel
+Q14680	Kinase
+Q14694	Protease
+Q14749	Transferase
+Q14761	Phosphatase
+Q14790	Protease
+Q14831	Family C G protein-coupled receptor
+Q14832	Family C G protein-coupled receptor
+Q14833	Family C G protein-coupled receptor
+Q14839	Hydrolase
+Q14940	Electrochemical transporter
+Q14957	Ligand-gated ion channel
+Q14973	Electrochemical transporter
+Q14994	Nuclear receptor
+Q149N8	Transferase
+Q15047	Reader
+Q15047	Writer
+Q15059	Reader
+Q15067	Oxidoreductase
+Q15077	Family A G protein-coupled receptor
+Q15078	Kinase
+Q15118	Kinase
+Q15119	Kinase
+Q15120	Kinase
+Q15125	Isomerase
+Q15139	Kinase
+Q15172	Phosphatase
+Q15208	Kinase
+Q15303	Kinase
+Q15349	Kinase
+Q15375	Kinase
+Q15386	Transferase
+Q15391	Family A G protein-coupled receptor
+Q15392	Oxidoreductase
+Q15418	Kinase
+Q15466	Nuclear receptor
+Q15569	Kinase
+Q15722	Family A G protein-coupled receptor
+Q15746	Kinase
+Q15758	Electrochemical transporter
+Q15759	Kinase
+Q15761	Family A G protein-coupled receptor
+Q15788	Writer
+Q15831	Kinase
+Q15835	Kinase
+Q15858	Voltage-gated ion channel
+Q15904	Hydrolase
+Q15904	Primary active transporter
+Q15910	Writer
+Q16288	Kinase
+Q16348	Electrochemical transporter
+Q16478	Ligand-gated ion channel
+Q16512	Kinase
+Q16513	Kinase
+Q16539	Kinase
+Q16548	Other ion channel
+Q16549	Protease
+Q16558	Calcium-activated potassium channel auxiliary subunit slowpoke-beta family
+Q16566	Kinase
+Q16572	Electrochemical transporter
+Q16581	Family A G protein-coupled receptor
+Q16584	Kinase
+Q16602	Family B G protein-coupled receptor
+Q16620	Kinase
+Q16644	Kinase
+Q16647	Cytochrome P450
+Q16651	Protease
+Q16654	Kinase
+Q16659	Kinase
+Q16678	Cytochrome P450
+Q16696	Cytochrome P450
+Q16718	Oxidoreductase
+Q16739	Transferase
+Q16740	Hydrolase
+Q16762	Transferase
+Q16769	Aminoacyltransferase
+Q16775	Hydrolase
+Q16790	Lyase
+Q16816	Kinase
+Q16819	Hydrolase
+Q16820	Hydrolase
+Q16822	Lyase
+Q16827	Hydrolase
+Q16832	Kinase
+Q16850	Cytochrome P450
+Q16853	Oxidoreductase
+Q16873	Lyase
+Q16881	Oxidoreductase
+Q2M2I8	Kinase
+Q2NL67	Transferase
+Q32MK0	Kinase
+Q3L8U1	Hydrolase
+Q3MIX3	Transferase
+Q3SYC2	Transferase
+Q460N3	Transferase
+Q460N5	Transferase
+Q495T6	Hydrolase
+Q4U2R8	Electrochemical transporter
+Q52WX2	Kinase
+Q53GL7	Transferase
+Q53GQ0	Oxidoreductase
+Q56UN5	Kinase
+Q58F21	Reader
+Q59H18	Kinase
+Q5EB52	Hydrolase
+Q5MAI5	Transferase
+Q5NUL3	Family A G protein-coupled receptor
+Q5S007	Kinase
+Q5SWA1	Phosphatase
+Q5T601	Family B G protein-coupled receptor
+Q5TCX8	Transferase
+Q5TCY1	Kinase
+Q5VT25	Kinase
+Q5W0Z9	Transferase
+Q5XG87	Transferase
+Q5XXA6	Other ion channel
+Q6B0I6	Eraser
+Q6DT37	Kinase
+Q6GMR7	Hydrolase
+Q6IQ20	Hydrolase
+Q6IQ55	Kinase
+Q6JQN1	Oxidoreductase
+Q6L8Q7	Hydrolase
+Q6N021	Oxidoreductase
+Q6NS38	Oxidoreductase
+Q6NYC1	Oxidoreductase
+Q6P1A2	Transferase
+Q6P2M8	Transferase
+Q6P2P2	Transferase
+Q6P3R8	Kinase
+Q6P5Z2	Kinase
+Q6P5Z2	Transferase
+Q6P6C2	Oxidoreductase
+Q6P988	Hydrolase
+Q6PHR2	Kinase
+Q6SZW1	Hydrolase
+Q6UXN9	Reader
+Q6V1X1	Protease
+Q6VAB6	Transferase
+Q6W5P4	Family A G protein-coupled receptor
+Q6XQN6	Ligase
+Q6Y1H2	Lyase
+Q6ZMT4	Eraser
+Q6ZMT4	Reader
+Q6ZN16	Kinase
+Q6ZQN7	Electrochemical transporter
+Q6ZQW0	Oxidoreductase
+Q6ZVD8	Phosphatase
+Q709F0	Oxidoreductase
+Q70CQ3	Hydrolase
+Q76MJ5	Transferase
+Q7KZI7	Kinase
+Q7L2E3	Hydrolase
+Q7L7X3	Kinase
+Q7LBC6	Eraser
+Q7RTR8	Taste family G protein-coupled receptor
+Q7Z2H8	Electrochemical transporter
+Q7Z2W7	Voltage-gated ion channel
+Q7Z3E1	Transferase
+Q7Z418	Voltage-gated ion channel
+Q7Z569	Transferase
+Q7Z5P4	Oxidoreductase
+Q7Z5W3	Transferase
+Q7Z601	Family A G protein-coupled receptor
+Q86TI2	Protease
+Q86TW2	Transferase
+Q86U44	Transferase
+Q86U86	Reader
+Q86UD5	Electrochemical transporter
+Q86UE8	Kinase
+Q86UX6	Kinase
+Q86V86	Kinase
+Q86VL8	Electrochemical transporter
+Q86VZ5	Transferase
+Q86W10	Oxidoreductase
+Q86W56	Hydrolase
+Q86WJ1	Hydrolase
+Q86X55	Writer
+Q86XP3	Hydrolase
+Q86Y97	Writer
+Q86YV6	Kinase
+Q86Z02	Kinase
+Q8IU85	Kinase
+Q8IUF8	Oxidoreductase
+Q8IUZ5	Lyase
+Q8IV08	Phosphodiesterase
+Q8IVH8	Kinase
+Q8IVW4	Kinase
+Q8IW41	Kinase
+Q8IWQ3	Kinase
+Q8IXB1	Oxidoreductase
+Q8IXJ6	Eraser
+Q8IXQ6	Transferase
+Q8IY84	Kinase
+Q8IYL9	Family A G protein-coupled receptor
+Q8IYM2	Hydrolase
+Q8IYT4	Isomerase
+Q8IYT8	Kinase
+Q8IZL9	Kinase
+Q8IZX4	Reader
+Q8N118	Cytochrome P450
+Q8N1Q1	Lyase
+Q8N2K0	Hydrolase
+Q8N371	Oxidoreductase
+Q8N3A8	Transferase
+Q8N4C8	Kinase
+Q8N568	Kinase
+Q8N5S9	Kinase
+Q8N5Y8	Transferase
+Q8N6T7	Eraser
+Q8N752	Kinase
+Q8N884	Transferase
+Q8NA19	Reader
+Q8NB78	Eraser
+Q8NBP7	Protease
+Q8NCG7	Hydrolase
+Q8NDF8	Transferase
+Q8NE63	Kinase
+Q8NEB9	Transferase
+Q8NER1	Voltage-gated ion channel
+Q8NET8	Voltage-gated ion channel
+Q8NEV4	Kinase
+Q8NF37	Transferase
+Q8NFD2	Kinase
+Q8NFI3	Hydrolase
+Q8NFU5	Transferase
+Q8NFU7	Oxidoreductase
+Q8NG66	Kinase
+Q8NHM5	Eraser
+Q8NHU3	Transferase
+Q8NI60	Kinase
+Q8TAF3	Reader
+Q8TBC4	Ligase
+Q8TBX8	Transferase
+Q8TCC7	Electrochemical transporter
+Q8TCJ2	Transferase
+Q8TCT1	Phosphatase
+Q8TCT9	Hydrolase
+Q8TD08	Kinase
+Q8TD19	Kinase
+Q8TDC3	Kinase
+Q8TDR2	Kinase
+Q8TDS4	Family A G protein-coupled receptor
+Q8TDS5	Family A G protein-coupled receptor
+Q8TDU6	Family A G protein-coupled receptor
+Q8TDV5	Family A G protein-coupled receptor
+Q8TDX5	Lyase
+Q8TDX7	Kinase
+Q8TEK3	Writer
+Q8TF76	Kinase
+Q8WTQ7	Kinase
+Q8WTS6	Writer
+Q8WU08	Kinase
+Q8WUI4	Eraser
+Q8WVX9	Oxidoreductase
+Q8WVY7	Phosphatase
+Q8WWT9	Electrochemical transporter
+Q8WXR4	Kinase
+Q92523	Group translocator
+Q92551	Transferase
+Q92569	Kinase
+Q92570	Nuclear receptor
+Q92630	Kinase
+Q92633	Family A G protein-coupled receptor
+Q92643	Transferase
+Q92685	Transferase
+Q92731	Nuclear receptor
+Q92736	Ligand-gated ion channel
+Q92753	Nuclear receptor
+Q92769	Eraser
+Q92772	Kinase
+Q92793	Reader
+Q92793	Writer
+Q92800	Writer
+Q92830	Reader
+Q92830	Writer
+Q92831	Reader
+Q92831	Writer
+Q92835	Phosphatase
+Q92841	Hydrolase
+Q92847	Family A G protein-coupled receptor
+Q92878	Hydrolase
+Q92887	Primary active transporter
+Q92905	Hydrolase
+Q92918	Kinase
+Q92947	Oxidoreductase
+Q92952	Voltage-gated ion channel
+Q92959	Electrochemical transporter
+Q92993	Reader
+Q92993	Writer
+Q92995	Protease
+Q93008	Protease
+Q93009	Protease
+Q93084	Hydrolase
+Q93084	Primary active transporter
+Q93086	Ligand-gated ion channel
+Q93096	Phosphatase
+Q969F8	Family A G protein-coupled receptor
+Q969S8	Eraser
+Q969V1	Family A G protein-coupled receptor
+Q96AD5	Hydrolase
+Q96BR1	Kinase
+Q96BZ4	Hydrolase
+Q96C86	Hydrolase
+Q96D31	Other ion channel
+Q96D53	Kinase
+Q96DB2	Eraser
+Q96DG6	Hydrolase
+Q96EB6	Eraser
+Q96FA3	Transferase
+Q96FL8	Electrochemical transporter
+Q96FW1	Hydrolase
+Q96G23	Transferase
+Q96G91	Family A G protein-coupled receptor
+Q96GD4	Kinase
+Q96GX5	Transferase
+Q96HE7	Oxidoreductase
+Q96HI0	Hydrolase
+Q96HS1	Hydrolase
+Q96IY4	Protease
+Q96JB6	Oxidoreductase
+Q96JM7	Reader
+Q96K76	Protease
+Q96KN8	Transferase
+Q96KQ7	Writer
+Q96KS0	Oxidoreductase
+Q96L34	Kinase
+Q96L73	Writer
+Q96LA8	Writer
+Q96LA9	Family A G protein-coupled receptor
+Q96LB1	Family A G protein-coupled receptor
+Q96NT5	Electrochemical transporter
+Q96NX5	Kinase
+Q96P65	Family A G protein-coupled receptor
+Q96PC2	Transferase
+Q96PD7	Transferase
+Q96PH1	Transmembrane 1-electron transfer carriers
+Q96PN6	Lyase
+Q96PN8	Kinase
+Q96PY6	Kinase
+Q96Q04	Transferase
+Q96Q15	Kinase
+Q96Q40	Kinase
+Q96Q83	Oxidoreductase
+Q96QA9	Hydrolase
+Q96QA9	Primary active transporter
+Q96QT4	Voltage-gated ion channel
+Q96RD7	Other ion channel
+Q96RG2	Kinase
+Q96RI0	Family A G protein-coupled receptor
+Q96RI1	Nuclear receptor
+Q96RJ0	Family A G protein-coupled receptor
+Q96RP9	Hydrolase
+Q96RR4	Kinase
+Q96RU2	Protease
+Q96S37	Electrochemical transporter
+Q96S53	Kinase
+Q96SB4	Kinase
+Q96T53	Transferase
+Q99250	Voltage-gated ion channel
+Q99436	Protease
+Q99489	Oxidoreductase
+Q99497	Hydrolase
+Q99504	Hydrolase
+Q99527	Family A G protein-coupled receptor
+Q99536	Oxidoreductase
+Q99549	Reader
+Q99558	Kinase
+Q99571	Ligand-gated ion channel
+Q99572	Ligand-gated ion channel
+Q99640	Kinase
+Q99677	Family A G protein-coupled receptor
+Q99683	Kinase
+Q99685	Hydrolase
+Q99705	Family A G protein-coupled receptor
+Q99707	Transferase
+Q99755	Kinase
+Q99757	Oxidoreductase
+Q99759	Kinase
+Q99808	Electrochemical transporter
+Q99835	Frizzled family G protein-coupled receptor
+Q99873	Writer
+Q99895	Protease
+Q99986	Kinase
+Q9BPV8	Family A G protein-coupled receptor
+Q9BPW9	Oxidoreductase
+Q9BQB6	Oxidoreductase
+Q9BQI3	Kinase
+Q9BRS2	Kinase
+Q9BSD7	Hydrolase
+Q9BU89	Oxidoreductase
+Q9BUB5	Kinase
+Q9BV23	Hydrolase
+Q9BVS4	Kinase
+Q9BWU1	Kinase
+Q9BX84	Voltage-gated ion channel
+Q9BXA5	Family A G protein-coupled receptor
+Q9BXA7	Kinase
+Q9BY41	Eraser
+Q9BY66	Oxidoreductase
+Q9BYF1	Protease
+Q9BYP7	Kinase
+Q9BYT3	Kinase
+Q9BYW2	Writer
+Q9BZ11	Protease
+Q9BZ95	Writer
+Q9BZL6	Kinase
+Q9BZP6	Hydrolase
+Q9C098	Kinase
+Q9C0B1	Oxidoreductase
+Q9GZR1	Protease
+Q9GZT9	Oxidoreductase
+Q9GZV3	Electrochemical transporter
+Q9H093	Kinase
+Q9H0A0	Transferase
+Q9H0D6	Hydrolase
+Q9H0E9	Reader
+Q9H0J9	Transferase
+Q9H0K1	Kinase
+Q9H1C0	Family A G protein-coupled receptor
+Q9H1D0	Voltage-gated ion channel
+Q9H1R3	Kinase
+Q9H228	Family A G protein-coupled receptor
+Q9H237	Transferase
+Q9H244	Family A G protein-coupled receptor
+Q9H255	Family A G protein-coupled receptor
+Q9H2G2	Kinase
+Q9H2J7	Electrochemical transporter
+Q9H2K2	Transferase
+Q9H2K8	Kinase
+Q9H2S1	Voltage-gated ion channel
+Q9H2X6	Kinase
+Q9H2X9	Electrochemical transporter
+Q9H300	Hydrolase
+Q9H3N8	Family A G protein-coupled receptor
+Q9H3R0	Eraser
+Q9H3R0	Reader
+Q9H3Y6	Kinase
+Q9H422	Kinase
+Q9H479	Transferase
+Q9H4A3	Kinase
+Q9H4A4	Protease
+Q9H4B4	Kinase
+Q9H4L4	Hydrolase
+Q9H5I1	Reader
+Q9H5I1	Writer
+Q9H5Z1	Hydrolase
+Q9H6Z9	Oxidoreductase
+Q9H773	Hydrolase
+Q9H792	Transferase
+Q9H7B4	Writer
+Q9H7Z6	Reader
+Q9H7Z6	Writer
+Q9H857	Hydrolase
+Q9H8M2	Reader
+Q9H9B1	Writer
+Q9HAS3	Electrochemical transporter
+Q9HAW7	Transferase
+Q9HAW8	Transferase
+Q9HAZ1	Kinase
+Q9HB21	Reader
+Q9HB55	Oxidoreductase
+Q9HBA0	Voltage-gated ion channel
+Q9HBH1	Hydrolase
+Q9HBH9	Kinase
+Q9HBI6	Oxidoreductase
+Q9HBK9	Transferase
+Q9HBW0	Family A G protein-coupled receptor
+Q9HBX9	Family A G protein-coupled receptor
+Q9HBY0	Oxidoreductase
+Q9HBY8	Kinase
+Q9HC62	Protease
+Q9HC97	Family A G protein-coupled receptor
+Q9HC98	Kinase
+Q9HCC0	Ligase
+Q9HCK8	Hydrolase
+Q9HCP0	Kinase
+Q9HCR9	Phosphodiesterase
+Q9HCS2	Cytochrome P450
+Q9HD36	Other ion channel
+Q9NP56	Phosphodiesterase
+Q9NP59	Electrochemical transporter
+Q9NPC1	Family A G protein-coupled receptor
+Q9NPC2	Voltage-gated ion channel
+Q9NPD5	Electrochemical transporter
+Q9NPH5	Oxidoreductase
+Q9NPI1	Reader
+Q9NQA5	Voltage-gated ion channel
+Q9NQR1	Writer
+Q9NQR4	Hydrolase
+Q9NQS5	Family A G protein-coupled receptor
+Q9NQU5	Kinase
+Q9NQV7	Reader
+Q9NQV7	Writer
+Q9NQW5	Transferase
+Q9NQW7	Protease
+Q9NR20	Kinase
+Q9NR21	Transferase
+Q9NR22	Writer
+Q9NR63	Cytochrome P450
+Q9NR96	Toll-like and Il-1 receptors
+Q9NR97	Toll-like and Il-1 receptors
+Q9NRD8	Transmembrane 1-electron transfer carriers
+Q9NRD9	Oxidoreductase
+Q9NRG4	Writer
+Q9NRH2	Kinase
+Q9NRM0	Electrochemical transporter
+Q9NRM7	Kinase
+Q9NRP7	Kinase
+Q9NRS4	Protease
+Q9NRX4	Hydrolase
+Q9NS75	Family A G protein-coupled receptor
+Q9NS91	Transferase
+Q9NSA0	Electrochemical transporter
+Q9NSD5	Electrochemical transporter
+Q9NSD9	Ligase
+Q9NSE4	Ligase
+Q9NSI6	Reader
+Q9NSY1	Kinase
+Q9NTG7	Eraser
+Q9NTK5	Hydrolase
+Q9NUW8	Phosphodiesterase
+Q9NVM4	Writer
+Q9NWM0	Oxidoreductase
+Q9NWT6	Oxidoreductase
+Q9NWW9	Transferase
+Q9NWZ3	Kinase
+Q9NX74	Oxidoreductase
+Q9NXA8	Eraser
+Q9NXG6	Oxidoreductase
+Q9NXS2	Transferase
+Q9NY46	Voltage-gated ion channel
+Q9NY47	Calcium channel auxiliary subunit alpha2delta family
+Q9NY57	Kinase
+Q9NY59	Hydrolase
+Q9NYK1	Toll-like and Il-1 receptors
+Q9NYL2	Kinase
+Q9NYV4	Kinase
+Q9NYV7	Taste family G protein-coupled receptor
+Q9NYV8	Taste family G protein-coupled receptor
+Q9NYV9	Taste family G protein-coupled receptor
+Q9NYW0	Taste family G protein-coupled receptor
+Q9NYW2	Taste family G protein-coupled receptor
+Q9NYW3	Taste family G protein-coupled receptor
+Q9NYW4	Taste family G protein-coupled receptor
+Q9NYW5	Taste family G protein-coupled receptor
+Q9NYW6	Taste family G protein-coupled receptor
+Q9NYW7	Taste family G protein-coupled receptor
+Q9NYY3	Kinase
+Q9NZ01	Oxidoreductase
+Q9NZ08	Protease
+Q9NZJ5	Kinase
+Q9NZN5	Hydrolase
+Q9P032	Oxidoreductase
+Q9P035	Lyase
+Q9P0J0	Oxidoreductase
+Q9P0L2	Kinase
+Q9P0U3	Protease
+Q9P0X4	Voltage-gated ion channel
+Q9P0Z9	Oxidoreductase
+Q9P1W9	Kinase
+Q9P275	Hydrolase
+Q9P286	Kinase
+Q9P289	Kinase
+Q9P296	Family A G protein-coupled receptor
+Q9P2K8	Kinase
+Q9P2R7	Ligase
+Q9UBB5	Reader
+Q9UBC3	Reader
+Q9UBC3	Writer
+Q9UBE8	Kinase
+Q9UBF8	Transferase
+Q9UBL9	Ligand-gated ion channel
+Q9UBM7	Oxidoreductase
+Q9UBN4	Voltage-gated ion channel
+Q9UBN7	Eraser
+Q9UBS5	Family C G protein-coupled receptor
+Q9UBY5	Family A G protein-coupled receptor
+Q9UDY8	Hydrolase
+Q9UEE5	Kinase
+Q9UEW8	Kinase
+Q9UF33	Kinase
+Q9UGI6	Voltage-gated ion channel
+Q9UGJ0	Kinase
+Q9UGL1	Eraser
+Q9UGM1	Ligand-gated ion channel
+Q9UGN5	Transferase
+Q9UHC3	Ligand-gated ion channel
+Q9UHD2	Kinase
+Q9UHH9	Transferase
+Q9UHI7	Electrochemical transporter
+Q9UHI8	Protease
+Q9UHL4	Protease
+Q9UHP3	Hydrolase
+Q9UI32	Hydrolase
+Q9UIF8	Reader
+Q9UIF9	Reader
+Q9UIJ5	Transferase
+Q9UIK4	Kinase
+Q9UIQ6	Protease
+Q9UJM8	Oxidoreductase
+Q9UJV9	Hydrolase
+Q9UK17	Voltage-gated ion channel
+Q9UK32	Kinase
+Q9UKE5	Kinase
+Q9UKG9	Group translocator
+Q9UKI8	Kinase
+Q9UKK3	Transferase
+Q9UKK9	Transferase
+Q9UKN8	Transferase
+Q9UKP4	Hydrolase
+Q9UKP6	Family A G protein-coupled receptor
+Q9UKV0	Eraser
+Q9UKV8	Hydrolase
+Q9UL19	Transferase
+Q9UL54	Kinase
+Q9UL62	Voltage-gated ion channel
+Q9ULC5	Ligase
+Q9ULC6	Hydrolase
+Q9ULD8	Voltage-gated ion channel
+Q9ULG1	Hydrolase
+Q9ULM3	Reader
+Q9ULU4	Reader
+Q9ULW8	Hydrolase
+Q9ULX7	Lyase
+Q9UM73	Kinase
+Q9UNA0	Protease
+Q9UNA4	Transferase
+Q9UNE7	Transferase
+Q9UNH5	Phosphatase
+Q9UNI1	Protease
+Q9UNQ0	Primary active transporter
+Q9UNQ2	Transferase
+Q9UNU6	Oxidoreductase
+Q9UNW8	Family A G protein-coupled receptor
+Q9UPE1	Kinase
+Q9UPN7	Phosphatase
+Q9UPN9	Reader
+Q9UPP1	Eraser
+Q9UPP1	Reader
+Q9UPS6	Transferase
+Q9UPU5	Hydrolase
+Q9UPY5	Electrochemical transporter
+Q9UPZ9	Kinase
+Q9UQ07	Transferase
+Q9UQ49	Hydrolase
+Q9UQ88	Kinase
+Q9UQB9	Kinase
+Q9UQD0	Voltage-gated ion channel
+Q9UQL6	Eraser
+Q9UQM7	Kinase
+Q9Y210	Voltage-gated ion channel
+Q9Y233	Phosphodiesterase
+Q9Y243	Kinase
+Q9Y251	Hydrolase
+Q9Y253	Transferase
+Q9Y256	Protease
+Q9Y271	Family A G protein-coupled receptor
+Q9Y285	Ligase
+Q9Y2D0	Lyase
+Q9Y2H1	Kinase
+Q9Y2H9	Kinase
+Q9Y2I7	Transferase
+Q9Y2J8	Hydrolase
+Q9Y2K2	Kinase
+Q9Y2K7	Eraser
+Q9Y2K7	Reader
+Q9Y2R2	Phosphatase
+Q9Y2T3	Hydrolase
+Q9Y2T6	Family A G protein-coupled receptor
+Q9Y2U5	Kinase
+Q9Y345	Electrochemical transporter
+Q9Y3L5	Hydrolase
+Q9Y3R4	Hydrolase
+Q9Y3S1	Kinase
+Q9Y463	Kinase
+Q9Y466	Nuclear receptor
+Q9Y468	Reader
+Q9Y478	Kinase
+Q9Y4C1	Eraser
+Q9Y4D2	Hydrolase
+Q9Y4K0	Oxidoreductase
+Q9Y4K4	Kinase
+Q9Y4W2	Hydrolase
+Q9Y4W6	Hydrolase
+Q9Y572	Kinase
+Q9Y5K5	Protease
+Q9Y5L3	Hydrolase
+Q9Y5N1	Family A G protein-coupled receptor
+Q9Y5S1	Voltage-gated ion channel
+Q9Y5S2	Kinase
+Q9Y5S8	Transmembrane 1-electron transfer carriers
+Q9Y5T5	Hydrolase
+Q9Y5X9	Hydrolase
+Q9Y5Y4	Family A G protein-coupled receptor
+Q9Y5Y6	Protease
+Q9Y5Y9	Voltage-gated ion channel
+Q9Y5Z0	Protease
+Q9Y616	Kinase
+Q9Y657	Reader
+Q9Y694	Electrochemical transporter
+Q9Y696	Oxidoreductase
+Q9Y6A2	Oxidoreductase
+Q9Y6E0	Kinase
+Q9Y6E7	Eraser
+Q9Y6F1	Transferase
+Q9Y6I4	Hydrolase
+Q9Y6K0	Transferase
+Q9Y6K1	Reader
+Q9Y6K1	Writer
+Q9Y6L6	Electrochemical transporter
+Q9Y6L7	Hydrolase
+Q9Y6M4	Kinase
+Q9Y6N5	Oxidoreductase
+Q9Y6R4	Kinase
+V9HWB9	Oxidoreductase

@@ -14,6 +14,7 @@ from pathlib import Path
 
 from . import data as D
 from .consortium import Endpoint, TrafficLight
+from .contribute import SUBMIT_URL as CONTRIB_URL
 
 DEFAULT_ENDPOINTS = [
     "CYP450_CYP3A4", "CYP450_CYP2D6", "CYP450_CYP2C9", "CYP450_CYP2C19",
@@ -48,8 +49,57 @@ def cmd_fetch(args):
     D.fetch_catmos(home)
     D.fetch_toxric(home)
     if args.with_reach:
-        D.fetch_reverse_screen(home)
+        D.fetch_reverse_screen(home, version=args.index_version)
     print("done")
+
+
+# The paper's figures, in the order the paper prints them. The scripts live in
+# figures/ beside the measured result files they read, so a figure can be
+# redrawn without rerunning the analysis.
+FIGURE_SCRIPTS = [
+    ("Figures 1 and 2", "make_figures_paper.py"),
+    ("Figure 3", "make_figure4_breadth.py"),
+    ("Figure 4", "make_figure_structures.py"),
+    ("Figure 5", "make_figure7_scaffold_blind.py"),
+    ("Figure 6", "make_figure6_useful.py"),
+]
+
+
+def _figures_dir() -> Path:
+    """figures/ as shipped in the repository, from wherever this is installed."""
+    here = Path(__file__).resolve()
+    for base in (here.parents[2], here.parents[3] if len(here.parents) > 3
+                 else here.parents[2]):
+        cand = base / "figures"
+        if (cand / "make_figures_paper.py").exists():
+            return cand
+    raise SystemExit(
+        "the figures directory is not beside this installation. It ships with "
+        "the repository, so clone it and run from the clone:\n"
+        "  git clone https://github.com/smuskal/toxpred.git")
+
+
+def cmd_figures(args):
+    """Redraw every figure in the paper from the measured result files."""
+    import os
+    import subprocess
+
+    figs = _figures_dir()
+    out = Path(args.out).resolve() if args.out else figs / "out"
+    out.mkdir(parents=True, exist_ok=True)
+    env = dict(os.environ, TOXPRED_FIGURE_OUT=str(out))
+    if args.data:
+        env["TOXPRED_FIGURE_DATA"] = str(Path(args.data).resolve())
+    print("figures -> %s" % out)
+    failed = []
+    for label, script in FIGURE_SCRIPTS:
+        print("\n%s: %s" % (label, script))
+        r = subprocess.run([sys.executable, str(figs / script)], env=env)
+        if r.returncode != 0:
+            failed.append("%s (%s)" % (label, script))
+    if failed:
+        raise SystemExit("\nthese did not draw: %s" % ", ".join(failed))
+    print("\nevery figure in the paper is in %s" % out)
 
 
 def cmd_endpoints(args):
@@ -130,33 +180,34 @@ def cmd_score(args):
 def _report_reach(home, smiles, args):
     from .reach import PharmCastMissing, fetch_model, read_family_map, reach
     try:
-        files = D.fetch_reverse_screen(home)
+        files = D.fetch_reverse_screen(home, version=args.index_version)
         model = fetch_model(home)
+        # No family map given means the shipped grouping, so the count is a
+        # count of families rather than of proteins without anything supplied.
         fam = read_family_map(args.family_map) if args.family_map else None
         rows = reach(smiles, files["index"], files["sites"], model,
-                     family_map=fam, cutoff=args.reach_cutoff)
+                     family_map=fam, cutoff=args.reach_cutoff,
+                     top_k=args.reach_top_k)
     except PharmCastMissing as e:
         print("\nCROSS-FAMILY REACH: skipped\n%s" % e)
         return
     print("\nCROSS-FAMILY REACH, index version %s, fingerprint %s"
           % (files["version"], model.name))
-    head = "  %-44s %9s %9s %9s" % ("query", "matches", "targets", "best sim")
-    if fam:
-        head += " %9s" % "families"
+    head = ("  %-44s %9s %9s %9s %9s %9s"
+            % ("query", "matches", "targets", "families", "antitgts", "best sim"))
     print(head)
     for r in rows:
-        line = "  %-44s %9d %9d %9.3f" % (r["smiles"][:44], r["matches"],
-                                          r["targets_reached"],
-                                          r["best_similarity"])
-        if fam:
-            line += " %9d" % r["families_reached"]
+        line = ("  %-44s %9d %9d %9d %9d %9.3f"
+                % (r["smiles"][:44], r["matches"], r["targets_reached"],
+                   r.get("families_reached", 0), r["antitargets_reached"],
+                   r["best_similarity"]))
         print(line)
     print("  Compounds reaching widely are more often toxic. Index and "
           "fingerprint:\n  https://reversescreen.ai and https://pharmcast.ai")
 
 
 def cmd_contribute(args):
-    from .contribute import build
+    from .contribute import build, submit
     meta = build(args.input, args.out, fmt=args.format, home=args.home,
                  cutoff=args.reach_cutoff, family_map=args.family_map)
     print("wrote %s" % meta["written_to"])
@@ -167,7 +218,22 @@ def cmd_contribute(args):
         print("  index       %s, fingerprint %s"
               % (meta["index_version"], meta["fingerprint"]))
     print("\n%s" % meta["note"])
-    print("\nNothing was uploaded. Read the file before you send it anywhere.")
+    if not args.submit:
+        print("\nNothing was uploaded. Read the file, then send it with\n"
+              "  toxpred contribute ... --submit --email you@example.com")
+        return
+    if not args.email:
+        raise SystemExit("--submit needs --email, which is where the receipt "
+                         "and any question about the record come back to")
+    reply = submit(args.out, args.email, url=args.submit_url)
+    print("\nsent to %s" % args.submit_url)
+    print("  receipt     %s" % reply.get("receipt", "(none returned)"))
+    print("  queued      %d record%s"
+          % (reply.get("n_records", meta["n_compounds"]),
+             "" if reply.get("n_records", meta["n_compounds"]) == 1 else "s"))
+    print("\nA submitted record changes no prediction until a reviewer moves it\n"
+          "into the reference set. Scoring answers from the published set until\n"
+          "then, which is the set the paper reports.")
 
 
 def main(argv=None):
@@ -181,7 +247,21 @@ def main(argv=None):
     f = sub.add_parser("fetch", help="download the public reference data")
     f.add_argument("--with-reach", action="store_true",
                    help="also fetch the Reverse Screen index")
+    f.add_argument("--index-version", default=None,
+                   help="pin the Reverse Screen index release, for example "
+                        "2026-09-20, the release the paper reports. Without "
+                        "this the current published release is taken.")
     f.set_defaults(func=cmd_fetch)
+
+    g = sub.add_parser("figures",
+                       help="redraw every figure in the paper from the "
+                            "measured result files")
+    g.add_argument("--out", default=None,
+                   help="where to write them, default figures/out")
+    g.add_argument("--data", default=None,
+                   help="a results directory from your own run, default the "
+                        "measured files shipped in figures/data")
+    g.set_defaults(func=cmd_figures)
 
     e = sub.add_parser("endpoints", help="list the endpoints available")
     e.set_defaults(func=cmd_endpoints)
@@ -203,8 +283,15 @@ def main(argv=None):
     s.add_argument("--reach", action="store_true",
                    help="also report cross-family reach; needs PharmCast")
     s.add_argument("--reach-cutoff", type=float, default=0.5)
+    s.add_argument("--reach-top-k", type=int, default=500,
+                   help="most similar indexed ligands kept before the cutoff "
+                        "is applied; 500 is the published operating point")
+    s.add_argument("--index-version", default=None,
+                   help="pin the Reverse Screen index release, for example "
+                        "2026-09-20, the release the paper reports")
     s.add_argument("--family-map", default=None,
-                   help="optional accession,family file to group targets")
+                   help="your own accession,family file. Without one the "
+                        "grouping the paper counted, which ships here, is used")
     s.set_defaults(func=cmd_score)
 
     c = sub.add_parser("contribute",
@@ -221,6 +308,14 @@ def main(argv=None):
                         "recovers a fraction of structures from it")
     c.add_argument("--reach-cutoff", type=float, default=0.5)
     c.add_argument("--family-map", default=None)
+    c.add_argument("--submit", action="store_true",
+                   help="send the record to the pool at toxpred.ai once it is "
+                        "written, and print the receipt")
+    c.add_argument("--email", default=None,
+                   help="where the receipt and any question come back to; "
+                        "required with --submit")
+    c.add_argument("--submit-url", default=CONTRIB_URL,
+                   help="where to send it, for a pool of your own")
     c.set_defaults(func=cmd_contribute)
 
     a = ap.parse_args(argv)

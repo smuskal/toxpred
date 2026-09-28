@@ -29,3 +29,8 @@ toxpred = "toxpred.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+# The family grouping and the antitarget list are read at run time, so they are
+# installed with the package rather than left in the source tree.
+[tool.setuptools.package-data]
+toxpred = ["data_files/*.tsv"]

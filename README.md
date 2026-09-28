@@ -190,9 +190,25 @@ Every fingerprint operation is PharmCast's own: `read_pfp` for the index,
 None of the packing or bit ordering is reimplemented here, so the query and the
 index cannot drift apart.
 
-Group the targets into families your own way with `--family-map`, a two column
-accession and family file. Without one, reach is reported as distinct targets,
-which needs nothing but the index.
+Families reached is counted with the grouping the paper counted, which ships in
+`src/toxpred/data_files/families.tsv`, so the count is a count of families with
+nothing supplied. Group the targets your own way with `--family-map`, a two
+column accession and family file; a target on two lines counts as two.
+
+`antitgts` is how many of the 47 safety pharmacology antitargets the reached
+proteins include, from `src/toxpred/data_files/antitargets.tsv`. That is the
+fourth of the four integers a contributor can release in place of a structure.
+
+The operating point is the published one: the 500 most similar indexed ligands
+are taken first and then floored at the required similarity. `--reach-top-k`
+and `--reach-cutoff` move it.
+
+To reproduce the screen in the paper rather than screen against the current
+index, pin the release it used:
+
+```bash
+toxpred score --input mine.smi --reach --index-version 2026-09-20
+```
 
 Everything else in this package works without PharmCast installed, and says so
 rather than failing.
@@ -334,8 +350,18 @@ rows add the contributed record to a model already holding heavy atom count,
 cLogP and molecular weight; the `counts` row coarsens those three, since an exact
 molecular weight is close to an identifier on its own.
 
-**Nothing is uploaded.** The command writes a file you read before sending it
-anywhere.
+**Building a record uploads nothing.** The command writes a file you read
+first. When you are ready, send that same file to the pool:
+
+```bash
+toxpred contribute --input mine.csv --out mine.json \
+  --submit --email you@example.com
+```
+
+It prints the receipt the pool returns. A submitted record changes no
+prediction until a reviewer moves it into the reference set, so scoring keeps
+answering from the published set either way. `--submit-url` points it at a pool
+of your own.
 
 `counts` releases no structural descriptor and no published method recovers a
 structure from it, so it is usable for chemistry still in play. `fingerprint`
@@ -364,8 +390,17 @@ The method it returns to:
 The manuscript rebuilds that 2003 consortium method on public data twenty three
 years on, extends it unchanged to 28 further toxicity endpoints, and adds
 cross-family reach as a second signal computed from two-dimensional structure
-alone. Every figure in this README is taken from it. A preprint link will replace
-this note once it is posted.
+alone.
+
+Every figure in the manuscript is redrawn by the scripts in `figures/`, from the
+measured result files that ship beside them in `figures/data/`:
+
+```bash
+toxpred figures --out figures/out
+```
+
+`figures/README.md` maps each script onto the figure number the paper prints.
+A preprint link will replace this note once it is posted.
 
 The data and the retrieval index carry their own citations, listed above.
 
