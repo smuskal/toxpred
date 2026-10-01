@@ -71,8 +71,9 @@ always reported.
 
 Growing the reference set is the one move that does not cost anything. Panel C:
 from 127 to 5,953 voting compounds, meaning those carrying a measured LD50,
-accuracy holds between 85.4 and 92.1 percent while the share of compounds
-answered rises from 3 to 47 percent. **A bigger
+the share of compounds answered rises from 3 to 47 percent. Accuracy is not
+flat across that range: it climbs from 85.4 to 90.9 percent by 610 voting
+compounds, then holds between 91.2 and 92.1 percent. **A bigger
 shared reference set buys reach, not accuracy**, which is why pooling is worth
 something to everyone who contributes.
 
@@ -104,9 +105,9 @@ compounds answered for keeps falling to 8.6% at 0.90 and never levels off, so
 the axis runs to zero rather than cutting that curve off.
 
 **Panel B** ranks the 28 endpoints by the Matthews correlation between the call
-and the measurement, with the share of measured toxic compounds caught and the
-share of measured harmless compounds passed printed beside each bar. Gray bars
-rest on fewer than 20 measured toxic compounds and are too thin to rank.
+and the measurement, with the share of measured actives caught and the
+share of measured inactives passed printed beside each bar. Gray bars
+rest on fewer than 20 measured actives and are too thin to rank.
 
 Percent correct is not reported, and no majority-class comparison is drawn. These
 labels are lopsided, 87 to 13 on CYP2D6, and that ratio records which compounds

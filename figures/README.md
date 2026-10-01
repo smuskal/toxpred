@@ -46,3 +46,22 @@ that run rather than editing them:
 TOXPRED_FIGURE_DATA=/path/to/results TOXPRED_FIGURE_OUT=/tmp/figs \
   python figures/make_figures_paper.py
 ```
+
+## Counts: check what the column counts
+
+Never take a count from a summary column without checking what that column
+counts. On 1 October 2026 a reviewer caught a measurement total that was a raw
+record count: `toxric_endpoints.csv` carries `n`, the TOXRIC record count
+**before** duplicate resolution, beside `unique`, the count after resolving to
+one measurement per compound and endpoint. Every analysis uses `unique`. A
+script summed `n`, asserted the total, and so pinned the wrong basis in place
+for weeks, and the number reached a figure caption and the site.
+
+Two habits follow:
+
+- Where a script asserts a count, the assertion records its basis in a comment,
+  and where two bases exist, record **both** so neither can be mistaken for the
+  other.
+- Any number taken from a README or a handoff document is recomputed from the
+  data or the code before it is published. A number that has been copied once
+  has usually been copied twice.
