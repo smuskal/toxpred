@@ -389,7 +389,8 @@ The method it returns to:
 > [doi:10.1021/ci034080c](https://doi.org/10.1021/ci034080c)
 
 The manuscript rebuilds that 2003 consortium method on public data twenty three
-years on, extends it unchanged to 28 further toxicity endpoints, and adds
+years on, extends it to 28 further toxicity endpoints with only the required
+similarity set per endpoint, and adds
 cross-family reach as a second signal computed from two-dimensional structure
 alone.
 
