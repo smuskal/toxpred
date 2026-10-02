@@ -160,7 +160,7 @@ def fig_endpoints(res):
              "The same machinery across 28 further toxicity endpoints",
              fontsize=12.5, color=INK, ha="left", fontweight="bold")
     fig.text(0.06, 0.936,
-             "TOXRIC, 156,460 measurements over 34,197 compounds.",
+             "TOXRIC, 149,224 measurements over 34,162 compounds.",
              fontsize=9, color=MUTED, ha="left")
 
     a = fig.add_axes([0.085, 0.635, 0.87, 0.255])
@@ -218,7 +218,7 @@ def fig_endpoints(res):
     b.set_ylim(-0.7, len(op) - 0.3)
     b.set_xticks([0, 0.25, 0.5, 0.75, 1.0])
     b.set_xlabel("Matthews correlation between the call and the measurement. "
-                 "Gray bars rest on fewer than 20 measured toxic compounds.",
+                 "Gray bars rest on fewer than 20 measured actives.",
                  fontsize=9)
     b.set_title("B   Where the method works, at the strictest match that still "
                 "answers one compound in five", fontsize=9.5, color=INK,

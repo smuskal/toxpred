@@ -59,7 +59,7 @@ def main():
     fig.text(0.055, 0.978, "Score a library, set the worst aside", fontsize=14,
              color=INK, ha="left", fontweight="bold")
     fig.text(0.055, 0.950,
-             "34,197 compounds, 28 endpoints. Every number is measured on "
+             "34,162 compounds, 28 endpoints. Every number is measured on "
              "compounds the score was never fitted on.",
              fontsize=9.5, color=MUTED, ha="left", va="top")
 
