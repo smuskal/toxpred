@@ -378,8 +378,9 @@ work reverse-engineers a fraction of structures from folded fingerprints, around
 
 This package and the work behind it:
 
-> Muskal SM, Jha SK, Kishore MP, Tyagi P. Toxicity by Consortium Revisited:
-> Structural Neighbors and Cross-Family Reach. Manuscript in preparation, 2026.
+> Muskal SM, Jha SK, Kishore P, Tyagi P. Toxicity by Consortium Revisited:
+> Structural Neighbors and Cross-Family Reach. *bioRxiv* 2026.
+> [doi:10.64898/2026.10.04.756566](https://doi.org/10.64898/2026.10.04.756566)
 > Software: https://github.com/smuskal/toxpred
 
 The method it returns to:
