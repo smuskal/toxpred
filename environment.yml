@@ -6,12 +6,24 @@ name: toxpred
 channels:
   - conda-forge
 dependencies:
-  # RDKit changed aromaticity perception between 2024.3 and 2025.09. That
-  # changes the Morgan block, so a build below 2025.09 reproduces none of the
-  # numbers in this repository. The floor is a correctness floor, not taste.
+  # RDKIT IS PINNED EXACTLY, AND IT HAS TO BE.
+  #
+  # A floor is not enough. Two rdkit versions that both satisfy >=2025.09 can
+  # still disagree: CalcNumHBA, one of the eleven descriptors PharmCast's
+  # surrogate reads beside its Morgan bits, differs between 2023.09.6 and
+  # 2025.09.x on 7.7 percent of molecules by exactly one. That flips a median of
+  # 17 of 10,549 predicted bits and moves cross-family reach for 5.4 percent of
+  # compounds, with no error anywhere. Measured 13 October 2026, 869 of 869
+  # non-reproducing fingerprints attributed to it.
+  #
+  # This is the SAME version both services serve, so a figure, the Try it page
+  # and this command line cannot disagree because of the interpreter:
+  #   toxpred-site/service   rdkit==2025.9.6
+  #   reversescreen webapp   rdkit==2025.9.6
+  #   the ToxPred study      rdkit=2025.9.6  (Toxicity/environment.yml)
   - python=3.10
-  - rdkit>=2025.09
-  - numpy>=2.2
+  - rdkit=2025.9.6
+  - numpy=2.2.6
   - pandas>=2.0
   - requests>=2.31
   - tqdm>=4.66
