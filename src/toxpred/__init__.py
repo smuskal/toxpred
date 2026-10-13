@@ -2,4 +2,4 @@
 from .consortium import Consortium, TrafficLight            # noqa: F401
 from .data import cache_dir                                 # noqa: F401
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

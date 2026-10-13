@@ -168,13 +168,22 @@ def read_family_map(path) -> dict:
 
 
 def reach(smiles, index_pfp, sites_tsv, model_path, family_map=None,
-          cutoff: float = 0.5, block: int = 256, top_k: int = 500,
+          cutoff: float = 0.5, block: int = 256, top_k=None,
           antitargets=None):
     """-> one dict per query: how far its chemistry reaches.
 
-    The operating point is the published one: the top_k most similar indexed
-    ligands are taken first and then floored at cutoff, which is the order the
-    paper's screen used. Raising top_k past 500 changes the count.
+    The operating point is the published one: EVERY indexed ligand at or above
+    cutoff is kept, however many that is.
+
+    THIS USED TO DEFAULT TO top_k=500 AND THAT WAS WRONG. The docstring claimed
+    the cap was "the published one"; it never was. toxpred.ai's own service has
+    never capped, so for any compound with more than 500 neighbours above the
+    cutoff, which is common, this package returned a lower count than the site
+    and than every published figure. Corrected 13 October 2026, when the same
+    cap was removed from the study scripts so all three implementations agree.
+
+    top_k is kept as an argument, defaulting to None, so a caller reproducing a
+    number published before that date can still pass top_k=500 deliberately.
 
     Families reached uses the shipped grouping unless family_map is given, so
     the count is a count of families by default. Pass family_map=False to count
@@ -202,12 +211,16 @@ def reach(smiles, index_pfp, sites_tsv, model_path, family_map=None,
         qwords = model.words_batch(chunk)
         T = pc.pharmtan_matrix(qwords, words)
         for i in range(len(chunk)):
-            # The published order: most similar first, capped at top_k, then
-            # floored at cutoff. Flooring first and capping after would take a
-            # different 500 on a compound with more than 500 matches.
+            # Every ligand at or above the cutoff, which is what the
+            # service does. With top_k set, the nearest top_k are taken first
+            # and then floored, which is the pre-13-October-2026 behaviour and
+            # is kept only so an older number can be reproduced on purpose.
             row = T[i]
-            order = sorted(range(len(row)), key=lambda j: -row[j])[:top_k]
-            hit = [j for j in order if row[j] >= cutoff]
+            if top_k is None:
+                hit = [j for j in range(len(row)) if row[j] >= cutoff]
+            else:
+                order = sorted(range(len(row)), key=lambda j: -row[j])[:top_k]
+                hit = [j for j in order if row[j] >= cutoff]
             reached = set()
             for j in hit:
                 reached.update(comp_tgts[j])

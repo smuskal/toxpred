@@ -283,9 +283,12 @@ def main(argv=None):
     s.add_argument("--reach", action="store_true",
                    help="also report cross-family reach; needs PharmCast")
     s.add_argument("--reach-cutoff", type=float, default=0.5)
-    s.add_argument("--reach-top-k", type=int, default=500,
-                   help="most similar indexed ligands kept before the cutoff "
-                        "is applied; 500 is the published operating point")
+    s.add_argument("--reach-top-k", type=int, default=None,
+                   help="optional cap on the most similar indexed ligands kept "
+                        "before the cutoff is applied. The default is no cap, "
+                        "which is what toxpred.ai serves and what every "
+                        "published figure is measured on. Pass 500 to "
+                        "reproduce a number published before 13 October 2026.")
     s.add_argument("--index-version", default=None,
                    help="pin the Reverse Screen index release, for example "
                         "2026-09-20, the release the paper reports")
