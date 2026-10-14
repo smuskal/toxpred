@@ -2,7 +2,13 @@
 
 Every figure in *Toxicity by Consortium Revisited: Structural Neighbors and
 Cross-Family Reach* is redrawn by the scripts here, from the measured result
-files in `data/`. Run them all:
+files in `data/`. They need matplotlib, which the base install leaves out:
+
+```
+pip install 'toxpred[figures]'      # or: pip install matplotlib
+```
+
+Run them all:
 
 ```
 toxpred figures --out figures/out
@@ -33,6 +39,13 @@ The file names carry the number each figure had while the work was running,
 which is the name the result files use, and the table is how they map onto the
 numbering in version 2 of the paper (bioRxiv, 14 October 2026): four figures
 in the main text and two in the Supporting Information.
+
+The paper's PNGs were drawn with matplotlib 3.10.0 on Python 3.10, and that
+pairing reproduces them pixel for pixel. A newer matplotlib draws the same
+figures with slightly different text rasterization, and a newer RDKit lays
+out the twelve structures in Figure S1 at different orientations (the paper's
+were drawn with RDKit 2025.09.6). The molecules, counts and labels are the
+same; those are the only differences to expect.
 
 `data/` holds the measured values themselves, so a figure can be checked
 against the number it draws without rerunning the analysis. Every one of them

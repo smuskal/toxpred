@@ -402,6 +402,7 @@ Every figure in the manuscript is redrawn by the scripts in `figures/`, from the
 measured result files that ship beside them in `figures/data/`:
 
 ```bash
+pip install 'toxpred[figures]'      # adds matplotlib
 toxpred figures --out figures/out
 ```
 

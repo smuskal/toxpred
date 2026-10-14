@@ -18,6 +18,7 @@ dependencies = ["numpy>=2.2", "pandas>=2.0", "requests>=2.31",
 
 [project.optional-dependencies]
 reach = ["pharmcast @ git+https://github.com/smuskal/pharmcast.git"]
+figures = ["matplotlib>=3.10"]
 
 [project.urls]
 Homepage = "https://github.com/smuskal/toxpred"

@@ -86,6 +86,13 @@ def cmd_figures(args):
     import subprocess
 
     figs = _figures_dir()
+    try:
+        import matplotlib  # noqa: F401
+    except ImportError:
+        raise SystemExit(
+            "the figures are drawn with matplotlib, which is not installed. "
+            "Install it with:\n  pip install 'toxpred[figures]'\n"
+            "or\n  pip install matplotlib")
     out = Path(args.out).resolve() if args.out else figs / "out"
     out.mkdir(parents=True, exist_ok=True)
     env = dict(os.environ, TOXPRED_FIGURE_OUT=str(out))
