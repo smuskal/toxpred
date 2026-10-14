@@ -5,7 +5,7 @@ distinct protein families its reverse screen reaches in the crystallographic
 record, then read off what percentage of each group is toxic. No model, no
 baseline, no statistic. Counts and percentages.
 
-Panel B names the proteins. For one endpoint, the proteins whose co-crystallised
+Panel B names the proteins. For one endpoint, the proteins whose co-crystallized
 ligands most resemble the toxic compounds, with the percentage of toxic and of
 non toxic compounds that reach each one.
 
@@ -79,8 +79,8 @@ def main():
 
     fig = plt.figure(figsize=(11.0, 9.6), dpi=200)
     fig.patch.set_facecolor("white")
-    fig.text(0.06, 0.968, "Reaching more protein families goes with being more "
-             "often toxic", fontsize=13, color=INK, ha="left",
+    fig.text(0.06, 0.968, "Reaching more protein families goes with being "
+             "measured active more often", fontsize=13, color=INK, ha="left",
              fontweight="bold")
     fig.text(0.06, 0.944,
              "Every compound is screened against %s ligands solved in protein "
@@ -115,7 +115,7 @@ def main():
                       fontsize=8.5)
     a.set_xlabel("protein families reached by the compound's structural matches",
                  fontsize=9.5)
-    a.set_ylabel("percent of compounds that are toxic", fontsize=9.5)
+    a.set_ylabel("percent of compounds measured active", fontsize=9.5)
     a.set_title("A", fontsize=10, color=INK, loc="left", pad=6)
     a.set_xlim(-0.8, 23.5)
     a.set_yticks([0, 20, 40, 60, 80])
@@ -157,7 +157,7 @@ def main():
     fig.text(0.06, 0.028,
              "Panel B reads: of the compounds that inhibit CYP3A4, this percentage "
              "have a structural match sitting in that protein. These are the sites "
-             "whose\ncrystallised ligands most resemble the inhibitors. Whether "
+             "whose\ncrystallized ligands most resemble the inhibitors. Whether "
              "these proteins carry the toxicity is a separate question.",
              fontsize=8.5, color=MUTED, ha="left", va="bottom")
 

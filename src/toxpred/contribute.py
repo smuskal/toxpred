@@ -65,7 +65,7 @@ def _read_input(path):
     return out
 
 
-# Matches run to 500 and are the most identifying of the four counts, so they
+# Matches are uncapped and are the most identifying of the four counts, so they
 # are released as a band rather than a number. This is the same ceiling the
 # measurement of what the counts are worth applied, so a released record is the
 # record that was measured rather than a more revealing one.

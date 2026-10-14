@@ -57,11 +57,12 @@ def cmd_fetch(args):
 # figures/ beside the measured result files they read, so a figure can be
 # redrawn without rerunning the analysis.
 FIGURE_SCRIPTS = [
+    ("Graphical abstract", "make_graphical_abstract.py"),
     ("Figures 1 and 2", "make_figures_paper.py"),
     ("Figure 3", "make_figure4_breadth.py"),
-    ("Figure 4", "make_figure_structures.py"),
-    ("Figure 5", "make_figure7_scaffold_blind.py"),
-    ("Figure 6", "make_figure6_useful.py"),
+    ("Figure 4", "make_figure6_useful.py"),
+    ("Figure S1", "make_figure_structures.py"),
+    ("Figure S2", "make_figure7_scaffold_blind.py"),
 ]
 
 

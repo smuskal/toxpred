@@ -9,6 +9,8 @@ chemistry reaches in the crystallographic record.
 
 Nothing here needs a protein structure, a docking run or a conformer ensemble.
 
+![Two signals, both computed from a two dimensional structure](docs/graphical_abstract.png)
+
 Interactive predictions and a route to contribute data are at
 [toxpred.ai](https://toxpred.ai).
 
@@ -200,9 +202,9 @@ column accession and family file; a target on two lines counts as two.
 proteins include, from `src/toxpred/data_files/antitargets.tsv`. That is the
 fourth of the four integers a contributor can release in place of a structure.
 
-The operating point is the published one: the 500 most similar indexed ligands
-are taken first and then floored at the required similarity. `--reach-top-k`
-and `--reach-cutoff` move it.
+The operating point is the published one: every indexed ligand at or above the
+required similarity of 0.50 counts, with no cap on how many. `--reach-cutoff`
+moves the floor, and `--reach-top-k` caps the count only if you ask it to.
 
 To reproduce the screen in the paper rather than screen against the current
 index, pin the release it used:
@@ -245,15 +247,17 @@ use the labels are not there to reveal, which is the point; the enrichment
 measured on compounds with known answers is what you are relying on when you
 apply it to compounds without.
 
+![Score a library, set the worst aside](docs/usefulness.png)
+
 The enrichment is largest where the outcome is rare, and that is where a filter
 is worth running. Hepatotoxicity is carried by half of its reference set, and
-the worst tenth holds 75 in 100 against 50 in 100 across the whole set.
+the worst tenth holds 84 in 100 against 50 in 100 across the whole set.
 
 ---
 
 ## Where the numbers come from
 
-**No data ships with this repository.** It is 2.3 MB of source and three
+**No data ships with this repository.** It is 2.3 MB of source and the
 figures. Everything else is fetched once, on `toxpred fetch`, into `~/.toxpred`
 and then used locally. After that first fetch, scoring makes no network call at
 all.
@@ -401,8 +405,10 @@ measured result files that ship beside them in `figures/data/`:
 toxpred figures --out figures/out
 ```
 
-`figures/README.md` maps each script onto the figure number the paper prints.
-A preprint link will replace this note once it is posted.
+`figures/README.md` maps each script onto the figure number the paper prints:
+four figures in the main text, two in the Supporting Information, and the
+graphical abstract. The figures match version 2 of the preprint, posted 14
+October 2026, and the measured values in `figures/data/` are the ones it draws.
 
 The data and the retrieval index carry their own citations, listed above.
 

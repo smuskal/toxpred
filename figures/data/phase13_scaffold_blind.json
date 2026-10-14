@@ -5,12 +5,12 @@
  "percent_with_a_match_at_or_above_0.70": 47.0,
  "effect_of_blinding": {
   "scaffold blind": {
-   "percent_of_compounds_changed": 4.3,
-   "mean_change_in_families": 0.061
+   "percent_of_compounds_changed": 4.1,
+   "mean_change_in_families": 0.059
   },
   "analogue blind": {
-   "percent_of_compounds_changed": 12.0,
-   "mean_change_in_families": 0.186
+   "percent_of_compounds_changed": 6.4,
+   "mean_change_in_families": 0.102
   }
  },
  "endpoints": [
@@ -47,14 +47,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 548,
-      "percent_toxic": 54.0
+      "n": 541,
+      "percent_toxic": 53.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1051,
-      "percent_toxic": 47.9
+      "n": 1058,
+      "percent_toxic": 48.0
      }
     ],
     "scaffold blind": [
@@ -85,14 +85,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 535,
-      "percent_toxic": 54.6
+      "n": 529,
+      "percent_toxic": 54.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1043,
-      "percent_toxic": 47.9
+      "n": 1049,
+      "percent_toxic": 48.0
      }
     ],
     "analogue blind": [
@@ -123,14 +123,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 544,
+      "n": 535,
       "percent_toxic": 54.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1033,
-      "percent_toxic": 48.3
+      "n": 1042,
+      "percent_toxic": 48.4
      }
     ]
    }
@@ -168,14 +168,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1080,
-      "percent_toxic": 42.2
+      "n": 1020,
+      "percent_toxic": 41.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 4691,
-      "percent_toxic": 41.8
+      "n": 4751,
+      "percent_toxic": 42.1
      }
     ],
     "scaffold blind": [
@@ -206,14 +206,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1080,
-      "percent_toxic": 42.2
+      "n": 1020,
+      "percent_toxic": 41.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 4679,
-      "percent_toxic": 41.9
+      "n": 4739,
+      "percent_toxic": 42.1
      }
     ],
     "analogue blind": [
@@ -244,14 +244,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1067,
-      "percent_toxic": 42.2
+      "n": 1009,
+      "percent_toxic": 41.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 4677,
-      "percent_toxic": 41.9
+      "n": 4735,
+      "percent_toxic": 42.1
      }
     ]
    }
@@ -289,13 +289,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1172,
-      "percent_toxic": 40.0
+      "n": 1119,
+      "percent_toxic": 39.0
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5267,
+      "n": 5320,
       "percent_toxic": 59.9
      }
     ],
@@ -327,13 +327,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1173,
-      "percent_toxic": 39.6
+      "n": 1120,
+      "percent_toxic": 38.6
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5254,
+      "n": 5307,
       "percent_toxic": 60.0
      }
     ],
@@ -365,14 +365,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1157,
-      "percent_toxic": 40.4
+      "n": 1108,
+      "percent_toxic": 39.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5255,
-      "percent_toxic": 59.9
+      "n": 5304,
+      "percent_toxic": 60.0
      }
     ]
    }
@@ -410,14 +410,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1101,
-      "percent_toxic": 20.1
+      "n": 1044,
+      "percent_toxic": 19.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 4579,
-      "percent_toxic": 43.4
+      "n": 4636,
+      "percent_toxic": 43.3
      }
     ],
     "scaffold blind": [
@@ -448,14 +448,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1101,
-      "percent_toxic": 20.1
+      "n": 1044,
+      "percent_toxic": 19.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 4565,
-      "percent_toxic": 43.5
+      "n": 4622,
+      "percent_toxic": 43.4
      }
     ],
     "analogue blind": [
@@ -486,14 +486,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1089,
-      "percent_toxic": 20.5
+      "n": 1030,
+      "percent_toxic": 19.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 4559,
-      "percent_toxic": 43.5
+      "n": 4618,
+      "percent_toxic": 43.4
      }
     ]
    }
@@ -531,14 +531,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1216,
-      "percent_toxic": 14.6
+      "n": 1161,
+      "percent_toxic": 14.1
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5332,
-      "percent_toxic": 13.6
+      "n": 5387,
+      "percent_toxic": 13.7
      }
     ],
     "scaffold blind": [
@@ -569,14 +569,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1215,
-      "percent_toxic": 14.7
+      "n": 1160,
+      "percent_toxic": 14.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5319,
-      "percent_toxic": 13.6
+      "n": 5374,
+      "percent_toxic": 13.7
      }
     ],
     "analogue blind": [
@@ -607,14 +607,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1198,
-      "percent_toxic": 14.3
+      "n": 1143,
+      "percent_toxic": 13.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5315,
-      "percent_toxic": 13.6
+      "n": 5370,
+      "percent_toxic": 13.7
      }
     ]
    }
@@ -652,14 +652,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1125,
-      "percent_toxic": 26.6
+      "n": 1066,
+      "percent_toxic": 24.1
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5109,
-      "percent_toxic": 51.0
+      "n": 5168,
+      "percent_toxic": 51.2
      }
     ],
     "scaffold blind": [
@@ -690,14 +690,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1113,
-      "percent_toxic": 27.0
+      "n": 1055,
+      "percent_toxic": 24.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5089,
-      "percent_toxic": 51.2
+      "n": 5147,
+      "percent_toxic": 51.4
      }
     ],
     "analogue blind": [
@@ -728,14 +728,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 1112,
-      "percent_toxic": 26.6
+      "n": 1055,
+      "percent_toxic": 24.0
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 5080,
-      "percent_toxic": 51.2
+      "n": 5137,
+      "percent_toxic": 51.5
      }
     ]
    }
@@ -767,8 +767,8 @@
      {
       "families": "16 or more",
       "low": 16,
-      "n": 152,
-      "percent_toxic": 36.8
+      "n": 153,
+      "percent_toxic": 37.3
      }
     ],
     "scaffold blind": [
@@ -793,8 +793,8 @@
      {
       "families": "16 or more",
       "low": 16,
-      "n": 152,
-      "percent_toxic": 36.8
+      "n": 153,
+      "percent_toxic": 37.3
      }
     ],
     "analogue blind": [
@@ -819,8 +819,8 @@
      {
       "families": "16 or more",
       "low": 16,
-      "n": 150,
-      "percent_toxic": 36.7
+      "n": 151,
+      "percent_toxic": 37.1
      }
     ]
    }
@@ -846,14 +846,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 174,
-      "percent_toxic": 12.1
+      "n": 172,
+      "percent_toxic": 12.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 26.1
+      "n": 685,
+      "percent_toxic": 26.0
      }
     ],
     "scaffold blind": [
@@ -872,14 +872,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 171,
-      "percent_toxic": 11.7
+      "n": 169,
+      "percent_toxic": 11.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 26.1
+      "n": 685,
+      "percent_toxic": 26.0
      }
     ],
     "analogue blind": [
@@ -898,13 +898,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 165,
-      "percent_toxic": 10.3
+      "n": 164,
+      "percent_toxic": 10.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 682,
+      "n": 683,
       "percent_toxic": 26.1
      }
     ]
@@ -931,14 +931,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 174,
-      "percent_toxic": 63.8
+      "n": 172,
+      "percent_toxic": 64.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 63.3
+      "n": 685,
+      "percent_toxic": 63.1
      }
     ],
     "scaffold blind": [
@@ -957,14 +957,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 171,
-      "percent_toxic": 63.2
+      "n": 169,
+      "percent_toxic": 63.9
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 63.3
+      "n": 685,
+      "percent_toxic": 63.1
      }
     ],
     "analogue blind": [
@@ -983,13 +983,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 165,
-      "percent_toxic": 61.8
+      "n": 164,
+      "percent_toxic": 62.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 682,
+      "n": 683,
       "percent_toxic": 63.3
      }
     ]
@@ -1016,14 +1016,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 174,
-      "percent_toxic": 87.4
+      "n": 172,
+      "percent_toxic": 87.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 83.9
+      "n": 685,
+      "percent_toxic": 83.8
      }
     ],
     "scaffold blind": [
@@ -1042,14 +1042,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 171,
-      "percent_toxic": 87.1
+      "n": 169,
+      "percent_toxic": 87.6
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 83.9
+      "n": 685,
+      "percent_toxic": 83.8
      }
     ],
     "analogue blind": [
@@ -1068,13 +1068,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 165,
-      "percent_toxic": 86.7
+      "n": 164,
+      "percent_toxic": 86.6
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 682,
+      "n": 683,
       "percent_toxic": 83.9
      }
     ]
@@ -1101,14 +1101,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 174,
-      "percent_toxic": 42.0
+      "n": 172,
+      "percent_toxic": 42.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 50.5
+      "n": 685,
+      "percent_toxic": 50.4
      }
     ],
     "scaffold blind": [
@@ -1127,14 +1127,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 171,
-      "percent_toxic": 41.5
+      "n": 169,
+      "percent_toxic": 42.0
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 683,
-      "percent_toxic": 50.5
+      "n": 685,
+      "percent_toxic": 50.4
      }
     ],
     "analogue blind": [
@@ -1153,14 +1153,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 165,
-      "percent_toxic": 40.0
+      "n": 164,
+      "percent_toxic": 40.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 682,
-      "percent_toxic": 50.6
+      "n": 683,
+      "percent_toxic": 50.5
      }
     ]
    }
@@ -1198,14 +1198,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 173,
-      "percent_toxic": 8.1
+      "n": 170,
+      "percent_toxic": 8.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 505,
-      "percent_toxic": 10.9
+      "n": 508,
+      "percent_toxic": 10.8
      }
     ],
     "scaffold blind": [
@@ -1236,14 +1236,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 171,
-      "percent_toxic": 8.2
+      "n": 168,
+      "percent_toxic": 8.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 504,
-      "percent_toxic": 10.9
+      "n": 507,
+      "percent_toxic": 10.8
      }
     ],
     "analogue blind": [
@@ -1274,13 +1274,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 169,
-      "percent_toxic": 7.7
+      "n": 166,
+      "percent_toxic": 7.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 499,
+      "n": 502,
       "percent_toxic": 11.0
      }
     ]
@@ -1319,13 +1319,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 195,
+      "n": 194,
       "percent_toxic": 1.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 530,
+      "n": 531,
       "percent_toxic": 1.9
      }
     ],
@@ -1357,13 +1357,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 192,
+      "n": 191,
       "percent_toxic": 1.6
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 523,
+      "n": 524,
       "percent_toxic": 1.9
      }
     ],
@@ -1395,13 +1395,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 192,
+      "n": 191,
       "percent_toxic": 1.6
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 524,
+      "n": 525,
       "percent_toxic": 1.9
      }
     ]
@@ -1440,13 +1440,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 268,
-      "percent_toxic": 31.3
+      "n": 267,
+      "percent_toxic": 31.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 655,
+      "n": 656,
       "percent_toxic": 22.4
      }
     ],
@@ -1478,14 +1478,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 263,
-      "percent_toxic": 31.2
+      "n": 262,
+      "percent_toxic": 31.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 647,
-      "percent_toxic": 22.6
+      "n": 648,
+      "percent_toxic": 22.5
      }
     ],
     "analogue blind": [
@@ -1516,13 +1516,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 269,
-      "percent_toxic": 32.3
+      "n": 268,
+      "percent_toxic": 32.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 638,
+      "n": 639,
       "percent_toxic": 21.3
      }
     ]
@@ -1561,13 +1561,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 351,
-      "percent_toxic": 53.8
+      "n": 345,
+      "percent_toxic": 53.9
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1185,
+      "n": 1191,
       "percent_toxic": 47.1
      }
     ],
@@ -1599,13 +1599,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 351,
-      "percent_toxic": 54.1
+      "n": 345,
+      "percent_toxic": 54.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1174,
+      "n": 1180,
       "percent_toxic": 47.2
      }
     ],
@@ -1637,14 +1637,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 345,
-      "percent_toxic": 53.6
+      "n": 343,
+      "percent_toxic": 53.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1169,
-      "percent_toxic": 47.1
+      "n": 1171,
+      "percent_toxic": 47.2
      }
     ]
    }
@@ -1682,13 +1682,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 558,
-      "percent_toxic": 5.6
+      "n": 547,
+      "percent_toxic": 5.7
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1519,
+      "n": 1530,
       "percent_toxic": 7.2
      }
     ],
@@ -1720,14 +1720,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 551,
-      "percent_toxic": 5.6
+      "n": 540,
+      "percent_toxic": 5.7
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1512,
-      "percent_toxic": 7.3
+      "n": 1523,
+      "percent_toxic": 7.2
      }
     ],
     "analogue blind": [
@@ -1758,13 +1758,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 550,
-      "percent_toxic": 5.3
+      "n": 540,
+      "percent_toxic": 5.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1483,
+      "n": 1493,
       "percent_toxic": 7.4
      }
     ]
@@ -1803,13 +1803,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 500,
-      "percent_toxic": 5.2
+      "n": 491,
+      "percent_toxic": 5.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1323,
+      "n": 1332,
       "percent_toxic": 6.1
      }
     ],
@@ -1841,14 +1841,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 493,
-      "percent_toxic": 5.3
+      "n": 484,
+      "percent_toxic": 5.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1317,
-      "percent_toxic": 6.2
+      "n": 1326,
+      "percent_toxic": 6.1
      }
     ],
     "analogue blind": [
@@ -1879,14 +1879,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 494,
-      "percent_toxic": 5.1
+      "n": 485,
+      "percent_toxic": 5.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1287,
-      "percent_toxic": 6.3
+      "n": 1296,
+      "percent_toxic": 6.2
      }
     ]
    }
@@ -1924,14 +1924,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 496,
-      "percent_toxic": 15.9
+      "n": 487,
+      "percent_toxic": 15.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1299,
-      "percent_toxic": 13.9
+      "n": 1308,
+      "percent_toxic": 14.0
      }
     ],
     "scaffold blind": [
@@ -1962,14 +1962,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 492,
-      "percent_toxic": 15.9
+      "n": 483,
+      "percent_toxic": 15.7
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1292,
-      "percent_toxic": 14.0
+      "n": 1301,
+      "percent_toxic": 14.1
      }
     ],
     "analogue blind": [
@@ -2000,13 +2000,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 489,
-      "percent_toxic": 15.5
+      "n": 480,
+      "percent_toxic": 15.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1263,
+      "n": 1272,
       "percent_toxic": 14.3
      }
     ]
@@ -2045,13 +2045,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 467,
-      "percent_toxic": 18.0
+      "n": 458,
+      "percent_toxic": 18.1
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1137,
+      "n": 1146,
       "percent_toxic": 14.2
      }
     ],
@@ -2083,13 +2083,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 462,
-      "percent_toxic": 18.2
+      "n": 453,
+      "percent_toxic": 18.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1130,
+      "n": 1139,
       "percent_toxic": 14.2
      }
     ],
@@ -2121,13 +2121,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 460,
-      "percent_toxic": 17.8
+      "n": 452,
+      "percent_toxic": 17.9
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1103,
+      "n": 1111,
       "percent_toxic": 14.5
      }
     ]
@@ -2166,13 +2166,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 536,
-      "percent_toxic": 7.5
+      "n": 527,
+      "percent_toxic": 7.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1397,
+      "n": 1406,
       "percent_toxic": 4.9
      }
     ],
@@ -2204,13 +2204,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 529,
-      "percent_toxic": 7.6
+      "n": 520,
+      "percent_toxic": 7.5
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1391,
+      "n": 1400,
       "percent_toxic": 4.9
      }
     ],
@@ -2242,13 +2242,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 531,
-      "percent_toxic": 7.2
+      "n": 523,
+      "percent_toxic": 7.1
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1363,
+      "n": 1371,
       "percent_toxic": 5.0
      }
     ]
@@ -2287,13 +2287,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 471,
-      "percent_toxic": 4.5
+      "n": 462,
+      "percent_toxic": 4.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1158,
+      "n": 1167,
       "percent_toxic": 5.1
      }
     ],
@@ -2325,14 +2325,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 466,
-      "percent_toxic": 4.5
+      "n": 457,
+      "percent_toxic": 4.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1152,
-      "percent_toxic": 5.1
+      "n": 1161,
+      "percent_toxic": 5.2
      }
     ],
     "analogue blind": [
@@ -2363,13 +2363,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 466,
-      "percent_toxic": 4.5
+      "n": 457,
+      "percent_toxic": 4.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1124,
+      "n": 1133,
       "percent_toxic": 4.9
      }
     ]
@@ -2408,14 +2408,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 399,
-      "percent_toxic": 7.0
+      "n": 389,
+      "percent_toxic": 6.7
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1088,
-      "percent_toxic": 11.4
+      "n": 1098,
+      "percent_toxic": 11.5
      }
     ],
     "scaffold blind": [
@@ -2446,13 +2446,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 396,
-      "percent_toxic": 7.1
+      "n": 386,
+      "percent_toxic": 6.7
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1081,
+      "n": 1091,
       "percent_toxic": 11.5
      }
     ],
@@ -2484,13 +2484,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 397,
-      "percent_toxic": 6.3
+      "n": 388,
+      "percent_toxic": 6.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1057,
+      "n": 1066,
       "percent_toxic": 11.8
      }
     ]
@@ -2529,14 +2529,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 166,
-      "percent_toxic": 54.8
+      "n": 162,
+      "percent_toxic": 54.9
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 337,
-      "percent_toxic": 57.0
+      "n": 341,
+      "percent_toxic": 56.9
      }
     ],
     "scaffold blind": [
@@ -2567,14 +2567,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 163,
-      "percent_toxic": 55.8
+      "n": 159,
+      "percent_toxic": 56.0
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 337,
-      "percent_toxic": 57.0
+      "n": 341,
+      "percent_toxic": 56.9
      }
     ],
     "analogue blind": [
@@ -2605,13 +2605,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 166,
-      "percent_toxic": 54.8
+      "n": 162,
+      "percent_toxic": 54.9
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 336,
+      "n": 340,
       "percent_toxic": 57.1
      }
     ]
@@ -2650,13 +2650,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 429,
+      "n": 420,
       "percent_toxic": 21.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1005,
+      "n": 1014,
       "percent_toxic": 23.3
      }
     ],
@@ -2688,13 +2688,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 425,
+      "n": 416,
       "percent_toxic": 21.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 999,
+      "n": 1008,
       "percent_toxic": 23.4
      }
     ],
@@ -2726,13 +2726,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 424,
+      "n": 415,
       "percent_toxic": 19.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 976,
+      "n": 985,
       "percent_toxic": 23.7
      }
     ]
@@ -2771,13 +2771,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 537,
-      "percent_toxic": 5.6
+      "n": 526,
+      "percent_toxic": 5.7
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1409,
+      "n": 1420,
       "percent_toxic": 4.1
      }
     ],
@@ -2809,13 +2809,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 531,
-      "percent_toxic": 5.6
+      "n": 520,
+      "percent_toxic": 5.8
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1402,
+      "n": 1413,
       "percent_toxic": 4.1
      }
     ],
@@ -2847,13 +2847,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 531,
-      "percent_toxic": 5.3
+      "n": 521,
+      "percent_toxic": 5.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1373,
+      "n": 1383,
       "percent_toxic": 4.2
      }
     ]
@@ -2892,14 +2892,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 483,
-      "percent_toxic": 6.2
+      "n": 473,
+      "percent_toxic": 6.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1199,
-      "percent_toxic": 7.8
+      "n": 1209,
+      "percent_toxic": 7.7
      }
     ],
     "scaffold blind": [
@@ -2930,14 +2930,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 478,
-      "percent_toxic": 6.3
+      "n": 468,
+      "percent_toxic": 6.4
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1192,
-      "percent_toxic": 7.8
+      "n": 1202,
+      "percent_toxic": 7.7
      }
     ],
     "analogue blind": [
@@ -2968,14 +2968,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 478,
-      "percent_toxic": 5.9
+      "n": 469,
+      "percent_toxic": 6.0
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1169,
-      "percent_toxic": 7.7
+      "n": 1178,
+      "percent_toxic": 7.6
      }
     ]
    }
@@ -3013,14 +3013,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 402,
-      "percent_toxic": 20.1
+      "n": 392,
+      "percent_toxic": 20.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1083,
-      "percent_toxic": 25.5
+      "n": 1093,
+      "percent_toxic": 25.4
      }
     ],
     "scaffold blind": [
@@ -3051,13 +3051,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 398,
+      "n": 388,
       "percent_toxic": 20.1
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1078,
+      "n": 1088,
       "percent_toxic": 25.6
      }
     ],
@@ -3089,14 +3089,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 395,
-      "percent_toxic": 20.0
+      "n": 386,
+      "percent_toxic": 20.2
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1053,
-      "percent_toxic": 26.0
+      "n": 1062,
+      "percent_toxic": 25.9
      }
     ]
    }
@@ -3134,13 +3134,13 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 521,
-      "percent_toxic": 10.7
+      "n": 510,
+      "percent_toxic": 11.0
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1322,
+      "n": 1333,
       "percent_toxic": 9.5
      }
     ],
@@ -3172,14 +3172,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 514,
-      "percent_toxic": 10.7
+      "n": 503,
+      "percent_toxic": 10.9
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1316,
-      "percent_toxic": 9.6
+      "n": 1327,
+      "percent_toxic": 9.5
      }
     ],
     "analogue blind": [
@@ -3210,14 +3210,14 @@
      {
       "families": "12 to 15",
       "low": 12,
-      "n": 513,
-      "percent_toxic": 10.1
+      "n": 503,
+      "percent_toxic": 10.3
      },
      {
       "families": "16 or more",
       "low": 16,
-      "n": 1289,
-      "percent_toxic": 9.8
+      "n": 1299,
+      "percent_toxic": 9.7
      }
     ]
    }

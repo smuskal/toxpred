@@ -49,7 +49,7 @@ def two_series(ax, x, perf, cov, xlabel, title, perf_label, logx=False):
     cov = [c * 100 for c in cov]
     ax.plot(x, perf, "-o", color=PERF, lw=2, ms=5.5, label=perf_label,
             markeredgecolor="white", markeredgewidth=1.1, zorder=3)
-    ax.plot(x, cov, "-s", color=COV, lw=2, ms=5, label="compounds it will answer for",
+    ax.plot(x, cov, "-s", color=COV, lw=2, ms=5, label="compounds with evaluable predictions",
             markeredgecolor="white", markeredgewidth=1.1, zorder=3)
     if logx:
         ax.set_xscale("log")

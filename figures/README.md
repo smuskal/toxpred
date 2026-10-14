@@ -11,25 +11,28 @@ toxpred figures --out figures/out
 or one at a time:
 
 ```
+python figures/make_graphical_abstract.py   # Graphical abstract
 python figures/make_figures_paper.py        # Figures 1 and 2
 python figures/make_figure4_breadth.py      # Figure 3
-python figures/make_figure_structures.py    # Figure 4
-python figures/make_figure7_scaffold_blind.py   # Figure 5
-python figures/make_figure6_useful.py       # Figure 6
+python figures/make_figure6_useful.py       # Figure 4
+python figures/make_figure_structures.py    # Figure S1
+python figures/make_figure7_scaffold_blind.py   # Figure S2
 ```
 
 | Paper | Written as | Reads |
 |---|---|---|
+| Graphical abstract | `figure0_graphical_abstract.png` | `refsim_sweeps.json`, `phase10_targets_breadth.json` |
 | Figure 1, the consortium sweeps | `figure2_consortium_sweeps.png` | `refsim_sweeps.json` |
 | Figure 2, the 28 endpoints | `figure3_endpoints.png` | `refsim_sweeps.json` |
 | Figure 3, families reached | `figure4_breadth_and_targets.png` | `phase10_targets_breadth.json` |
-| Figure 4, twelve compounds | `figure_structures.png` | `figure_structures_provenance.csv` |
-| Figure 5, the blinded screens | `figure7_scaffold_blind.png` | `phase13_scaffold_blind.json` |
-| Figure 6, the library triage | `figure6_usefulness.png` | `phase12_usefulness.json` |
+| Figure 4, the library triage | `figure6_usefulness.png` | `phase12_usefulness.json` |
+| Figure S1, twelve compounds | `figure_structures.png` | `figure_structures_provenance.csv` |
+| Figure S2, the blinded screens | `figure7_scaffold_blind.png` | `phase13_scaffold_blind.json` |
 
 The file names carry the number each figure had while the work was running,
 which is the name the result files use, and the table is how they map onto the
-numbering in the paper.
+numbering in version 2 of the paper (bioRxiv, 14 October 2026): four figures
+in the main text and two in the Supporting Information.
 
 `data/` holds the measured values themselves, so a figure can be checked
 against the number it draws without rerunning the analysis. Every one of them
