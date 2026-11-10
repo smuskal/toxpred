@@ -1,29 +1,29 @@
 category,endpoint,cutoff,accuracy,coverage,caught,passed,balanced,mcc,n_toxic
-Endocrine Disruption,SR-HSE,0.7,0.9592,0.2196,0.3636,0.9789,0.6713,0.3426,11
-Endocrine Disruption,NR-ER,0.7,0.8414,0.238,0.3684,0.9324,0.6504,0.3455,57
-Cardiotoxicity,Cardiotoxicity-30,0.8,0.7683,0.2654,0.8387,0.55,0.6944,0.3824,62
-Clinical Toxicity,Clinical toxicity,0.7,0.918,0.2082,0.4,0.9643,0.6821,0.4037,5
-Endocrine Disruption,NR-PPAR-gamma,0.7,0.977,0.2521,0.6,0.9819,0.791,0.4142,5
-Endocrine Disruption,SR-ARE,0.7,0.8952,0.225,0.5429,0.9393,0.7411,0.4763,35
-Endocrine Disruption,NR-ER-LBD,0.7,0.9527,0.2503,0.4348,0.9825,0.7086,0.4818,23
-Carcinogenicity,Carcinogenicity,0.65,0.7551,0.2121,0.7857,0.7143,0.75,0.5,28
-Endocrine Disruption,SR-p53,0.7,0.9598,0.2276,0.4762,0.9886,0.7324,0.5637,21
-Endocrine Disruption,NR-aromatase,0.7,0.9547,0.2215,0.5882,0.976,0.7821,0.5643,17
-Cardiotoxicity,Cardiotoxicity-1,0.8,0.8537,0.2654,0.5,0.9677,0.7339,0.5683,20
-Cardiotoxicity,Cardiotoxicity-10,0.8,0.7927,0.2654,0.7959,0.7879,0.7919,0.5769,49
-Cardiotoxicity,Cardiotoxicity-5,0.8,0.7927,0.2654,0.6944,0.8696,0.782,0.5772,36
-Endocrine Disruption,NR-AR,0.7,0.9493,0.2352,0.4848,0.9895,0.7372,0.5992,33
-Hepatotoxicity,Hepatotoxicity,0.75,0.8086,0.2282,0.8312,0.7882,0.8097,0.6187,77
-Endocrine Disruption,SR-ATAD5,0.7,0.9767,0.2507,0.5,0.9952,0.7476,0.6218,16
-Respiratory Toxicity,Respiratory Toxicity,0.75,0.8533,0.266,0.875,0.7895,0.8322,0.6347,56
-Endocrine Disruption,NR-AhR,0.7,0.9469,0.2392,0.6061,0.9797,0.7929,0.642,33
-Endocrine Disruption,SR-MMP,0.7,0.8973,0.2376,0.7636,0.9239,0.8438,0.6519,55
-CYP450,CYP2D6,0.75,0.9284,0.2118,0.6875,0.9699,0.8287,0.6996,80
-Endocrine Disruption,NR-AR-LBD,0.7,0.9695,0.2604,0.7778,0.9825,0.8801,0.7475,27
-CYP450,CYP3A4,0.75,0.877,0.205,0.8538,0.897,0.8754,0.7525,260
-CYP450,CYP2C19,0.75,0.8984,0.2246,0.8213,0.9423,0.8818,0.778,207
-CYP450,CYP2C9,0.75,0.93,0.2159,0.8403,0.957,0.8986,0.8021,119
-Mutagenicity,Ames Mutagenicity,0.8,0.9326,0.2108,0.9434,0.9182,0.9308,0.8623,212
-CYP450,CYP1A2,0.75,0.9609,0.2191,0.9068,0.9857,0.9463,0.9087,161
-Irritation and Corrosion,Eye Irritation,0.65,0.9855,0.2679,0.9923,0.9647,0.9785,0.9608,260
-Irritation and Corrosion,Eye Corrosion,0.65,1.0,0.2336,1.0,1.0,1.0,1.0,62
+Endocrine Disruption,NR-PPAR-gamma,0.7,0.9723,0.217,0.0,0.9937,0.4969,-0.0117,7
+Clinical Toxicity,Clinical toxicity,0.7,0.8382,0.2329,0.1667,0.9032,0.5349,0.0652,6
+Endocrine Disruption,SR-HSE,0.7,0.9397,0.2113,0.0667,0.9833,0.525,0.0779,15
+Cardiotoxicity,Cardiotoxicity-30,0.8,0.759,0.2441,0.8358,0.4375,0.6367,0.2616,67
+Cardiotoxicity,Cardiotoxicity-1,0.8,0.8072,0.2441,0.4375,0.8955,0.6665,0.3508,16
+Carcinogenicity,Carcinogenicity,0.6,0.6901,0.2851,0.8205,0.5312,0.6759,0.37,39
+Endocrine Disruption,NR-ER,0.7,0.8628,0.2267,0.46,0.9353,0.6976,0.4296,50
+Endocrine Disruption,SR-p53,0.7,0.966,0.226,0.4167,0.9853,0.701,0.4391,12
+Cardiotoxicity,Cardiotoxicity-10,0.8,0.747,0.2441,0.8113,0.6333,0.7223,0.448,53
+Endocrine Disruption,NR-AR,0.7,0.9415,0.236,0.5652,0.9649,0.765,0.5006,23
+Endocrine Disruption,SR-ARE,0.65,0.8915,0.2895,0.5088,0.9576,0.7332,0.5259,57
+Endocrine Disruption,NR-aromatase,0.7,0.9613,0.2158,0.4667,0.9888,0.7278,0.5528,15
+Cardiotoxicity,Cardiotoxicity-5,0.8,0.7831,0.2441,0.75,0.814,0.782,0.5656,40
+Endocrine Disruption,SR-ATAD5,0.7,0.9662,0.2375,0.5294,0.9864,0.7579,0.5661,17
+Endocrine Disruption,NR-ER-LBD,0.7,0.9482,0.2381,0.5556,0.9777,0.7666,0.5746,27
+Endocrine Disruption,SR-MMP,0.7,0.8867,0.224,0.6102,0.9544,0.7823,0.6173,59
+Hepatotoxicity,Hepatotoxicity,0.7,0.8265,0.2737,0.8068,0.8426,0.8247,0.6494,88
+Endocrine Disruption,NR-AhR,0.7,0.9441,0.2267,0.6774,0.9709,0.8241,0.6579,31
+Endocrine Disruption,NR-AR-LBD,0.7,0.9701,0.2347,0.6842,0.9857,0.8349,0.6873,19
+CYP450,CYP2D6,0.75,0.9296,0.2135,0.6824,0.9758,0.8291,0.718,85
+CYP450,CYP2C19,0.75,0.8797,0.2305,0.8341,0.9057,0.8699,0.7398,211
+CYP450,CYP3A4,0.75,0.8769,0.2171,0.8626,0.8885,0.8756,0.7511,262
+CYP450,CYP2C9,0.75,0.9262,0.2311,0.7951,0.9643,0.8797,0.7833,122
+Mutagenicity,Ames Mutagenicity,0.75,0.8996,0.2677,0.9054,0.8889,0.8971,0.7842,296
+Respiratory Toxicity,Respiratory Toxicity,0.75,0.9254,0.2343,0.9583,0.8421,0.9002,0.8139,48
+CYP450,CYP1A2,0.75,0.9583,0.2213,0.9097,0.9799,0.9448,0.9014,155
+Irritation and Corrosion,Eye Corrosion,0.7,0.9826,0.2021,0.9583,1.0,0.9792,0.9647,48
+Irritation and Corrosion,Eye Irritation,0.65,0.991,0.2707,0.9959,0.9773,0.9866,0.9768,246

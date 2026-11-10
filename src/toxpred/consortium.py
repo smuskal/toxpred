@@ -28,6 +28,91 @@ from .fingerprints import morgan, tanimoto
 GHS_LIGHT = {1: "RED", 2: "RED", 3: "AMBER", 4: "AMBER", 5: "GREEN"}
 
 
+def largest_fragment(smiles):
+    """The largest fragment of a structure, canonical, or None if unreadable.
+
+    ONE RULE, and it is the same one `pharmcast.features._largest` applies:
+    max on (heavy atom count, canonical SMILES). The SMILES is the tie-break
+    and it is not decoration -- `max` returns the FIRST maximum, so heavy-atom
+    count alone makes the answer depend on the order the fragments were typed.
+    Measured: "CCO.CCN" keeps CCO and "CCN.CCO" keeps CCN. Breaking the tie on
+    the canonical SMILES makes the choice depend only on the chemistry, so two
+    spellings of one 1:1 co-former salt score the same molecule.
+
+    This is a second implementation of a rule that also lives in
+    pharmcast.features, which is a real risk, so it is GATED rather than
+    trusted: selftest.salt_handling() checks the two agree on every
+    multi-fragment structure in the reference sets, and the deploy gate runs
+    it. They were verified identical on all 423 multi-fragment TOXRIC rows and
+    on CATMoS (which has none) on 9 Nov 2026. The copy exists because the
+    toxpred package is installable without pharmcast.
+    """
+    from rdkit import Chem
+    if not isinstance(smiles, str) or not smiles.strip():
+        return None
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        return None
+    if "." not in smiles:
+        return Chem.MolToSmiles(mol)
+    try:
+        frags = Chem.GetMolFrags(mol, asMols=True, sanitizeFrags=True)
+    except Exception:
+        return None
+    if len(frags) <= 1:
+        return Chem.MolToSmiles(mol)
+    return Chem.MolToSmiles(max(frags, key=lambda f: (f.GetNumHeavyAtoms(),
+                                                      Chem.MolToSmiles(f))))
+
+
+def desalt_and_resolve(smiles, values):
+    """-> (smiles, values, report) with both sides reduced to one structure.
+
+    THE ORDER IS THE POINT: strip FIRST, then group. De-duplicating on the raw
+    SMILES, which is what this used to do, left a salt and its own parent
+    standing as two rows, so one compound voted twice and inflated the
+    consortium it was a member of.
+
+    A group whose labels all agree collapses to one row. A group whose labels
+    DISAGREE is dropped whole: after stripping, those rows are one structure
+    carrying two opposite measurements, there is no majority to take, and a
+    reference set should not assert what its own evidence contradicts.
+    `Consortium.predict` declines on a tie for the same reason. Letting the
+    parent row win, or taking the majority, were both measured on 9 Nov 2026:
+    the median difference across the 28 endpoints is 0.0000 either way, but
+    under `parent` SR-ARE's operating cutoff moves, which is a selection
+    artifact rather than a result. Dropping is the only policy that leaves
+    every operating cutoff where it was.
+
+    The report is returned rather than logged so a caller can state the cost
+    instead of the cost being invisible.
+    """
+    groups = {}
+    unreadable = 0
+    for smi, val in zip(smiles, values):
+        key = largest_fragment(smi)
+        if key is None:
+            unreadable += 1
+            continue
+        groups.setdefault(key, []).append(val)
+    out_smi, out_val = [], []
+    merged = conflicts = conflict_rows = 0
+    for key, vals in groups.items():
+        distinct = set(vals)
+        if len(distinct) == 1:
+            if len(vals) > 1:
+                merged += len(vals) - 1
+            out_smi.append(key)
+            out_val.append(vals[0])
+        else:
+            conflicts += 1
+            conflict_rows += len(vals)
+    report = dict(rows_in=len(smiles), rows_out=len(out_smi),
+                  rows_merged_away=merged, conflict_groups_dropped=conflicts,
+                  rows_lost_to_conflicts=conflict_rows,
+                  unreadable=unreadable)
+    return out_smi, out_val, report
+
 @dataclass
 class Prediction:
     query: str
@@ -72,6 +157,11 @@ class Consortium:
         self.values = self.reference[value_col].values
         self.kind = kind
         self.n_bits = n_bits
+        # The secondary sort key for the neighbor list, built once here rather
+        # than per query. See the lexsort in predict(): it is what makes two
+        # neighbors at the same similarity come out in the same order every
+        # time, in this process and in the next one.
+        self._nb_key = np.asarray(self.reference.smiles.tolist(), dtype=object)
 
     def __len__(self):
         return len(self.reference)
@@ -131,7 +221,21 @@ class Consortium:
                 k = int(np.argmax(sims))
                 p.exact_match = self.values[k]
             if keep_neighbors:
-                order = np.argsort(-sims)[:keep_neighbors]
+                # A TIE IS BROKEN ON THE SMILES, SO THE LIST IS REPRODUCIBLE.
+                # `np.argsort(-sims)` is quicksort, which is not stable, so two
+                # neighbors at the same similarity came out in whichever order
+                # the partition happened to leave them. Measured 7 Nov 2026:
+                # imatinib's list swapped tied pairs between two revisions of
+                # this service while every call, confidence and voter count was
+                # identical. Nothing was wrong with the answer, but a
+                # before-and-after diff could never be read, because noise and
+                # a real change looked the same.
+                #
+                # lexsort takes the LAST key as primary, so this is similarity
+                # descending, then canonical SMILES ascending. That is the same
+                # tie-break as features._largest(), which is deliberate: one
+                # convention for every ordering decision in this stack.
+                order = np.lexsort((self._nb_key, -sims))[:keep_neighbors]
                 p.neighbors = [(self.reference.smiles.iloc[int(k)],
                                 float(sims[int(k)]), self.values[int(k)])
                                for k in order if sims[int(k)] >= cutoff]
@@ -147,7 +251,51 @@ class TrafficLight(Consortium):
         d = pd.read_csv(catmos_csv)
         d["light"] = pd.to_numeric(d.ghs_cat, errors="coerce").map(GHS_LIGHT)
         d = d[d.light.notna() & d.smiles.notna()].reset_index(drop=True)
-        return cls(d, "light", kind="label", **kw)
+        # DESALTED, AND DELIBERATELY NOT DE-DUPLICATED.
+        #
+        # Every SMILES is reduced to its largest fragment so the reference set
+        # matches the query side. That is a no-op on the data that ships:
+        # CATMoS carries ZERO multi-fragment rows, measured 9 Nov 2026, so the
+        # traffic light is bit-for-bit what it was. It is here so a future
+        # CATMoS release carrying a salt cannot quietly reintroduce the
+        # asymmetry this stack just removed.
+        #
+        # It does NOT go through desalt_and_resolve, and that is the point.
+        # That helper also merges duplicate structures and drops contradictory
+        # groups, which this set has never had done to it: running it here
+        # took the acute traffic light from 11,472 rows to 10,628, merging 591
+        # and dropping 97 contradictory groups, and moved the reference
+        # fingerprint. That is a change to the headline acute deliverable,
+        # it is not desalting, and it was not what anyone asked for. Caught
+        # before it shipped on 9 Nov 2026. De-duplicating CATMoS may well be
+        # worth doing; it is its own decision, with its own measurement.
+        # A SINGLE-FRAGMENT ROW IS PASSED THROUGH VERBATIM, not re-canonicalized.
+        # largest_fragment() round-trips every structure through MolToSmiles,
+        # which rewrites the spelling even when there was only ever one
+        # fragment. Morgan bits are invariant to spelling, so no call or
+        # confidence moves either way -- but the reference `fingerprint` hashes
+        # the SMILES strings, and the neighbor lists shown to a reader print
+        # them. Re-canonicalizing all 11,472 rows moved the fingerprint from
+        # 8216f99c4ee5 to 3b920e555058 while every prediction stayed the same,
+        # which is the worst kind of diff: a changed identity with no changed
+        # behavior behind it. Touching only the rows that really carry a second
+        # fragment makes this a true no-op on the data that ships.
+        kept, dropped = [], 0
+        for smi, light in zip(d.smiles.tolist(), d.light.tolist()):
+            if isinstance(smi, str) and "." not in smi:
+                kept.append((smi, light))
+                continue
+            one = largest_fragment(smi)
+            if one is None:
+                dropped += 1
+                continue
+            kept.append((one, light))
+        d = pd.DataFrame(kept, columns=["smiles", "light"])
+        obj = cls(d, "light", kind="label", **kw)
+        obj.desalt_report = dict(rows_in=len(kept) + dropped,
+                                 rows_out=len(kept), unreadable=dropped,
+                                 deduplicated=False)
+        return obj
 
 
 class Endpoint(Consortium):
@@ -158,8 +306,25 @@ class Endpoint(Consortium):
         d = pd.read_csv(csv_path)
         d = d.rename(columns={"Canonical SMILES": "smiles",
                               "Toxicity Value": "value"})
+        # drop_duplicates on the RAW smiles still runs, and it still only
+        # removes rows that were already identical as shipped. The real
+        # de-duplication now happens on the STRIPPED structure below, which is
+        # what catches a salt sitting beside its own parent.
         d = d[d.smiles.notna()].drop_duplicates("smiles").reset_index(drop=True)
         d["value"] = pd.to_numeric(d.value, errors="coerce")
         d = d[np.isfinite(d.value)].reset_index(drop=True)
         d["call"] = np.where(d.value == 1, "TOXIC", "clear")
-        return cls(d, "call", kind="label", **kw)
+        # BOTH SIDES ARE DESALTED FROM 9 Nov 2026. Until then these sets were
+        # used as TOXRIC ships them -- 2,236 of 168,075 rows carrying a
+        # counterion -- and the query was not reduced either, because reducing
+        # only the query would not have matched them. That cost answers:
+        # propranolol called AMBER on 15 endpoints while its hydrochloride
+        # declined on 14, the counterion having dropped even its own parent in
+        # the reference set from 1.000 to 0.971 and pushed the rest below the
+        # voting cutoff.
+        smis, vals, rep = desalt_and_resolve(d.smiles.tolist(),
+                                             d.call.tolist())
+        d = pd.DataFrame({"smiles": smis, "call": vals})
+        obj = cls(d, "call", kind="label", **kw)
+        obj.desalt_report = rep
+        return obj

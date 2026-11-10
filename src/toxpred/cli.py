@@ -138,10 +138,50 @@ def cmd_provenance(args):
                      indent=1, sort_keys=True))
 
 
+def _salt_note(smiles, args):
+    """Say so when the two signals are not reading the same structure.
+
+    THE TWO HALVES OF `toxpred score` TREAT A SALT DIFFERENTLY, AND NEITHER IS
+    WRONG. The consortium vote fingerprints the molecule AS SUBMITTED, because
+    the CATMoS and TOXRIC reference sets are not desalted and reducing only the
+    query would compare a parent against salts. Cross-family reach fingerprints
+    the LARGEST FRAGMENT, because PharmCast strips salts at inference and the
+    published index was built that way; see pharmcast.features.prepare.
+
+    So for a hydrochloride the vote and the reach are about two different
+    structures. toxpred.ai prints this on the result page. Printing nothing here
+    is what would make the command line disagree with the site, so this is the
+    same statement in the same place in the output.
+    """
+    multi = [s for s in smiles if s and "." in s]
+    if not multi:
+        return
+    n, total = len(multi), len(smiles)
+    if total == 1:
+        which = "The structure submitted carries more than one fragment."
+    elif n == total:
+        which = ("All %d structures submitted carry more than one fragment."
+                 % total)
+    else:
+        which = ("%d of the %d structures submitted %s more than one "
+                 "fragment." % (n, total, "carries" if n == 1 else "carry"))
+    print("SALTS AND MIXTURES: %s\n"
+          "The toxicity calls below are made on each one AS SUBMITTED,\n"
+          "counterion included, because the reference sets are not desalted;\n"
+          "expect fewer endpoints to answer, since a counterion lowers every\n"
+          "similarity and a neighbor below the cutoff does not vote." % which)
+    if args.reach:
+        print("Cross-family reach, reported further down, is computed on the\n"
+              "LARGEST FRAGMENT alone, because PharmCast was trained that way.\n"
+              "To get toxicity calls for a parent, submit the parent on its own.")
+    print("")
+
+
 def cmd_score(args):
     home = D.cache_dir(args.home)
     smiles = _read_smiles(args)
     print("cache: %s" % home)
+    _salt_note(smiles, args)
 
     light = TrafficLight.from_catmos(D.fetch_catmos(home))
     print("acute toxicity reference set: %d compounds, fingerprint %s\n"

@@ -126,6 +126,26 @@ def fig_2003(res):
     print("wrote %s" % out)
 
 
+def caption_counts(res):
+    """The subtitle line, computed from the sweep rather than typed in.
+
+    These two numbers used to be literals in this file. The reference sets
+    were desalted on 9 Nov 2026, which moved both, and a hand-typed caption
+    is exactly the thing that goes stale without anyone noticing. The sweep
+    records them now, so a caption can only ever print what the figure above
+    it was actually made from. A sweep file predating that change has no
+    totals and is refused rather than captioned with a guess.
+    """
+    t = res.get("endpoint_totals")
+    if not t:
+        raise SystemExit(
+            "results/refsim_sweeps.json has no endpoint_totals: it predates "
+            "the 9 Nov 2026 desalting. Re-run code/sweep_refsim.py.")
+    return ("TOXRIC, %s measurements over %s compounds, reduced to the "
+            "largest fragment." % (format(t["measurements"], ","),
+                                   format(t["compounds"], ",")))
+
+
 def fig_endpoints(res):
     eps = res["endpoints"]
     rows = []
@@ -160,7 +180,7 @@ def fig_endpoints(res):
              "The same machinery across 28 further toxicity endpoints",
              fontsize=12.5, color=INK, ha="left", fontweight="bold")
     fig.text(0.06, 0.936,
-             "TOXRIC, 149,224 measurements over 34,162 compounds.",
+             caption_counts(res),
              fontsize=9, color=MUTED, ha="left")
 
     a = fig.add_axes([0.085, 0.635, 0.87, 0.255])
